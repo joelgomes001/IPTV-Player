@@ -69,3 +69,11 @@ cd android
 ./gradlew assembleDebug
 ```
 The compiled APK will be located at `android/app/build/outputs/apk/debug/app-debug.apk`.
+
+---
+
+## 🔒 Copyright & Ownership
+
+Copyright © 2026 Jishu Television's Broadcasting Services (JTBS Classic). All Rights Reserved.
+
+This software and its associated documentation are proprietary and confidential. Unauthorized copying, modification, distribution, or use of this software is strictly prohibited.
