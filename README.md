@@ -72,8 +72,11 @@ The compiled APK will be located at `android/app/build/outputs/apk/debug/app-deb
 
 ---
 
-## 🔒 Copyright & Ownership
+## 🔒 Copyright, Ownership & Terms of Use
 
-Copyright © 2026 Jishu Television's Broadcasting Services (JTBS Classic). All Rights Reserved.
+**Copyright © 2026 Jishu Television's Broadcasting Services (JTBS Classic). All Rights Reserved.**
 
-This software and its associated documentation are proprietary and confidential. Unauthorized copying, modification, distribution, or use of this software is strictly prohibited.
+### 📋 Usage & Distribution License Terms:
+- ✅ **Free Distribution & Personal Use**: You are free to use, share, and distribute this application and APK package freely without cost.
+- 🚫 **No Modification or Copying**: Unauthorized copying, cloning, reverse-engineering, or extraction of source code, design assets, and database feeds is strictly prohibited.
+- 🚫 **No Rebranding**: Rebranding, renaming, reselling, or repackaging this application under any other name, brand, or entity is explicitly forbidden.
