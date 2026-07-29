@@ -22,7 +22,6 @@ A state-of-the-art **IPTV Player** available as a responsive Web Application and
 ## 🚀 Live Demo
 
 - 🌐 **Web App**: [https://iptv.jtbsclassic.dpdns.org](https://iptv.jtbsclassic.dpdns.org)
-- 🔥 **Firebase Mirror**: [https://classic-iptv.web.app](https://classic-iptv.web.app)
 
 ---
 
@@ -70,9 +69,3 @@ cd android
 ./gradlew assembleDebug
 ```
 The compiled APK will be located at `android/app/build/outputs/apk/debug/app-debug.apk`.
-
----
-
-## 📄 License
-
-This project is open-source under the MIT License.
