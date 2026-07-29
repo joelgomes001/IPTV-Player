@@ -1,0 +1,19 @@
+# Gradle & Android Build Outputs
+.gradle/
+build/
+android/app/build/
+android/.gradle/
+*.apk
+*.aab
+
+# OS & IDE Files
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.vscode/
+
+# Local Scratch
+scratch/
+temp/
+*.log

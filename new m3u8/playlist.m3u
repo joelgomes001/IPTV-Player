@@ -1,0 +1,25 @@
+#EXTM3U tvg-shift="0" x-tvg-url=""
+
+#EXTINF:-1 tvg-id="JTBS.Main" tvg-name="JTBS Classic - Main Stream" tvg-logo="https://jtbs-classic.web.app/favicon.ico" group-title="JTBS Network",JTBS Classic - Main Stream (Public)
+https://jtbsclassic.dpdns.org/live.m3u8
+
+#EXTINF:-1 tvg-id="JTBS.Decoder" tvg-name="JTBS Classic - Decoder Stream" tvg-logo="https://jtbs-classic.web.app/favicon.ico" group-title="JTBS Network",JTBS Classic - Decoder Stream (Box)
+https://jtbsclassic.dpdns.org/decoder.m3u8
+
+#EXTINF:-1 tvg-id="JTBS.Feed1" tvg-name="JTBS Feed 1" tvg-logo="https://jtbs-classic.web.app/favicon.ico" group-title="JTBS Feeds",JTBS Feed 1 (live1)
+https://jtbsclassic.dpdns.org/live1.m3u8
+
+#EXTINF:-1 tvg-id="JTBS.Feed2" tvg-name="JTBS Feed 2" tvg-logo="https://jtbs-classic.web.app/favicon.ico" group-title="JTBS Feeds",JTBS Feed 2 (live2)
+https://jtbsclassic.dpdns.org/live2.m3u8
+
+#EXTINF:-1 tvg-id="JTBS.Feed3" tvg-name="JTBS Feed 3" tvg-logo="https://jtbs-classic.web.app/favicon.ico" group-title="JTBS Feeds",JTBS Feed 3 (live3)
+https://jtbsclassic.dpdns.org/live3.m3u8
+
+#EXTINF:-1 tvg-id="JTBS.Feed4" tvg-name="JTBS Feed 4" tvg-logo="https://jtbs-classic.web.app/favicon.ico" group-title="JTBS Feeds",JTBS Feed 4 (live4)
+https://jtbsclassic.dpdns.org/live4.m3u8
+
+#EXTINF:-1 tvg-id="JTBS.Feed5" tvg-name="JTBS Feed 5" tvg-logo="https://jtbs-classic.web.app/favicon.ico" group-title="JTBS Feeds",JTBS Feed 5 (live5)
+https://jtbsclassic.dpdns.org/live5.m3u8
+
+#EXTINF:-1 tvg-id="JTBS.Feed6" tvg-name="JTBS Feed 6" tvg-logo="https://jtbs-classic.web.app/favicon.ico" group-title="JTBS Feeds",JTBS Feed 6 (live6)
+https://jtbsclassic.dpdns.org/live6.m3u8

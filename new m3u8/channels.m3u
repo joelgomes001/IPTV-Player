@@ -1,0 +1,138 @@
+const M3U_CONTENT = `#EXTM3U
+#EXTINF:-1 group-title="FIFA World Cup 2026",FOX 01
+http://89.187.179.148:826/anto.j/c9yJDcXyPe/109548
+#EXTINF:-1 group-title="FIFA World Cup 2026",FOX 02
+http://89.187.179.148:826/anto.j/c9yJDcXyPe/109511
+#EXTINF:-1 group-title="FIFA World Cup 2026",FOX 03
+http://stream.cammonitorplus.net/1752/index.m3u8
+#EXTINF:-1 group-title="FIFA World Cup 2026",FS1 01
+http://89.187.179.148:826/anto.j/c9yJDcXyPe/120160
+#EXTINF:-1 group-title="FIFA World Cup 2026",FS1 02
+http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1236473
+#EXTINF:-1 group-title="FIFA World Cup 2026",FS1 03
+http://10k.lucastv.pro/2c99755ae255/gJnMAT2/328813
+#EXTINF:-1 group-title="FIFA World Cup 2026",FS1 04
+http://falcontv.top/0990183718/6298570159/405997
+#EXTINF:-1 group-title="FIFA World Cup 2026",FS1 05
+http://wickediptv.xyz/Randall123/Randall321/53390
+#EXTINF:-1 group-title="FIFA World Cup 2026",Telemundo 01
+http://89.187.179.148:826/anto.j/c9yJDcXyPe/109764
+#EXTINF:-1 group-title="FIFA World Cup 2026",Telemundo 02
+http://89.187.179.148:826/anto.j/c9yJDcXyPe/110009
+#EXTINF:-1 group-title="FIFA World Cup 2026",TSN 4K CA
+http://89.187.179.148:826/anto.j/c9yJDcXyPe/119333
+#EXTINF:-1 group-title="FIFA World Cup 2026",TSN1 CA 01
+http://89.187.179.148:826/anto.j/c9yJDcXyPe/1621
+#EXTINF:-1 group-title="FIFA World Cup 2026",TSN1 CA 02
+http://89.187.179.148:826/anto.j/c9yJDcXyPe/1622
+#EXTINF:-1 group-title="FIFA World Cup 2026",TSN1 CA 03
+http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/69660
+#EXTINF:-1 group-title="FIFA World Cup 2026",TSN1 CA 04
+http://wickediptv.xyz/Randall123/Randall321/53805
+#EXTINF:-1 group-title="FIFA World Cup 2026",TSN1 CA 05
+http://29047.performservers.cz/ozant/1sj8i79hk3/356400
+#EXTINF:-1 group-title="FIFA World Cup 2026",TSN2 CA
+http://89.187.179.148:826/anto.j/c9yJDcXyPe/1622
+#EXTINF:-1 group-title="FIFA World Cup 2026",TSN3 CA
+http://89.187.179.148:826/anto.j/c9yJDcXyPe/1623
+#EXTINF:-1 group-title="FIFA World Cup 2026",TSN4 CA
+http://89.187.179.148:826/anto.j/c9yJDcXyPe/1624
+#EXTINF:-1 group-title="FIFA World Cup 2026",TSN5 CA
+http://89.187.179.148:826/anto.j/c9yJDcXyPe/1625
+#EXTINF:-1 group-title="FIFA World Cup 2026",CTV CA
+http://89.187.179.148:826/anto.j/c9yJDcXyPe/36917
+#EXTINF:-1 group-title="FIFA World Cup 2026",BBC One UK 01
+http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/234.ts
+#EXTINF:-1 group-title="FIFA World Cup 2026",BBC One UK 02
+http://89.187.179.148:826/anto.j/c9yJDcXyPe/98853
+#EXTINF:-1 group-title="FIFA World Cup 2026",BBC One UK 03
+http://29047.performservers.cz/ozant/1sj8i79hk3/358768
+#EXTINF:-1 group-title="FIFA World Cup 2026",BBC One UK 04
+http://wickediptv.xyz/Randall123/Randall321/53842
+#EXTINF:-1 group-title="FIFA World Cup 2026",BBC One UK 05
+http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/77361
+#EXTINF:-1 group-title="FIFA World Cup 2026",BBC Two UK
+http://89.187.179.148:826/anto.j/c9yJDcXyPe/98852
+#EXTINF:-1 group-title="FIFA World Cup 2026",ITV1 UK 01
+http://163.172.64.96:2017/live/GBa19qrcQYa3/u2c8FLfgkK/239.ts
+#EXTINF:-1 group-title="FIFA World Cup 2026",ITV1 UK 02
+http://89.187.179.148:826/anto.j/c9yJDcXyPe/98826
+#EXTINF:-1 group-title="FIFA World Cup 2026",ITV1 UK 03
+http://ahhshitherewegoagain.sytes.net:2096/Shawnda/3741562890/825512
+#EXTINF:-1 group-title="FIFA World Cup 2026",ITV1 UK 04
+http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/22223
+#EXTINF:-1 group-title="FIFA World Cup 2026",ITV1 UK 05
+http://x88tv.co/942126879465/526468117856/279001
+#EXTINF:-1 group-title="FIFA World Cup 2026",ITV1 UK 06
+http://hanaiptv.com:8080/eStGiLLACr/Ns3Y47v3rb/1985
+#EXTINF:-1 group-title="FIFA World Cup 2026",ITV4 UK
+http://89.187.179.148:826/anto.j/c9yJDcXyPe/98823
+#EXTINF:-1 group-title="FIFA World Cup 2026",M6 FR
+http://vpn.usxk.xyz/sqSC8712/SvUt4481/1149246
+#EXTINF:-1 group-title="FIFA World Cup 2026",Das Erste DE
+http://world-protv.club:8080/GenIptvg@f0DE14aIRn/0h5GuR3HJ0edweFz3DyY/4659
+#EXTINF:-1 group-title="FIFA World Cup 2026",ZDF DE
+http://29047.performservers.cz/ozant/1sj8i79hk3/230138
+#EXTINF:-1 group-title="FIFA World Cup 2026",Fussball TV 1 4K DE
+http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465825
+#EXTINF:-1 group-title="FIFA World Cup 2026",Fussball TV 2 4K DE
+http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465822
+#EXTINF:-1 group-title="FIFA World Cup 2026",Fussball TV 3 4K DE
+http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465809
+#EXTINF:-1 group-title="FIFA World Cup 2026",FIFAWC 2026 GAME 01
+http://wickediptv.xyz/Randall123/Randall321/340018
+#EXTINF:-1 group-title="FIFA World Cup 2026",FIFAWC 2026 GAME 02
+http://wickediptv.xyz/Randall123/Randall321/340019
+#EXTINF:-1 group-title="FIFA World Cup 2026",FIFAWC 2026 GAME 03
+http://wickediptv.xyz/Randall123/Randall321/340017
+#EXTINF:-1 group-title="FIFA World Cup 2026",FIFAWC 2026 GAME 04
+http://wickediptv.xyz/Randall123/Randall321/340016
+#EXTINF:-1 group-title="FIFA World Cup 2026",beIN SPORTS MAX 1
+http://802017341873.plus-26.com/w4gzmeoiw6/kyul5gyvkp/1944357
+#EXTINF:-1 group-title="FIFA World Cup 2026",beIN SPORTS MAX 2
+http://802017341873.plus-26.com/w4gzmeoiw6/kyul5gyvkp/1944358
+#EXTINF:-1 group-title="FIFA World Cup 2026",beIN SPORTS MAX 3
+http://802017341873.plus-26.com/w4gzmeoiw6/kyul5gyvkp/1944359
+#EXTINF:-1 group-title="FIFA World Cup 2026",beIN SPORTS MAX 4
+http://802017341873.plus-26.com/w4gzmeoiw6/kyul5gyvkp/1944360
+#EXTINF:-1 group-title="FIFA World Cup 2026",beIN SPORTS MAX 5
+http://802017341873.plus-26.com/w4gzmeoiw6/kyul5gyvkp/1946727
+#EXTINF:-1 group-title="FIFA World Cup 2026",beIN SPORTS MAX 6
+http://802017341873.plus-26.com/w4gzmeoiw6/kyul5gyvkp/1946735
+#EXTINF:-1 group-title="FIFA World Cup 2026",beIN SPORTS
+http://vpn.usxk.xyz/sqSC8712/SvUt4481/550401
+#EXTINF:-1 group-title="FIFA World Cup 2026",beIN SPORTS 4K HDR
+http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1950411
+#EXTINF:-1 group-title="FIFA World Cup 2026",beIN SPORTS News
+http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/315744
+#EXTINF:-1 group-title="FIFA World Cup 2026",NOW Sports 616 4K
+http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465865
+#EXTINF:-1 group-title="FIFA World Cup 2026",NOW Sports 617 4K
+http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465864
+#EXTINF:-1 group-title="FIFA World Cup 2026",NOW Sports 618
+http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465863
+#EXTINF:-1 group-title="FIFA World Cup 2026",NOW Sports 619
+http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465861
+#EXTINF:-1 group-title="FIFA World Cup 2026",TSN 4K
+http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465866
+#EXTINF:-1 group-title="FIFA World Cup 2026",Channel 465842
+http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465842
+#EXTINF:-1 group-title="FIFA World Cup 2026",Channel 465845
+http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465845
+#EXTINF:-1 group-title="FIFA World Cup 2026",Channel 465848
+http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465848
+#EXTINF:-1 group-title="FIFA World Cup 2026",Channel 465855
+http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465855
+#EXTINF:-1 group-title="FIFA World Cup 2026",Channel 465856
+http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465856
+#EXTINF:-1 group-title="FIFA World Cup 2026",Channel 465858
+http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465858
+#EXTINF:-1 group-title="FIFA World Cup 2026",Channel 465859
+http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465859
+#EXTINF:-1 group-title="FIFA World Cup 2026",Channel 465873
+http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465873
+#EXTINF:-1 group-title="FIFA World Cup 2026",Channel 465875
+http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465875
+`;
+
+export default {
