@@ -292,7 +292,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function loadLiveChannels() {
     statusBadge.innerHTML = `<span style="color:#fef08a;">● Syncing with Servers...</span>`;
 
-    fetch('channels.json')
+    fetch(`channels.json?_t=${Date.now()}`, { cache: 'no-cache' })
       .then(r => r.json())
       .then(baseChannels => {
         allChannels = baseChannels;
@@ -315,31 +315,41 @@ document.addEventListener('DOMContentLoaded', () => {
           if (!res.ok) throw new Error('Rana API network error');
           const catData = await res.json();
           let added = 0;
+          let updated = 0;
           if (Array.isArray(catData)) {
             catData.forEach(cat => {
               const g = (cat.title || 'General').trim();
               if (Array.isArray(cat.channels)) {
                 cat.channels.forEach(ch => {
-                  if (ch.stream_url && !channelMap.has(ch.stream_url.trim())) {
-                    const rawThumb = ch.thumbnail_url || '';
-                    const obj = {
-                      id: String(ch.live_tv_id || Date.now()),
-                      name: ch.tv_name,
-                      genre: g,
-                      country: 'India',
-                      stream_url: ch.stream_url.trim(),
-                      stream_from: ch.stream_from || 'hls',
-                      thumbnail: rawThumb && !rawThumb.includes('tv_thumbnail.jpg') ? rawThumb : '',
-                      poster: ch.poster_url || ''
-                    };
-                    channelMap.set(ch.stream_url.trim(), obj);
-                    added++;
+                  if (ch.stream_url) {
+                    const cleanUrl = ch.stream_url.trim();
+                    if (!channelMap.has(cleanUrl)) {
+                      const rawThumb = ch.thumbnail_url || '';
+                      const obj = {
+                        id: String(ch.live_tv_id || Date.now()),
+                        name: ch.tv_name,
+                        genre: g,
+                        country: 'India',
+                        stream_url: cleanUrl,
+                        stream_from: ch.stream_from || 'hls',
+                        thumbnail: rawThumb && !rawThumb.includes('tv_thumbnail.jpg') ? rawThumb : '',
+                        poster: ch.poster_url || ''
+                      };
+                      channelMap.set(cleanUrl, obj);
+                      added++;
+                    } else {
+                      const existing = channelMap.get(cleanUrl);
+                      if ((!existing.genre || existing.genre === 'General') && g && g !== 'General') {
+                        existing.genre = g;
+                        updated++;
+                      }
+                    }
                   }
                 });
               }
             });
           }
-          return added;
+          return { added, updated };
         })();
 
         // 2. Sync with IPTV-Org India M3U
