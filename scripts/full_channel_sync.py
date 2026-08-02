@@ -387,5 +387,26 @@ def main():
             f.write(m3u_content)
     print("Master playlist.m3u generated successfully!")
 
+    # Sync updated master channels to Firebase Firestore via REST API
+    try:
+        firestore_url = "https://firestore.googleapis.com/v1/projects/classic-iptv/databases/(default)/documents/metadata/channels"
+        # Convert channel objects to Firestore JSON format
+        firestore_fields = {
+            "fields": {
+                "channels_json": {
+                    "stringValue": json.dumps(channels, ensure_ascii=False)
+                },
+                "updated_at": {
+                    "stringValue": str(int(time.time()))
+                }
+            }
+        }
+        req_data = json.dumps(firestore_fields).encode('utf-8')
+        req = urllib.request.Request(firestore_url, data=req_data, headers={'Content-Type': 'application/json'}, method='PATCH')
+        with urllib.request.urlopen(req, timeout=15) as res:
+            print("Successfully synced updated master channels directly to Firebase Firestore!")
+    except Exception as e:
+        print(f"Firebase Firestore Sync notice: {e}")
+
 if __name__ == '__main__':
     main()
