@@ -57,7 +57,7 @@
     "stream_from": "hls",
     "thumbnail": "https://asthatv.com/wp-content/uploads/2026/02/Logo-Astha.png",
     "poster": "https://ranacabletv.alwaysdata.net/oxoo/uploads/tv_image/asthatv-hd.png",
-    "country": "India"
+    "country": "Turkey"
   },
   {
     "id": "301",
@@ -163014,7 +163014,7 @@
     "name": "Adult Swim",
     "genre": "Entertainment",
     "country": "United States",
-    "stream_url": "http://206.212.244.63/6132/index.m3u8",
+    "stream_url": "https://206.212.244.63/6132/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/adultswim.png",
     "poster": ""
