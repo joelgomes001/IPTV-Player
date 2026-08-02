@@ -120,8 +120,8 @@
         const { db, doc, getDoc } = window.firebaseDb;
         const docRef = doc(db, "metadata", "channels");
         const docSnap = await getDoc(docRef);
-        if (docSnap.exists() && docSnap.data().channels) {
-          allChannels = docSnap.data().channels;
+        if (docSnap.exists() && docSnap.data().channels_json) {
+          allChannels = JSON.parse(docSnap.data().channels_json);
           statChannelCount.textContent = `● ${allChannels.length.toLocaleString()} Channels`;
           populateFilterDropdowns();
           filterAndRenderTable();
@@ -510,7 +510,7 @@
         const { db, doc, setDoc } = window.firebaseDb;
         const docRef = doc(db, "metadata", "channels");
         await setDoc(docRef, {
-          channels: allChannels,
+          channels_json: JSON.stringify(allChannels),
           updated_at: new Date().toISOString()
         });
         statChannelCount.textContent = `● ${allChannels.length.toLocaleString()} Channels`;

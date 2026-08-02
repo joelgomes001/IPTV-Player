@@ -300,8 +300,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const { doc, getDoc } = window.firestoreTools;
         const docRef = doc(db, "metadata", "channels");
         const snap = await getDoc(docRef);
-        if (snap.exists() && snap.data().channels) {
-          allChannels = snap.data().channels;
+        if (snap.exists() && snap.data().channels_json) {
+          allChannels = JSON.parse(snap.data().channels_json);
           statusBadge.innerHTML = `<span style="color:#ffffff;">● Synced (${allChannels.length.toLocaleString()} Channels)</span>`;
           populateFilterSelects();
           renderSidebarCountries();
