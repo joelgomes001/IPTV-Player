@@ -3,8 +3,6 @@
 build/
 android/app/build/
 android/.gradle/
-*.apk
-*.aab
 
 # OS & IDE Files
 .DS_Store
@@ -13,12 +11,19 @@ Thumbs.db
 *.iml
 .vscode/
 
-# Local Scratch
+# Local Scratch & Logs
 scratch/
 temp/
 *.log
 
-# Root Web Files (Ignored on GitHub - keeping only App & Database)
+# Web, Firebase & Master JSON Database (Ignored on GitHub - keeping only App)
+/website/
+/channels.json
+/playlist.m3u
+/firebase.json
+/firestore.rules
+/scripts/
+/google-services.json
 /admin.html
 /admin.js
 /app.js
