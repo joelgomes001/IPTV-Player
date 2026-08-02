@@ -3829,7 +3829,7 @@ https://jmp2.uk/plu-620d1512c7986a0007220213.m3u8
 http://66.242.170.53/hls/live/temp/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-1916" tvg-name="Astana TV (576p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7b/Astana_TV_Logo.png" group-title="Entertainment",Astana TV (576p)
 http://stream.mcquack.net/28/index.m3u8
-#EXTINF:-1 tvg-id="iptv-org-1917" tvg-name="Astha TV (1080p) [Not 24/7]" tvg-logo="https://asthatv.com/wp-content/uploads/2026/02/Logo-Astha.png" group-title="Turkey - Music",Astha TV (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="iptv-org-1917" tvg-name="Astha TV (1080p) [Not 24/7]" tvg-logo="https://asthatv.com/wp-content/uploads/2026/02/Logo-Astha.png" group-title="India - Music",Astha TV (1080p) [Not 24/7]
 https://hgmtv.com:19360/asthatv/asthatv.m3u8
 #EXTINF:-1 tvg-id="iptv-org-1918" tvg-name="Astra TV (1080p)" tvg-logo="https://i.imgur.com/oYRPfZm.png" group-title="News",Astra TV (1080p)
 https://server.gointernet.gr/live/livestream.m3u8
