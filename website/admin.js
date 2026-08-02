@@ -100,6 +100,7 @@
     });
 
     // Populate Genre Filter
+    const currGenre = adminGenreSelect.value;
     adminGenreSelect.innerHTML = '<option value="All">All Genres</option>';
     Array.from(genres).sort().forEach(g => {
       const opt = document.createElement('option');
@@ -107,8 +108,10 @@
       opt.textContent = g;
       adminGenreSelect.appendChild(opt);
     });
+    if (currGenre) adminGenreSelect.value = currGenre;
 
     // Populate Country Filter
+    const currCountry = adminCountrySelect.value;
     adminCountrySelect.innerHTML = '<option value="All">All Countries</option>';
     Array.from(countries).sort().forEach(c => {
       const opt = document.createElement('option');
@@ -116,6 +119,7 @@
       opt.textContent = c;
       adminCountrySelect.appendChild(opt);
     });
+    if (currCountry) adminCountrySelect.value = currCountry;
   }
 
   function filterAndRenderTable() {
@@ -130,7 +134,6 @@
       return matchQuery && matchGenre && matchCountry;
     });
 
-    currentPage = 1;
     renderTablePage();
   }
 
@@ -152,11 +155,12 @@
     }
 
     let html = '';
-    pageItems.forEach(ch => {
+    pageItems.forEach((ch, idx) => {
       const thumb = ch.thumbnail || 'logo.png';
+      const safeId = encodeURIComponent(String(ch.id));
       html += `
         <tr>
-          <td><img src="${thumb}" style="width: 36px; height: 36px; object-fit: contain; background: #000; border-radius: 4px;" onerror="this.src='logo.png'"></td>
+          <td><img src="${thumb}" style="width: 40px; height: 40px; object-fit: contain; background: #000; border-radius: 4px;" onerror="this.src='logo.png'"></td>
           <td style="font-weight: 700; color: #111111;">${escapeHtml(ch.name)}</td>
           <td><span class="badge-genre">${escapeHtml(ch.genre || 'General')}</span></td>
           <td><span class="badge-country">${escapeHtml(ch.country || 'International')}</span></td>
@@ -164,8 +168,8 @@
             <a href="${escapeHtml(ch.stream_url)}" target="_blank" style="color: #0284c7; text-decoration: none;">${escapeHtml(ch.stream_url)}</a>
           </td>
           <td style="text-align: center;">
-            <button class="xp-button btn-edit-ch" data-id="${ch.id}" style="padding: 0.25rem 0.6rem; font-size: 0.8rem; margin-right: 0.3rem;">✏️ Edit</button>
-            <button class="xp-button btn-del-ch" data-id="${ch.id}" style="padding: 0.25rem 0.6rem; font-size: 0.8rem; background: linear-gradient(to bottom, #ef4444 0%, #dc2626 100%); color: #fff;">🗑️</button>
+            <button class="xp-button btn-edit-ch" data-safe-id="${safeId}" style="padding: 0.25rem 0.6rem; font-size: 0.8rem; margin-right: 0.3rem;">✏️ Edit</button>
+            <button class="xp-button btn-del-ch" data-safe-id="${safeId}" style="padding: 0.25rem 0.6rem; font-size: 0.8rem; background: linear-gradient(to bottom, #ef4444 0%, #dc2626 100%); color: #fff;">🗑️</button>
           </td>
         </tr>
       `;
@@ -175,18 +179,35 @@
 
     // Attach row event listeners
     document.querySelectorAll('.btn-edit-ch').forEach(btn => {
-      btn.addEventListener('click', () => openEditModal(btn.dataset.id));
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const rawId = decodeURIComponent(btn.getAttribute('data-safe-id'));
+        openEditModal(rawId);
+      });
     });
 
     document.querySelectorAll('.btn-del-ch').forEach(btn => {
-      btn.addEventListener('click', () => deleteChannel(btn.dataset.id));
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const rawId = decodeURIComponent(btn.getAttribute('data-safe-id'));
+        deleteChannel(rawId);
+      });
     });
   }
 
   // Filter Listeners
-  adminSearchInput.addEventListener('input', filterAndRenderTable);
-  adminGenreSelect.addEventListener('change', filterAndRenderTable);
-  adminCountrySelect.addEventListener('change', filterAndRenderTable);
+  adminSearchInput.addEventListener('input', () => {
+    currentPage = 1;
+    filterAndRenderTable();
+  });
+  adminGenreSelect.addEventListener('change', () => {
+    currentPage = 1;
+    filterAndRenderTable();
+  });
+  adminCountrySelect.addEventListener('change', () => {
+    currentPage = 1;
+    filterAndRenderTable();
+  });
 
   btnPrevPage.addEventListener('click', () => {
     if (currentPage > 1) {
@@ -219,12 +240,31 @@
   // Modal Handling
   function openEditModal(channelId) {
     const ch = allChannels.find(c => String(c.id) === String(channelId));
-    if (!ch) return;
+    if (!ch) {
+      alert("Could not locate channel record for ID: " + channelId);
+      return;
+    }
 
-    modalTitle.textContent = "Edit Channel";
-    editChannelId.value = ch.id;
+    modalTitle.textContent = `Edit Channel: ${ch.name}`;
+    editChannelId.value = String(ch.id);
     editName.value = ch.name || "";
+    
+    // Ensure genre option exists in edit select
+    let genreFound = false;
+    for (let opt of editGenre.options) {
+      if (opt.value === ch.genre) {
+        genreFound = true;
+        break;
+      }
+    }
+    if (!genreFound && ch.genre) {
+      const newOpt = document.createElement('option');
+      newOpt.value = ch.genre;
+      newOpt.textContent = ch.genre;
+      editGenre.appendChild(newOpt);
+    }
     editGenre.value = ch.genre || "Entertainment";
+
     editCountry.value = ch.country || "India";
     editStreamUrl.value = ch.stream_url || "";
     editThumbnail.value = ch.thumbnail || "";
@@ -303,8 +343,11 @@
 
     closeModal();
     statChannelCount.textContent = `● ${allChannels.length.toLocaleString()} Channels`;
+    populateFilterDropdowns();
     filterAndRenderTable();
-    alert("Channel saved in admin memory! Click 'Save & Publish Database' to publish live.");
+    
+    // Auto-Publish Changes directly on Save Channel!
+    btnSaveGithub.click();
   });
 
   function deleteChannel(channelId) {
@@ -314,7 +357,9 @@
     if (confirm(`Are you sure you want to delete channel "${ch.name}"?`)) {
       allChannels = allChannels.filter(c => String(c.id) !== String(channelId));
       statChannelCount.textContent = `● ${allChannels.length.toLocaleString()} Channels`;
+      populateFilterDropdowns();
       filterAndRenderTable();
+      btnSaveGithub.click();
     }
   }
 
@@ -389,7 +434,7 @@
       const m3uStr = generateM3uContent(allChannels);
       await commitFileToGithub("website/playlist.m3u", m3uStr, `Admin Portal: Live update playlist.m3u (${allChannels.length} channels)`);
 
-      alert("🎉 SUCCESS! Database and playlist.m3u published live! Both the Web Player and Android App will load your updated channels instantly on next open.");
+      alert("🎉 SUCCESS! Channel edits published live! Both the Web Player and Android App will load your updated channels instantly.");
     } catch (e) {
       alert(`Publish Error: ${e.message}`);
     } finally {
