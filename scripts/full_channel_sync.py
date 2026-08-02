@@ -347,5 +347,28 @@ def main():
         with open('website/channels.json', 'w', encoding='utf-8') as f:
             json.dump(channels, f, indent=2, ensure_ascii=False)
 
+    # Generate master playlist.m3u for VLC and IPTV players
+    m3u_lines = ["#EXTM3U"]
+    for idx, ch in enumerate(channels, 1):
+        name = ch.get('name', 'Live Channel').strip()
+        genre = ch.get('genre', 'General').strip()
+        country = ch.get('country', 'International').strip()
+        logo = ch.get('thumbnail', '').strip()
+        url = ch.get('stream_url', '').strip()
+        if not url:
+            continue
+        group_title = f"{country} - {genre}" if country != "International" else genre
+        extinf = f'#EXTINF:-1 tvg-id="{ch.get("id", idx)}" tvg-name="{name}" tvg-logo="{logo}" group-title="{group_title}",{name}'
+        m3u_lines.append(extinf)
+        m3u_lines.append(url)
+
+    m3u_content = "\n".join(m3u_lines)
+    with open('playlist.m3u', 'w', encoding='utf-8') as f:
+        f.write(m3u_content)
+    if os.path.exists('website'):
+        with open('website/playlist.m3u', 'w', encoding='utf-8') as f:
+            f.write(m3u_content)
+    print("Master playlist.m3u generated successfully!")
+
 if __name__ == '__main__':
     main()

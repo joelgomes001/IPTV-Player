@@ -297,6 +297,37 @@
     }
   }
 
+  // Copy M3U Playlist URL Listener
+  const btnCopyM3uLink = document.getElementById('btnCopyM3uLink');
+  if (btnCopyM3uLink) {
+    btnCopyM3uLink.addEventListener('click', () => {
+      const playlistUrl = `${location.origin}/playlist.m3u`;
+      navigator.clipboard.writeText(playlistUrl).then(() => {
+        alert(`📋 M3U Playlist Link copied to clipboard:\n\n${playlistUrl}\n\nYou can paste this link into VLC Media Player, TiviMate, IPTV Smarters, OTT Navigator, or any M3U player!`);
+      }).catch(() => {
+        prompt("Copy your live M3U playlist link:", playlistUrl);
+      });
+    });
+  }
+
+  // Helper to generate M3U content string
+  function generateM3uContent(channelsList) {
+    const lines = ["#EXTM3U"];
+    channelsList.forEach((ch, idx) => {
+      const name = ch.name || 'Live Channel';
+      const genre = ch.genre || 'General';
+      const country = ch.country || 'International';
+      const logo = ch.thumbnail || '';
+      const url = ch.stream_url || '';
+      if (url) {
+        const group = country !== 'International' ? `${country} - ${genre}` : genre;
+        lines.push(`#EXTINF:-1 tvg-id="${ch.id || idx}" tvg-name="${name}" tvg-logo="${logo}" group-title="${group}",${name}`);
+        lines.push(url);
+      }
+    });
+    return lines.join('\n');
+  }
+
   // Save & Publish Database Directly via GitHub API
   btnSaveGithub.addEventListener('click', async () => {
     const pat = prompt("Enter your GitHub Admin Access Token to publish live database changes instantly:");
@@ -307,46 +338,56 @@
 
     try {
       const repoPath = "joelgomes001/IPTV-Player";
-      const filePath = "website/channels.json";
-      const apiUrl = `https://api.github.com/repos/${repoPath}/contents/${filePath}`;
+      
+      // Function to commit a file to GitHub
+      async function commitFileToGithub(filePath, contentString, commitMessage) {
+        const apiUrl = `https://api.github.com/repos/${repoPath}/contents/${filePath}`;
+        let sha = null;
+        try {
+          const getRes = await fetch(apiUrl, { headers: { 'Authorization': `token ${pat}` } });
+          if (getRes.ok) {
+            const getData = await getRes.json();
+            sha = getData.sha;
+          }
+        } catch(e) {}
 
-      // 1. Get file SHA
-      const getRes = await fetch(apiUrl, {
-        headers: { 'Authorization': `token ${pat}` }
-      });
-      if (!getRes.ok) throw new Error("Failed to authenticate with GitHub API.");
-      const getData = await getRes.json();
-      const sha = getData.sha;
+        const bytes = new TextEncoder().encode(contentString);
+        let binaryStr = '';
+        for (let i = 0; i < bytes.length; i++) {
+          binaryStr += String.fromCharCode(bytes[i]);
+        }
+        const base64Content = btoa(binaryStr);
 
-      // 2. Prepare UTF-8 base64 encoding
+        const payload = {
+          message: commitMessage,
+          content: base64Content
+        };
+        if (sha) payload.sha = sha;
+
+        const putRes = await fetch(apiUrl, {
+          method: 'PUT',
+          headers: {
+            'Authorization': `token ${pat}`,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(payload)
+        });
+
+        if (!putRes.ok) {
+          const errData = await putRes.json();
+          throw new Error(errData.message || `Failed to commit ${filePath}`);
+        }
+      }
+
+      // 1. Commit website/channels.json
       const jsonStr = JSON.stringify(allChannels, null, 2);
-      const bytes = new TextEncoder().encode(jsonStr);
-      let binaryStr = '';
-      for (let i = 0; i < bytes.length; i++) {
-        binaryStr += String.fromCharCode(bytes[i]);
-      }
-      const base64Content = btoa(binaryStr);
+      await commitFileToGithub("website/channels.json", jsonStr, `Admin Portal: Update channels database (${allChannels.length} channels)`);
 
-      // 3. Put request to update file
-      const putRes = await fetch(apiUrl, {
-        method: 'PUT',
-        headers: {
-          'Authorization': `token ${pat}`,
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          message: `Admin Portal: Manual update to channels database (${allChannels.length} channels)`,
-          content: base64Content,
-          sha: sha
-        })
-      });
+      // 2. Commit website/playlist.m3u
+      const m3uStr = generateM3uContent(allChannels);
+      await commitFileToGithub("website/playlist.m3u", m3uStr, `Admin Portal: Update playlist.m3u (${allChannels.length} channels)`);
 
-      if (!putRes.ok) {
-        const errData = await putRes.json();
-        throw new Error(errData.message || "Failed to commit changes.");
-      }
-
-      alert("🎉 SUCCESS! Master database published directly to GitHub. Live app & website will load updated channels instantly without website redeployment!");
+      alert("🎉 SUCCESS! Master database and playlist.m3u published live to GitHub. Your live M3U playlist link & app have been updated!");
     } catch (e) {
       alert(`Publish Error: ${e.message}`);
     } finally {
