@@ -1,0 +1,628 @@
+// Firebase Authenticated Admin Dashboard JavaScript Logic for JTBS IPTV
+(function() {
+  let allChannels = [];
+  let filteredChannels = [];
+  let currentPage = 1;
+  const pageSize = 50;
+
+  let adminHlsInstance = null;
+
+  // DOM Elements
+  const loginOverlay = document.getElementById('loginOverlay');
+  const adminEmailInput = document.getElementById('adminEmailInput');
+  const adminPasswordInput = document.getElementById('adminPasswordInput');
+  const btnLogin = document.getElementById('btnLogin');
+  const loginError = document.getElementById('loginError');
+  const btnLogout = document.getElementById('btnLogout');
+
+  const statChannelCount = document.getElementById('statChannelCount');
+  const adminSearchInput = document.getElementById('adminSearchInput');
+  const adminGenreSelect = document.getElementById('adminGenreSelect');
+  const adminCountrySelect = document.getElementById('adminCountrySelect');
+  const btnAddNewChannel = document.getElementById('btnAddNewChannel');
+  const btnSaveGithub = document.getElementById('btnSaveGithub');
+
+  const adminTableBody = document.getElementById('adminTableBody');
+  const btnPrevPage = document.getElementById('btnPrevPage');
+  const btnNextPage = document.getElementById('btnNextPage');
+  const pageIndicator = document.getElementById('pageIndicator');
+
+  // Player Elements
+  const adminPlayerWrapper = document.getElementById('adminPlayerWrapper');
+  const adminPlayingChannelTitle = document.getElementById('adminPlayingChannelTitle');
+  const adminStreamStatusBadge = document.getElementById('adminStreamStatusBadge');
+  const adminVideoPlayer = document.getElementById('adminVideoPlayer');
+  const btnCloseAdminPlayer = document.getElementById('btnCloseAdminPlayer');
+
+  // Modal Elements
+  const editModal = document.getElementById('editModal');
+  const modalTitle = document.getElementById('modalTitle');
+  const editChannelId = document.getElementById('editChannelId');
+  const editName = document.getElementById('editName');
+  const editGenre = document.getElementById('editGenre');
+  const editCountry = document.getElementById('editCountry');
+  const editStreamUrl = document.getElementById('editStreamUrl');
+  const editThumbnail = document.getElementById('editThumbnail');
+  const previewLogo = document.getElementById('previewLogo');
+  const btnCancelEdit = document.getElementById('btnCancelEdit');
+  const btnCloseModalX = document.getElementById('btnCloseModalX');
+  const btnSaveChannel = document.getElementById('btnSaveChannel');
+
+  // Listen to Firebase Auth state
+  function initFirebaseAuth() {
+    if (!window.firebaseAuth) {
+      setTimeout(initFirebaseAuth, 100);
+      return;
+    }
+
+    const { auth, onAuthStateChanged } = window.firebaseAuth;
+
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        loginOverlay.style.display = 'none';
+        loginError.style.display = 'none';
+        loadMasterDatabase();
+      } else {
+        loginOverlay.style.display = 'flex';
+      }
+    });
+  }
+
+  // Handle Firebase Email/Password Login
+  btnLogin.addEventListener('click', () => {
+    const email = adminEmailInput.value.trim();
+    const password = adminPasswordInput.value.trim();
+
+    if (!email || !password) {
+      loginError.textContent = "Please enter both admin email and password.";
+      loginError.style.display = 'block';
+      return;
+    }
+
+    if (!window.firebaseAuth) return;
+    const { auth, signInWithEmailAndPassword } = window.firebaseAuth;
+
+    btnLogin.disabled = true;
+    btnLogin.textContent = "Authenticating with Firebase...";
+
+    signInWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+        loginOverlay.style.display = 'none';
+        loginError.style.display = 'none';
+        loadMasterDatabase();
+      })
+      .catch((error) => {
+        loginError.textContent = `Auth error: ${error.message}`;
+        loginError.style.display = 'block';
+      })
+      .finally(() => {
+        btnLogin.disabled = false;
+        btnLogin.textContent = "Login";
+      });
+  });
+
+  adminPasswordInput.addEventListener('keyup', (e) => {
+    if (e.key === 'Enter') btnLogin.click();
+  });
+
+  btnLogout.addEventListener('click', () => {
+    if (!window.firebaseAuth) return;
+    const { auth, signOut } = window.firebaseAuth;
+    signOut(auth).then(() => {
+      location.reload();
+    });
+  });
+
+  // Load Master Database from GitHub Raw (no size limit) with fallback
+  async function loadMasterDatabase() {
+    try {
+      const res = await fetch(`https://raw.githubusercontent.com/joelgomes001/IPTV-Player/main/website/channels.json?_t=${Date.now()}`, { cache: 'no-cache' });
+      if (res.ok) {
+        allChannels = await res.json();
+        statChannelCount.textContent = `● ${allChannels.length.toLocaleString()} Channels`;
+        populateFilterDropdowns();
+        filterAndRenderTable();
+        return;
+      }
+    } catch(e) {
+      console.log("GitHub raw fetch notice, falling back to channels.json:", e);
+    }
+
+    fetch(`channels.json?_t=${Date.now()}`, { cache: 'no-cache' })
+      .then(r => r.json())
+      .then(data => {
+        allChannels = data;
+        statChannelCount.textContent = `● ${allChannels.length.toLocaleString()} Channels`;
+        populateFilterDropdowns();
+        filterAndRenderTable();
+      })
+      .catch(e => {
+        adminTableBody.innerHTML = `<tr><td colspan="6" style="text-align:center; padding: 2rem; color: #ef4444;">Failed to load master database: ${e.message}</td></tr>`;
+      });
+  }
+
+  function populateFilterDropdowns() {
+    const genres = new Set();
+    const countries = new Set();
+
+    allChannels.forEach(c => {
+      if (c.genre) genres.add(c.genre);
+      if (c.country) countries.add(c.country);
+    });
+
+    const currGenre = adminGenreSelect.value;
+    adminGenreSelect.innerHTML = '<option value="All">All Genres</option>';
+    Array.from(genres).sort().forEach(g => {
+      const opt = document.createElement('option');
+      opt.value = g;
+      opt.textContent = g;
+      adminGenreSelect.appendChild(opt);
+    });
+    if (currGenre) adminGenreSelect.value = currGenre;
+
+    const currCountry = adminCountrySelect.value;
+    adminCountrySelect.innerHTML = '<option value="All">All Countries</option>';
+    Array.from(countries).sort().forEach(c => {
+      const opt = document.createElement('option');
+      opt.value = c;
+      opt.textContent = c;
+      adminCountrySelect.appendChild(opt);
+    });
+    if (currCountry) adminCountrySelect.value = currCountry;
+  }
+
+  function filterAndRenderTable() {
+    const query = adminSearchInput.value.toLowerCase().trim();
+    const selGenre = adminGenreSelect.value;
+    const selCountry = adminCountrySelect.value;
+
+    filteredChannels = allChannels.filter(c => {
+      const matchQuery = !query || (c.name && c.name.toLowerCase().includes(query)) || (c.stream_url && c.stream_url.toLowerCase().includes(query));
+      const matchGenre = selGenre === 'All' || c.genre === selGenre;
+      const matchCountry = selCountry === 'All' || c.country === selCountry;
+      return matchQuery && matchGenre && matchCountry;
+    });
+
+    renderTablePage();
+  }
+
+  // Helper: Get clean 2-letter initials for channel logo fallbacks
+  function getChannelInitials(name) {
+    if (!name) return 'TV';
+    const clean = name.replace(/[^a-zA-Z0-9\s]/g, '').trim();
+    const words = clean.split(/\s+/).filter(w => w.length > 0);
+    if (words.length >= 2) {
+      return (words[0][0] + words[1][0]).toUpperCase();
+    }
+    return clean.substring(0, 2).toUpperCase() || 'TV';
+  }
+
+  // Helper: Generate deterministic retro gradient background based on channel name
+  function getChannelGradient(name) {
+    const gradients = [
+      'linear-gradient(135deg, #0055ea 0%, #0037a4 100%)',
+      'linear-gradient(135deg, #d32f2f 0%, #9a0007 100%)',
+      'linear-gradient(135deg, #2e7d32 0%, #005005 100%)',
+      'linear-gradient(135deg, #6a1b9a 0%, #38006b 100%)',
+      'linear-gradient(135deg, #e65100 0%, #ac1900 100%)',
+      'linear-gradient(135deg, #00838f 0%, #005662 100%)',
+      'linear-gradient(135deg, #283593 0%, #001064 100%)'
+    ];
+    let hash = 0;
+    for (let i = 0; i < (name || '').length; i++) {
+      hash = name.charCodeAt(i) + ((hash << 5) - hash);
+    }
+    const index = Math.abs(hash) % gradients.length;
+    return gradients[index];
+  }
+
+  // Render Admin Table Logo Cell matching main website badge fallback
+  function renderAdminLogoCell(ch) {
+    const initials = getChannelInitials(ch.name);
+    const gradient = getChannelGradient(ch.name);
+    const hasLogo = ch.thumbnail && ch.thumbnail.trim().length > 0 && !ch.thumbnail.includes('tv_thumbnail.jpg') && !ch.thumbnail.includes('default_image');
+
+    return `
+      <div style="width: 40px; height: 40px; border-radius: 4px; background:${gradient}; display: flex; align-items: center; justify-content: center; flex-shrink: 0; position: relative; overflow: hidden; font-weight: 800; color: #ffffff; font-size: 0.85rem; border: 1px solid rgba(0,0,0,0.2);">
+        ${initials}
+        ${hasLogo ? `<img src="${ch.thumbnail}" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; background: #ffffff; z-index: 2;" onerror="this.style.display='none';">` : ''}
+      </div>
+    `;
+  }
+
+  function renderTablePage() {
+    const totalPages = Math.ceil(filteredChannels.length / pageSize) || 1;
+    if (currentPage > totalPages) currentPage = totalPages;
+    if (currentPage < 1) currentPage = 1;
+
+    pageIndicator.textContent = `Page ${currentPage} of ${totalPages} (${filteredChannels.length.toLocaleString()} matching)`;
+    btnPrevPage.disabled = currentPage === 1;
+    btnNextPage.disabled = currentPage === totalPages;
+
+    const startIdx = (currentPage - 1) * pageSize;
+    const pageItems = filteredChannels.slice(startIdx, startIdx + pageSize);
+
+    if (pageItems.length === 0) {
+      adminTableBody.innerHTML = `<tr><td colspan="6" style="text-align:center; padding: 2rem; color: #666666;">No channels match the search filter.</td></tr>`;
+      return;
+    }
+
+    let html = '';
+    pageItems.forEach((ch) => {
+      const logoCell = renderAdminLogoCell(ch);
+      const safeId = encodeURIComponent(String(ch.id));
+      html += `
+        <tr>
+          <td>${logoCell}</td>
+          <td style="font-weight: 700; color: #111111;">${escapeHtml(ch.name)}</td>
+          <td><span class="badge-genre">${escapeHtml(ch.genre || 'General')}</span></td>
+          <td><span class="badge-country">${escapeHtml(ch.country || 'International')}</span></td>
+          <td style="font-family: monospace; font-size: 0.82rem; max-width: 280px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+            <a href="${escapeHtml(ch.stream_url)}" target="_blank" style="color: #0284c7; text-decoration: none;">${escapeHtml(ch.stream_url)}</a>
+          </td>
+          <td style="text-align: center;">
+            <button class="xp-button btn-play-ch" data-safe-id="${safeId}" style="padding: 0.25rem 0.6rem; font-size: 0.8rem; margin-right: 0.3rem; background: linear-gradient(to bottom, #2563eb 0%, #1d4ed8 100%); color: #fff;">▶️ Play</button>
+            <button class="xp-button btn-edit-ch" data-safe-id="${safeId}" style="padding: 0.25rem 0.6rem; font-size: 0.8rem; margin-right: 0.3rem;">✏️ Edit</button>
+            <button class="xp-button btn-del-ch" data-safe-id="${safeId}" style="padding: 0.25rem 0.6rem; font-size: 0.8rem; background: linear-gradient(to bottom, #ef4444 0%, #dc2626 100%); color: #fff;">🗑️</button>
+          </td>
+        </tr>
+      `;
+    });
+
+    adminTableBody.innerHTML = html;
+
+    // Row Event Listeners
+    document.querySelectorAll('.btn-play-ch').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const rawId = decodeURIComponent(btn.getAttribute('data-safe-id'));
+        playAdminStream(rawId);
+      });
+    });
+
+    document.querySelectorAll('.btn-edit-ch').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const rawId = decodeURIComponent(btn.getAttribute('data-safe-id'));
+        openEditModal(rawId);
+      });
+    });
+
+    document.querySelectorAll('.btn-del-ch').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const rawId = decodeURIComponent(btn.getAttribute('data-safe-id'));
+        deleteChannel(rawId);
+      });
+    });
+  }
+
+  // Play Stream in Admin Player
+  function playAdminStream(channelId) {
+    const ch = allChannels.find(c => String(c.id) === String(channelId));
+    if (!ch || !ch.stream_url) {
+      alert("Channel has no stream URL!");
+      return;
+    }
+
+    if (ch.stream_url.includes('youtube.com') || ch.stream_url.includes('youtu.be')) {
+      window.open(ch.stream_url, '_blank');
+      return;
+    }
+
+    adminPlayerWrapper.style.display = 'block';
+    adminPlayingChannelTitle.textContent = ch.name;
+    adminStreamStatusBadge.innerHTML = '● Connecting Stream...';
+    adminStreamStatusBadge.style.background = 'rgba(255,255,255,0.25)';
+
+    adminPlayerWrapper.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    if (typeof Hls !== 'undefined' && Hls.isSupported()) {
+      if (adminHlsInstance) {
+        adminHlsInstance.destroy();
+      }
+      adminHlsInstance = new Hls({
+        enableWorker: true,
+        lowLatencyMode: true,
+      });
+      adminHlsInstance.loadSource(ch.stream_url);
+      adminHlsInstance.attachMedia(adminVideoPlayer);
+      
+      adminHlsInstance.on(Hls.Events.MANIFEST_PARSED, () => {
+        adminVideoPlayer.play().then(() => {
+          adminStreamStatusBadge.innerHTML = '● Live Playing';
+          adminStreamStatusBadge.style.background = '#15803d';
+        }).catch(e => {
+          adminVideoPlayer.muted = true;
+          adminVideoPlayer.play();
+          adminStreamStatusBadge.innerHTML = '● Muted Autoplay';
+        });
+      });
+
+      adminHlsInstance.on(Hls.Events.ERROR, (event, data) => {
+        if (data.fatal) {
+          adminStreamStatusBadge.innerHTML = '⚠️ Stream Error / Offline';
+          adminStreamStatusBadge.style.background = '#b91c1c';
+        }
+      });
+    } else if (adminVideoPlayer.canPlayType('application/vnd.apple.mpegurl')) {
+      adminVideoPlayer.src = ch.stream_url;
+      adminVideoPlayer.play().then(() => {
+        adminStreamStatusBadge.innerHTML = '● Live Playing';
+        adminStreamStatusBadge.style.background = '#15803d';
+      }).catch(() => {
+        adminStreamStatusBadge.innerHTML = '⚠️ Stream Error / Offline';
+        adminStreamStatusBadge.style.background = '#b91c1c';
+      });
+    } else {
+      alert("HLS playback is not supported in this browser.");
+    }
+  }
+
+  // Close Admin Player
+  if (btnCloseAdminPlayer) {
+    btnCloseAdminPlayer.addEventListener('click', () => {
+      if (adminHlsInstance) {
+        adminHlsInstance.destroy();
+        adminHlsInstance = null;
+      }
+      adminVideoPlayer.pause();
+      adminVideoPlayer.src = '';
+      adminPlayerWrapper.style.display = 'none';
+    });
+  }
+
+  // Filter Listeners
+  adminSearchInput.addEventListener('input', () => {
+    currentPage = 1;
+    filterAndRenderTable();
+  });
+  adminGenreSelect.addEventListener('change', () => {
+    currentPage = 1;
+    filterAndRenderTable();
+  });
+  adminCountrySelect.addEventListener('change', () => {
+    currentPage = 1;
+    filterAndRenderTable();
+  });
+
+  btnPrevPage.addEventListener('click', () => {
+    if (currentPage > 1) {
+      currentPage--;
+      renderTablePage();
+    }
+  });
+
+  btnNextPage.addEventListener('click', () => {
+    const totalPages = Math.ceil(filteredChannels.length / pageSize);
+    if (currentPage < totalPages) {
+      currentPage++;
+      renderTablePage();
+    }
+  });
+
+  // Copy M3U Link
+  const btnCopyM3uLink = document.getElementById('btnCopyM3uLink');
+  if (btnCopyM3uLink) {
+    btnCopyM3uLink.addEventListener('click', () => {
+      const playlistUrl = `${location.origin}/playlist.m3u`;
+      navigator.clipboard.writeText(playlistUrl).then(() => {
+        alert(`📋 M3U Playlist Link copied to clipboard:\n\n${playlistUrl}\n\nYou can paste this link into VLC Media Player, TiviMate, IPTV Smarters, OTT Navigator, or any M3U player!`);
+      }).catch(() => {
+        prompt("Copy your live M3U playlist link:", playlistUrl);
+      });
+    });
+  }
+
+  // Modal Handling
+  function openEditModal(channelId) {
+    const ch = allChannels.find(c => String(c.id) === String(channelId));
+    if (!ch) {
+      alert("Could not locate channel record for ID: " + channelId);
+      return;
+    }
+
+    modalTitle.textContent = `Edit Channel: ${ch.name}`;
+    editChannelId.value = String(ch.id);
+    editName.value = ch.name || "";
+    
+    let genreFound = false;
+    for (let opt of editGenre.options) {
+      if (opt.value === ch.genre) {
+        genreFound = true;
+        break;
+      }
+    }
+    if (!genreFound && ch.genre) {
+      const newOpt = document.createElement('option');
+      newOpt.value = ch.genre;
+      newOpt.textContent = ch.genre;
+      editGenre.appendChild(newOpt);
+    }
+    editGenre.value = ch.genre || "Entertainment";
+
+    editCountry.value = ch.country || "India";
+    editStreamUrl.value = ch.stream_url || "";
+    editThumbnail.value = ch.thumbnail || "";
+
+    if (ch.thumbnail) {
+      previewLogo.src = ch.thumbnail;
+      previewLogo.style.display = "block";
+    } else {
+      previewLogo.style.display = "none";
+    }
+
+    editModal.style.display = 'flex';
+  }
+
+  btnAddNewChannel.addEventListener('click', () => {
+    modalTitle.textContent = "Add New Channel";
+    editChannelId.value = "new_" + Date.now();
+    editName.value = "";
+    editGenre.value = "Entertainment";
+    editCountry.value = "India";
+    editStreamUrl.value = "";
+    editThumbnail.value = "";
+    previewLogo.style.display = "none";
+    editModal.style.display = 'flex';
+  });
+
+  function closeModal() {
+    editModal.style.display = 'none';
+  }
+
+  if (btnCancelEdit) btnCancelEdit.addEventListener('click', closeModal);
+  if (btnCloseModalX) btnCloseModalX.addEventListener('click', closeModal);
+
+  editThumbnail.addEventListener('input', () => {
+    if (editThumbnail.value.trim()) {
+      previewLogo.src = editThumbnail.value.trim();
+      previewLogo.style.display = "block";
+    } else {
+      previewLogo.style.display = "none";
+    }
+  });
+
+  btnSaveChannel.addEventListener('click', () => {
+    const id = editChannelId.value;
+    const name = editName.value.trim();
+    const genre = editGenre.value.trim();
+    const country = editCountry.value.trim();
+    const stream_url = editStreamUrl.value.trim();
+    const thumbnail = editThumbnail.value.trim();
+
+    if (!name || !stream_url) {
+      alert("Channel Name and Stream URL are required!");
+      return;
+    }
+
+    let existing = allChannels.find(c => String(c.id) === String(id));
+    if (existing) {
+      existing.name = name;
+      existing.genre = genre;
+      existing.country = country;
+      existing.stream_url = stream_url;
+      existing.thumbnail = thumbnail;
+    } else {
+      const newCh = {
+        id: id,
+        name: name,
+        genre: genre,
+        country: country,
+        stream_url: stream_url,
+        stream_from: stream_url.includes('youtube') ? 'youtube' : 'hls',
+        thumbnail: thumbnail,
+        poster: ''
+      };
+      allChannels.unshift(newCh);
+    }
+
+    closeModal();
+    statChannelCount.textContent = `● ${allChannels.length.toLocaleString()} Channels (unsaved edits)`;
+    populateFilterDropdowns();
+    filterAndRenderTable();
+  });
+
+  function deleteChannel(channelId) {
+    const ch = allChannels.find(c => String(c.id) === String(channelId));
+    if (!ch) return;
+
+    if (confirm(`Are you sure you want to delete channel "${ch.name}"?`)) {
+      allChannels = allChannels.filter(c => String(c.id) !== String(channelId));
+      statChannelCount.textContent = `● ${allChannels.length.toLocaleString()} Channels (unsaved edits)`;
+      populateFilterDropdowns();
+      filterAndRenderTable();
+    }
+  }
+
+  // Publish via GitHub API using secure token from Firestore (never in source code)
+  btnSaveGithub.addEventListener('click', async () => {
+    if (!window.firebaseAuth || !window.firebaseAuth.auth.currentUser) {
+      alert("Please login first.");
+      return;
+    }
+
+    btnSaveGithub.disabled = true;
+    btnSaveGithub.textContent = "Publishing...";
+
+    try {
+      // Fetch GitHub token securely from Firestore (only authenticated admins can read)
+      const { db, doc, getDoc } = window.firebaseDb;
+      const secretDoc = await getDoc(doc(db, "admin_secrets", "github"));
+      if (!secretDoc.exists() || !secretDoc.data().token) {
+        throw new Error("GitHub token not found in Firestore. Add it to admin_secrets/github.token in Firebase Console.");
+      }
+      const ghToken = secretDoc.data().token;
+      const repo = "joelgomes001/IPTV-Player";
+
+      async function commitFile(filePath, content, msg) {
+        const apiUrl = `https://api.github.com/repos/${repo}/contents/${filePath}`;
+        let sha = null;
+        try {
+          const r = await fetch(apiUrl, { headers: { 'Authorization': `token ${ghToken}` } });
+          if (r.ok) sha = (await r.json()).sha;
+        } catch(e) {}
+
+        const bytes = new TextEncoder().encode(content);
+        let bin = '';
+        for (let i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i]);
+        const payload = { message: msg, content: btoa(bin) };
+        if (sha) payload.sha = sha;
+
+        const res = await fetch(apiUrl, {
+          method: 'PUT',
+          headers: { 'Authorization': `token ${ghToken}`, 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        if (!res.ok) throw new Error((await res.json()).message || `Failed to commit ${filePath}`);
+      }
+
+      // Generate M3U playlist
+      function genM3u() {
+        const lines = ['#EXTM3U'];
+        allChannels.forEach((ch, idx) => {
+          const name = ch.name || 'Live Channel';
+          const genre = ch.genre || 'General';
+          const country = ch.country || 'International';
+          const logo = ch.thumbnail || '';
+          const url = ch.stream_url || '';
+          if (url) {
+            const group = country !== 'International' ? `${country} - ${genre}` : genre;
+            lines.push(`#EXTINF:-1 tvg-id="${ch.id || idx}" tvg-name="${name}" tvg-logo="${logo}" group-title="${group}",${name}`);
+            lines.push(url);
+          }
+        });
+        return lines.join('\n');
+      }
+
+      const jsonStr = JSON.stringify(allChannels, null, 2);
+      const m3uStr = genM3u();
+
+      // Commit sequentially to avoid GitHub SHA conflicts
+      await commitFile('website/channels.json', jsonStr, `Admin: update ${allChannels.length} channels`);
+      await commitFile('website/playlist.m3u', m3uStr, `Admin: update playlist.m3u`);
+
+      statChannelCount.textContent = `● ${allChannels.length.toLocaleString()} Channels`;
+      alert(`🎉 SUCCESS! ${allChannels.length.toLocaleString()} channels published live!`);
+    } catch (e) {
+      alert(`Publish Error: ${e.message}`);
+    } finally {
+      btnSaveGithub.disabled = false;
+      btnSaveGithub.textContent = "💾 Save & Publish Database";
+    }
+  });
+
+  function escapeHtml(str) {
+    if (!str) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
+  }
+
+  // Initialize
+  initFirebaseAuth();
+
+})();
