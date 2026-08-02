@@ -11,6 +11,8 @@
   let currentPage = 1;
   const pageSize = 50;
 
+  let adminHlsInstance = null;
+
   // DOM Elements
   const loginOverlay = document.getElementById('loginOverlay');
   const adminPasswordInput = document.getElementById('adminPasswordInput');
@@ -29,6 +31,13 @@
   const btnPrevPage = document.getElementById('btnPrevPage');
   const btnNextPage = document.getElementById('btnNextPage');
   const pageIndicator = document.getElementById('pageIndicator');
+
+  // Player Elements
+  const adminPlayerWrapper = document.getElementById('adminPlayerWrapper');
+  const adminPlayingChannelTitle = document.getElementById('adminPlayingChannelTitle');
+  const adminStreamStatusBadge = document.getElementById('adminStreamStatusBadge');
+  const adminVideoPlayer = document.getElementById('adminVideoPlayer');
+  const btnCloseAdminPlayer = document.getElementById('btnCloseAdminPlayer');
 
   // Modal Elements
   const editModal = document.getElementById('editModal');
@@ -99,7 +108,6 @@
       if (c.country) countries.add(c.country);
     });
 
-    // Populate Genre Filter
     const currGenre = adminGenreSelect.value;
     adminGenreSelect.innerHTML = '<option value="All">All Genres</option>';
     Array.from(genres).sort().forEach(g => {
@@ -110,7 +118,6 @@
     });
     if (currGenre) adminGenreSelect.value = currGenre;
 
-    // Populate Country Filter
     const currCountry = adminCountrySelect.value;
     adminCountrySelect.innerHTML = '<option value="All">All Countries</option>';
     Array.from(countries).sort().forEach(c => {
@@ -155,7 +162,7 @@
     }
 
     let html = '';
-    pageItems.forEach((ch, idx) => {
+    pageItems.forEach((ch) => {
       const thumb = ch.thumbnail || 'logo.png';
       const safeId = encodeURIComponent(String(ch.id));
       html += `
@@ -168,6 +175,7 @@
             <a href="${escapeHtml(ch.stream_url)}" target="_blank" style="color: #0284c7; text-decoration: none;">${escapeHtml(ch.stream_url)}</a>
           </td>
           <td style="text-align: center;">
+            <button class="xp-button btn-play-ch" data-safe-id="${safeId}" style="padding: 0.25rem 0.6rem; font-size: 0.8rem; margin-right: 0.3rem; background: linear-gradient(to bottom, #2563eb 0%, #1d4ed8 100%); color: #fff;">▶️ Play</button>
             <button class="xp-button btn-edit-ch" data-safe-id="${safeId}" style="padding: 0.25rem 0.6rem; font-size: 0.8rem; margin-right: 0.3rem;">✏️ Edit</button>
             <button class="xp-button btn-del-ch" data-safe-id="${safeId}" style="padding: 0.25rem 0.6rem; font-size: 0.8rem; background: linear-gradient(to bottom, #ef4444 0%, #dc2626 100%); color: #fff;">🗑️</button>
           </td>
@@ -177,7 +185,15 @@
 
     adminTableBody.innerHTML = html;
 
-    // Attach row event listeners
+    // Row Event Listeners
+    document.querySelectorAll('.btn-play-ch').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const rawId = decodeURIComponent(btn.getAttribute('data-safe-id'));
+        playAdminStream(rawId);
+      });
+    });
+
     document.querySelectorAll('.btn-edit-ch').forEach(btn => {
       btn.addEventListener('click', (e) => {
         e.preventDefault();
@@ -192,6 +208,81 @@
         const rawId = decodeURIComponent(btn.getAttribute('data-safe-id'));
         deleteChannel(rawId);
       });
+    });
+  }
+
+  // Play Stream in Admin Player
+  function playAdminStream(channelId) {
+    const ch = allChannels.find(c => String(c.id) === String(channelId));
+    if (!ch || !ch.stream_url) {
+      alert("Channel has no stream URL!");
+      return;
+    }
+
+    if (ch.stream_url.includes('youtube.com') || ch.stream_url.includes('youtu.be')) {
+      window.open(ch.stream_url, '_blank');
+      return;
+    }
+
+    adminPlayerWrapper.style.display = 'block';
+    adminPlayingChannelTitle.textContent = ch.name;
+    adminStreamStatusBadge.innerHTML = '● Connecting Stream...';
+    adminStreamStatusBadge.style.background = 'rgba(255,255,255,0.25)';
+
+    adminPlayerWrapper.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    if (typeof Hls !== 'undefined' && Hls.isSupported()) {
+      if (adminHlsInstance) {
+        adminHlsInstance.destroy();
+      }
+      adminHlsInstance = new Hls({
+        enableWorker: true,
+        lowLatencyMode: true,
+      });
+      adminHlsInstance.loadSource(ch.stream_url);
+      adminHlsInstance.attachMedia(adminVideoPlayer);
+      
+      adminHlsInstance.on(Hls.Events.MANIFEST_PARSED, () => {
+        adminVideoPlayer.play().then(() => {
+          adminStreamStatusBadge.innerHTML = '● Live Playing';
+          adminStreamStatusBadge.style.background = '#15803d';
+        }).catch(e => {
+          adminVideoPlayer.muted = true;
+          adminVideoPlayer.play();
+          adminStreamStatusBadge.innerHTML = '● Muted Autoplay';
+        });
+      });
+
+      adminHlsInstance.on(Hls.Events.ERROR, (event, data) => {
+        if (data.fatal) {
+          adminStreamStatusBadge.innerHTML = '⚠️ Stream Error / Offline';
+          adminStreamStatusBadge.style.background = '#b91c1c';
+        }
+      });
+    } else if (adminVideoPlayer.canPlayType('application/vnd.apple.mpegurl')) {
+      adminVideoPlayer.src = ch.stream_url;
+      adminVideoPlayer.play().then(() => {
+        adminStreamStatusBadge.innerHTML = '● Live Playing';
+        adminStreamStatusBadge.style.background = '#15803d';
+      }).catch(() => {
+        adminStreamStatusBadge.innerHTML = '⚠️ Stream Error / Offline';
+        adminStreamStatusBadge.style.background = '#b91c1c';
+      });
+    } else {
+      alert("HLS playback is not supported in this browser.");
+    }
+  }
+
+  // Close Admin Player
+  if (btnCloseAdminPlayer) {
+    btnCloseAdminPlayer.addEventListener('click', () => {
+      if (adminHlsInstance) {
+        adminHlsInstance.destroy();
+        adminHlsInstance = null;
+      }
+      adminVideoPlayer.pause();
+      adminVideoPlayer.src = '';
+      adminPlayerWrapper.style.display = 'none';
     });
   }
 
@@ -249,7 +340,6 @@
     editChannelId.value = String(ch.id);
     editName.value = ch.name || "";
     
-    // Ensure genre option exists in edit select
     let genreFound = false;
     for (let opt of editGenre.options) {
       if (opt.value === ch.genre) {
