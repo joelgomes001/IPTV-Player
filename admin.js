@@ -554,10 +554,9 @@
       const jsonStr = JSON.stringify(allChannels, null, 2);
       const m3uStr = genM3u();
 
-      await Promise.all([
-        commitFile('website/channels.json', jsonStr, `Admin: update ${allChannels.length} channels`),
-        commitFile('website/playlist.m3u', m3uStr, `Admin: update playlist.m3u`)
-      ]);
+      // Commit sequentially to avoid GitHub SHA conflicts
+      await commitFile('website/channels.json', jsonStr, `Admin: update ${allChannels.length} channels`);
+      await commitFile('website/playlist.m3u', m3uStr, `Admin: update playlist.m3u`);
 
       statChannelCount.textContent = `● ${allChannels.length.toLocaleString()} Channels`;
       alert(`🎉 SUCCESS! ${allChannels.length.toLocaleString()} channels published live!`);
