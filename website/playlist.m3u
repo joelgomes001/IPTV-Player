@@ -32373,7 +32373,7 @@ https://stream.elektamedia.com/live/c7eds/Primired/SA_LIVE_hls_enc/master.m3u8
 https://iptv.prosto.tv/ch134/tracks-v2a1/1.m3u8?21yo=1&live=1&ip=104.28.156.59&id=742347&secret=vu2y5m72&ses=ca0cfbf5db9d8003&uid=vu2y5m72&cs_track=false&e=1782900912&st=j-Ja2visdxrjH_8haQZjNg
 #EXTINF:-1 tvg-id="16278" tvg-name="Svarozhichi UA" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/svarozhichiua.png" group-title="Pakistan - General",Svarozhichi UA
 https://iptv.prosto.tv/ch168/tracks-v1a1/mono.m3u8?live=1&ip=178.136.40.86&id=742347&secret=vu2y5m72&21yo=0&e=1782894916&st=mHrJrPX41-PBgjNh_gwuqA
-#EXTINF:-1 tvg-id="16279" tvg-name="Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="United States - Kids",Cartoon Network
+#EXTINF:-1 tvg-id="16279" tvg-name="Cartoon Network" tvg-logo="https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2025/04/15180709/CartoonNetwork_NavLogo_120x72_NEW.jpg" group-title="United States - Kids",Cartoon Network
 http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="16280" tvg-name="MotoGP Channel" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/motogpchannel.png" group-title="United States - General",MotoGP Channel
 https://amg12058-c15studio-amg12058c13-lg-us-9277.playouts.now.amagi.tv/playlist.m3u8
