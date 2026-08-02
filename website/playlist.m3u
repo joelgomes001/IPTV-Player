@@ -9,7 +9,7 @@ https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
 https://vodzong.mjunoon.tv:8087/streamtest/8XM-131/playlist.m3u8
 #EXTINF:-1 tvg-id="310" tvg-name="Mazhavil Manorama HD" tvg-logo="https://i.imgur.com/fjgzW20.png" group-title="India - Entertainment",Mazhavil Manorama HD
 https://mumt07.tangotv.in/zHjX9OFlMAZHAVILMANORAMAHD/index.m3u8
-#EXTINF:-1 tvg-id="303" tvg-name="AsthaTv HD" tvg-logo="https://asthatv.com/wp-content/uploads/2026/02/Logo-Astha.png" group-title="India - Religious",AsthaTv HD
+#EXTINF:-1 tvg-id="303" tvg-name="AsthaTv HD" tvg-logo="https://asthatv.com/wp-content/uploads/2026/02/Logo-Astha.png" group-title="Turkey - Religious",AsthaTv HD
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/index.m3u8
 #EXTINF:-1 tvg-id="301" tvg-name="Constanza Tv HD" tvg-logo="https://i.imgur.com/4uV90gw.png" group-title="Canada - Entertainment",Constanza Tv HD
 https://live20.bozztv.com/akamaissh101/ssh101/ctv8hd/playlist.m3u8
@@ -32602,7 +32602,7 @@ http://mmn.mypsx.net:1935/live/mmnhdradioturky/playlist.m3u8
 #EXTINF:-1 tvg-id="16392" tvg-name="TCM GR" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/tcmgr.png" group-title="United States - Movies",TCM GR
 http://185.102.171.218/TCM/index.m3u8
 #EXTINF:-1 tvg-id="16393" tvg-name="Adult Swim" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/adultswim.png" group-title="United States - Entertainment",Adult Swim
-http://206.212.244.63/6132/index.m3u8
+https://206.212.244.63/6132/index.m3u8
 #EXTINF:-1 tvg-id="16394" tvg-name="Boomerang" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Boomerang_2014_logo.svg/512px-Boomerang_2014_logo.svg.png" group-title="India - Kids",Boomerang
 http://206.212.244.63/642/index.m3u8
 #EXTINF:-1 tvg-id="16395" tvg-name="Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="United States - Kids",Cartoon Network
