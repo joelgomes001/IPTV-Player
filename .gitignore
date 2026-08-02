@@ -17,3 +17,14 @@ Thumbs.db
 scratch/
 temp/
 *.log
+
+# Root Web Files (Ignored on GitHub - keeping only App & Database)
+/admin.html
+/admin.js
+/app.js
+/index.html
+/styles.css
+/logo.jpg
+/logo.png
+/m3u8_playlists.txt
+/project-context.md
