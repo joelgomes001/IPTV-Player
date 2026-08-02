@@ -1,11 +1,5 @@
-// Admin Dashboard JavaScript Logic for JTBS IPTV
+// Firebase Authenticated Admin Dashboard JavaScript Logic for JTBS IPTV
 (function() {
-  const ADMIN_PASS = "jtbs2026"; // Admin Login Password
-  
-  // Pre-configured GitHub Admin Access Token for zero-prompt instant live publishing
-  const GITHUB_ADMIN_TOKEN = ["gho_", "4StVN2YL9", "EYkBSoNheI7LA", "77V1a5LG14dpQa"].join("");
-  const GITHUB_REPO_PATH = "joelgomes001/IPTV-Player";
-
   let allChannels = [];
   let filteredChannels = [];
   let currentPage = 1;
@@ -15,6 +9,7 @@
 
   // DOM Elements
   const loginOverlay = document.getElementById('loginOverlay');
+  const adminEmailInput = document.getElementById('adminEmailInput');
   const adminPasswordInput = document.getElementById('adminPasswordInput');
   const btnLogin = document.getElementById('btnLogin');
   const loginError = document.getElementById('loginError');
@@ -53,26 +48,57 @@
   const btnCloseModalX = document.getElementById('btnCloseModalX');
   const btnSaveChannel = document.getElementById('btnSaveChannel');
 
-  // Check Login Session
-  function checkSession() {
-    const auth = sessionStorage.getItem('jtbs_admin_auth');
-    if (auth === 'true') {
-      loginOverlay.style.display = 'none';
-      loadMasterDatabase();
-    } else {
-      loginOverlay.style.display = 'flex';
+  // Listen to Firebase Auth state
+  function initFirebaseAuth() {
+    if (!window.firebaseAuth) {
+      setTimeout(initFirebaseAuth, 100);
+      return;
     }
+
+    const { auth, onAuthStateChanged } = window.firebaseAuth;
+
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        loginOverlay.style.display = 'none';
+        loginError.style.display = 'none';
+        loadMasterDatabase();
+      } else {
+        loginOverlay.style.display = 'flex';
+      }
+    });
   }
 
-  // Handle Login
+  // Handle Firebase Email/Password Login
   btnLogin.addEventListener('click', () => {
-    if (adminPasswordInput.value === ADMIN_PASS) {
-      sessionStorage.setItem('jtbs_admin_auth', 'true');
-      loginOverlay.style.display = 'none';
-      loadMasterDatabase();
-    } else {
+    const email = adminEmailInput.value.trim();
+    const password = adminPasswordInput.value.trim();
+
+    if (!email || !password) {
+      loginError.textContent = "Please enter both admin email and password.";
       loginError.style.display = 'block';
+      return;
     }
+
+    if (!window.firebaseAuth) return;
+    const { auth, signInWithEmailAndPassword } = window.firebaseAuth;
+
+    btnLogin.disabled = true;
+    btnLogin.textContent = "Authenticating with Firebase...";
+
+    signInWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+        loginOverlay.style.display = 'none';
+        loginError.style.display = 'none';
+        loadMasterDatabase();
+      })
+      .catch((error) => {
+        loginError.textContent = `Auth error: ${error.message}`;
+        loginError.style.display = 'block';
+      })
+      .finally(() => {
+        btnLogin.disabled = false;
+        btnLogin.textContent = "Login with Firebase Auth";
+      });
   });
 
   adminPasswordInput.addEventListener('keyup', (e) => {
@@ -80,12 +106,32 @@
   });
 
   btnLogout.addEventListener('click', () => {
-    sessionStorage.removeItem('jtbs_admin_auth');
-    location.reload();
+    if (!window.firebaseAuth) return;
+    const { auth, signOut } = window.firebaseAuth;
+    signOut(auth).then(() => {
+      location.reload();
+    });
   });
 
-  // Load Database
-  function loadMasterDatabase() {
+  // Load Master Database from Firestore or JSON fallback
+  async function loadMasterDatabase() {
+    try {
+      if (window.firebaseDb) {
+        const { db, doc, getDoc } = window.firebaseDb;
+        const docRef = doc(db, "metadata", "channels");
+        const docSnap = await getDoc(docRef);
+        if (docSnap.exists() && docSnap.data().channels) {
+          allChannels = docSnap.data().channels;
+          statChannelCount.textContent = `● ${allChannels.length.toLocaleString()} Channels`;
+          populateFilterDropdowns();
+          filterAndRenderTable();
+          return;
+        }
+      }
+    } catch(e) {
+      console.log("Firestore load notice, falling back to channels.json:", e);
+    }
+
     fetch(`channels.json?_t=${Date.now()}`, { cache: 'no-cache' })
       .then(r => r.json())
       .then(data => {
@@ -95,7 +141,7 @@
         filterAndRenderTable();
       })
       .catch(e => {
-        adminTableBody.innerHTML = `<tr><td colspan="6" style="text-align:center; padding: 2rem; color: #ef4444;">Failed to load channels.json: ${e.message}</td></tr>`;
+        adminTableBody.innerHTML = `<tr><td colspan="6" style="text-align:center; padding: 2rem; color: #ef4444;">Failed to load master database: ${e.message}</td></tr>`;
       });
   }
 
@@ -435,8 +481,6 @@
     statChannelCount.textContent = `● ${allChannels.length.toLocaleString()} Channels`;
     populateFilterDropdowns();
     filterAndRenderTable();
-    
-    // Auto-Publish Changes directly on Save Channel!
     btnSaveGithub.click();
   });
 
@@ -453,78 +497,28 @@
     }
   }
 
-  // Generate M3U content string
-  function generateM3uContent(channelsList) {
-    const lines = ["#EXTM3U"];
-    channelsList.forEach((ch, idx) => {
-      const name = ch.name || 'Live Channel';
-      const genre = ch.genre || 'General';
-      const country = ch.country || 'International';
-      const logo = ch.thumbnail || '';
-      const url = ch.stream_url || '';
-      if (url) {
-        const group = country !== 'International' ? `${country} - ${genre}` : genre;
-        lines.push(`#EXTINF:-1 tvg-id="${ch.id || idx}" tvg-name="${name}" tvg-logo="${logo}" group-title="${group}",${name}`);
-        lines.push(url);
-      }
-    });
-    return lines.join('\n');
-  }
-
-  // Single-Click Instant Live Publishing (Zero Prompts, Zero Password Requests)
+  // Save & Publish Database to Firebase Firestore (Protected by Firebase Auth)
   btnSaveGithub.addEventListener('click', async () => {
+    if (!window.firebaseAuth || !window.firebaseAuth.auth.currentUser) {
+      alert("Please login via Firebase Admin Authentication first.");
+      return;
+    }
+
     btnSaveGithub.disabled = true;
-    btnSaveGithub.textContent = "Publishing Changes...";
+    btnSaveGithub.textContent = "Publishing to Firebase...";
 
     try {
-      async function commitFileToGithub(filePath, contentString, commitMessage) {
-        const apiUrl = `https://api.github.com/repos/${GITHUB_REPO_PATH}/contents/${filePath}`;
-        let sha = null;
-        try {
-          const getRes = await fetch(apiUrl, { headers: { 'Authorization': `token ${GITHUB_ADMIN_TOKEN}` } });
-          if (getRes.ok) {
-            const getData = await getRes.json();
-            sha = getData.sha;
-          }
-        } catch(e) {}
-
-        const bytes = new TextEncoder().encode(contentString);
-        let binaryStr = '';
-        for (let i = 0; i < bytes.length; i++) {
-          binaryStr += String.fromCharCode(bytes[i]);
-        }
-        const base64Content = btoa(binaryStr);
-
-        const payload = {
-          message: commitMessage,
-          content: base64Content
-        };
-        if (sha) payload.sha = sha;
-
-        const putRes = await fetch(apiUrl, {
-          method: 'PUT',
-          headers: {
-            'Authorization': `token ${GITHUB_ADMIN_TOKEN}`,
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify(payload)
+      if (window.firebaseDb) {
+        const { db, doc, setDoc } = window.firebaseDb;
+        const docRef = doc(db, "metadata", "channels");
+        await setDoc(docRef, {
+          channels: allChannels,
+          updated_at: new Date().toISOString()
         });
-
-        if (!putRes.ok) {
-          const errData = await putRes.json();
-          throw new Error(errData.message || `Failed to commit ${filePath}`);
-        }
+        alert("🎉 SUCCESS! Master database saved to Firebase. All Web & App users will see your updated channels live!");
+      } else {
+        throw new Error("Firebase Firestore SDK not loaded");
       }
-
-      // 1. Publish website/channels.json
-      const jsonStr = JSON.stringify(allChannels, null, 2);
-      await commitFileToGithub("website/channels.json", jsonStr, `Admin Portal: Live update (${allChannels.length} channels)`);
-
-      // 2. Publish website/playlist.m3u
-      const m3uStr = generateM3uContent(allChannels);
-      await commitFileToGithub("website/playlist.m3u", m3uStr, `Admin Portal: Live update playlist.m3u (${allChannels.length} channels)`);
-
-      alert("🎉 SUCCESS! Channel edits published live! Both the Web Player and Android App will load your updated channels instantly.");
     } catch (e) {
       alert(`Publish Error: ${e.message}`);
     } finally {
@@ -544,6 +538,6 @@
   }
 
   // Initialize
-  checkSession();
+  initFirebaseAuth();
 
 })();

@@ -288,17 +288,33 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Load Master Database from GitHub / Server
+  // Load Master Database from Firebase Firestore / Server
   const PRIMARY_DB_URL = `https://raw.githubusercontent.com/joelgomes001/IPTV-Player/main/website/channels.json?_t=${Date.now()}`;
 
-  function loadLiveChannels() {
+  async function loadLiveChannels() {
     statusBadge.innerHTML = `<span style="color:#fef08a;">● Syncing with Server...</span>`;
 
+    try {
+      if (window.firebaseDb && window.firestoreTools) {
+        const db = window.firebaseDb;
+        const { doc, getDoc } = window.firestoreTools;
+        const docRef = doc(db, "metadata", "channels");
+        const snap = await getDoc(docRef);
+        if (snap.exists() && snap.data().channels) {
+          allChannels = snap.data().channels;
+          statusBadge.innerHTML = `<span style="color:#ffffff;">● Synced (${allChannels.length.toLocaleString()} Channels)</span>`;
+          populateFilterSelects();
+          renderSidebarCountries();
+          renderSidebarGenres();
+          filterAndRender();
+          showToast(`Sync complete! Loaded ${allChannels.length.toLocaleString()} channels from live database.`);
+          return;
+        }
+      }
+    } catch(e) {}
+
     fetch(PRIMARY_DB_URL, { cache: 'no-cache' })
-      .then(r => {
-        if (!r.ok) throw new Error('GitHub raw fetch status ' + r.status);
-        return r.json();
-      })
+      .then(r => r.json())
       .catch(() => fetch(`channels.json?_t=${Date.now()}`, { cache: 'no-cache' }).then(r => r.json()))
       .then(baseChannels => {
         allChannels = baseChannels;
@@ -311,7 +327,7 @@ document.addEventListener('DOMContentLoaded', () => {
         showToast(`Sync complete! Loaded ${allChannels.length.toLocaleString()} channels from server.`);
       })
       .catch(e => {
-        console.error('Failed to load channels.json:', e);
+        console.error('Failed to load channels:', e);
         channelsGrid.innerHTML = `<div style="text-align:center; grid-column: 1/-1; padding: 2rem; color: #d32f2f;">Failed to load channel data.</div>`;
       });
   }

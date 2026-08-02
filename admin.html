@@ -7,8 +7,34 @@
   <title>Indian & Global IPTVs - Channel Admin</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="styles.css">
+  
   <!-- HLS.js CDN for live stream health testing -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+
+  <!-- Firebase App, Auth & Firestore SDKs -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+    import { getAuth, signInWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
+    import { getFirestore, doc, getDoc, setDoc } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyC_1eSe9vAO_nprRNh5mYoxTUkt3UGLOoc",
+      authDomain: "classic-iptv.firebaseapp.com",
+      projectId: "classic-iptv",
+      storageBucket: "classic-iptv.firebasestorage.app",
+      messagingSenderId: "699344040730",
+      appId: "1:699344040730:web:2cffc369663b630573b2a3",
+      measurementId: "G-7XDVWV703Q"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const db = getFirestore(app);
+
+    window.firebaseAuth = { auth, signInWithEmailAndPassword, signOut, onAuthStateChanged };
+    window.firebaseDb = { db, doc, getDoc, setDoc };
+  </script>
+
   <style>
     /* Admin Specific Extensions matching website design */
     .admin-login-card {
@@ -18,7 +44,7 @@
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
       padding: 2.5rem;
       width: 100%;
-      max-width: 400px;
+      max-width: 420px;
       text-align: center;
     }
 
@@ -119,13 +145,22 @@
   <div id="loginOverlay" style="position: fixed; inset: 0; background: rgba(0, 0, 0, 0.75); backdrop-filter: blur(5px); display: flex; align-items: center; justify-content: center; z-index: 99999;">
     <div class="admin-login-card">
       <div class="xp-title-bar" style="margin: -2.5rem -2.5rem 1.5rem -2.5rem; padding: 0.6rem 1rem; border-top-left-radius: 6px; border-top-right-radius: 6px; font-weight: 700;">
-        🔒 JTBS IPTV Admin Authentication
+        🔒 Firebase Admin Authentication
       </div>
-      <p style="color: #555555; font-size: 0.9rem; margin-bottom: 1.5rem;">Enter Admin Password to manage channels</p>
+      <p style="color: #555555; font-size: 0.88rem; margin-bottom: 1.25rem;">Sign in with Firebase Admin credentials</p>
       
-      <input type="password" id="adminPasswordInput" class="xp-input" style="width: 100%; margin-bottom: 1rem; padding: 0.65rem 0.85rem;" placeholder="Enter Admin Password" autocomplete="current-password">
-      <button id="btnLogin" class="xp-button sync-btn" style="width: 100%; padding: 0.65rem; justify-content: center; font-size: 0.95rem;">Login to Admin Panel</button>
-      <div id="loginError" style="color: var(--xp-accent-red); font-size: 0.85rem; margin-top: 1rem; display: none; font-weight: 600;">Incorrect password!</div>
+      <div style="text-align: left; margin-bottom: 0.85rem;">
+        <label style="font-size: 0.8rem; font-weight: 700; color: #444; display: block; margin-bottom: 0.25rem;">Admin Email</label>
+        <input type="email" id="adminEmailInput" class="xp-input" style="width: 100%; padding: 0.6rem 0.85rem;" placeholder="admin@jtbs.com" value="admin@jtbs.com">
+      </div>
+
+      <div style="text-align: left; margin-bottom: 1.25rem;">
+        <label style="font-size: 0.8rem; font-weight: 700; color: #444; display: block; margin-bottom: 0.25rem;">Admin Password</label>
+        <input type="password" id="adminPasswordInput" class="xp-input" style="width: 100%; padding: 0.6rem 0.85rem;" placeholder="Enter password" autocomplete="current-password">
+      </div>
+
+      <button id="btnLogin" class="xp-button sync-btn" style="width: 100%; padding: 0.65rem; justify-content: center; font-size: 0.95rem; background: linear-gradient(to bottom, #0058ee 0%, #0046cd 100%); color: #fff; font-weight: 700;">Login with Firebase Auth</button>
+      <div id="loginError" style="color: var(--xp-accent-red); font-size: 0.85rem; margin-top: 1rem; display: none; font-weight: 600;">Authentication failed! Check email and password.</div>
     </div>
   </div>
 
@@ -136,7 +171,7 @@
         <div class="brand-icon">
           <img src="logo.png" alt="Indian & Global IPTVs" style="width: 22px; height: 22px; object-fit: contain; display: block;">
         </div>
-        <span class="brand-title">Indian & Global IPTVs — Admin</span>
+        <span class="brand-title">Indian & Global IPTVs — Firebase Admin</span>
       </div>
 
       <div id="statusBadge" class="status-badge">
@@ -153,11 +188,11 @@
         <span>📥 Download M3U</span>
       </a>
 
-      <button id="btnSaveGithub" class="xp-button sync-btn" style="background: linear-gradient(to bottom, #2e7d32 0%, #1b5e20 100%); color: #fff; font-weight: 700;" title="Save and publish database changes live instantly">
+      <button id="btnSaveGithub" class="xp-button sync-btn" style="background: linear-gradient(to bottom, #2e7d32 0%, #1b5e20 100%); color: #fff; font-weight: 700;" title="Save and publish database changes live instantly to Firebase">
         <span>💾 Save & Publish Database</span>
       </button>
 
-      <button id="btnLogout" class="xp-button sync-btn" style="background: linear-gradient(to bottom, #d32f2f 0%, #9a0007 100%); color: #fff;" title="Logout from Admin">
+      <button id="btnLogout" class="xp-button sync-btn" style="background: linear-gradient(to bottom, #d32f2f 0%, #9a0007 100%); color: #fff;" title="Logout from Firebase Admin">
         <span>Logout</span>
       </button>
     </div>
@@ -183,7 +218,7 @@
     <!-- Controls Toolbar -->
     <div style="background: #ffffff; border: 1px solid var(--xp-border-dark); border-radius: 6px; padding: 1rem 1.25rem; margin-bottom: 1.25rem; display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; justify-content: space-between; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
       <div style="display: flex; gap: 0.75rem; flex: 1; flex-wrap: wrap; min-width: 280px;">
-        <input type="text" id="adminSearchInput" class="xp-input" style="flex: 1; min-width: 220px; padding: 0.5rem 0.85rem;" placeholder="Search channel name or stream link...">
+        <input type="text" id="adminSearchInput" class="xp-input" style="flex: 1; min-width: 220px; padding: 0.5rem 0.85rem;" placeholder="Search channel name, genre, country, or .m3u8 link...">
         
         <select id="adminGenreSelect" class="xp-select" style="min-width: 160px; padding: 0.5rem 0.85rem;">
           <option value="All">All Genres</option>
