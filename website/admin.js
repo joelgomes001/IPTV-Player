@@ -186,6 +186,50 @@
     renderTablePage();
   }
 
+  // Helper: Get clean 2-letter initials for channel logo fallbacks
+  function getChannelInitials(name) {
+    if (!name) return 'TV';
+    const clean = name.replace(/[^a-zA-Z0-9\s]/g, '').trim();
+    const words = clean.split(/\s+/).filter(w => w.length > 0);
+    if (words.length >= 2) {
+      return (words[0][0] + words[1][0]).toUpperCase();
+    }
+    return clean.substring(0, 2).toUpperCase() || 'TV';
+  }
+
+  // Helper: Generate deterministic retro gradient background based on channel name
+  function getChannelGradient(name) {
+    const gradients = [
+      'linear-gradient(135deg, #0055ea 0%, #0037a4 100%)',
+      'linear-gradient(135deg, #d32f2f 0%, #9a0007 100%)',
+      'linear-gradient(135deg, #2e7d32 0%, #005005 100%)',
+      'linear-gradient(135deg, #6a1b9a 0%, #38006b 100%)',
+      'linear-gradient(135deg, #e65100 0%, #ac1900 100%)',
+      'linear-gradient(135deg, #00838f 0%, #005662 100%)',
+      'linear-gradient(135deg, #283593 0%, #001064 100%)'
+    ];
+    let hash = 0;
+    for (let i = 0; i < (name || '').length; i++) {
+      hash = name.charCodeAt(i) + ((hash << 5) - hash);
+    }
+    const index = Math.abs(hash) % gradients.length;
+    return gradients[index];
+  }
+
+  // Render Admin Table Logo Cell matching main website badge fallback
+  function renderAdminLogoCell(ch) {
+    const initials = getChannelInitials(ch.name);
+    const gradient = getChannelGradient(ch.name);
+    const hasLogo = ch.thumbnail && ch.thumbnail.trim().length > 0 && !ch.thumbnail.includes('tv_thumbnail.jpg') && !ch.thumbnail.includes('default_image');
+
+    return `
+      <div style="width: 40px; height: 40px; border-radius: 4px; background:${gradient}; display: flex; align-items: center; justify-content: center; flex-shrink: 0; position: relative; overflow: hidden; font-weight: 800; color: #ffffff; font-size: 0.85rem; border: 1px solid rgba(0,0,0,0.2);">
+        ${initials}
+        ${hasLogo ? `<img src="${ch.thumbnail}" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; background: #ffffff; z-index: 2;" onerror="this.style.display='none';">` : ''}
+      </div>
+    `;
+  }
+
   function renderTablePage() {
     const totalPages = Math.ceil(filteredChannels.length / pageSize) || 1;
     if (currentPage > totalPages) currentPage = totalPages;
@@ -205,11 +249,11 @@
 
     let html = '';
     pageItems.forEach((ch) => {
-      const thumb = ch.thumbnail || 'logo.png';
+      const logoCell = renderAdminLogoCell(ch);
       const safeId = encodeURIComponent(String(ch.id));
       html += `
         <tr>
-          <td><img src="${thumb}" style="width: 40px; height: 40px; object-fit: contain; background: #000; border-radius: 4px;" onerror="this.src='logo.png'"></td>
+          <td>${logoCell}</td>
           <td style="font-weight: 700; color: #111111;">${escapeHtml(ch.name)}</td>
           <td><span class="badge-genre">${escapeHtml(ch.genre || 'General')}</span></td>
           <td><span class="badge-country">${escapeHtml(ch.country || 'International')}</span></td>
