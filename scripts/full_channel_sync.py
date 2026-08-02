@@ -81,6 +81,38 @@ def detect_country(name, url=''):
                 return country
     return 'International'
 
+def is_url_working(url):
+    if not url:
+        return False
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+    req = urllib.request.Request(url, headers=headers)
+    try:
+        with urllib.request.urlopen(req, timeout=5) as res:
+            if res.status in (200, 206):
+                sample = res.read(300).decode('utf-8', errors='ignore')
+                if '#EXTM3U' in sample or '#EXT-X-' in sample or res.status == 200:
+                    return True
+    except Exception:
+        pass
+    return False
+
+def resolve_stream_update(existing, new_url, url_map):
+    old_url = existing.get('stream_url', '').strip()
+    if not old_url or old_url == new_url:
+        return False
+    
+    # Check if old URL is dead, or if new URL is working
+    old_ok = is_url_working(old_url)
+    if not old_ok:
+        new_ok = is_url_working(new_url)
+        if new_ok:
+            if old_url in url_map:
+                del url_map[old_url]
+            existing['stream_url'] = new_url
+            url_map[new_url] = existing
+            return True
+    return False
+
 def test_stream(item):
     url = item['url']
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
@@ -165,21 +197,14 @@ def main():
                         c_name_lower = raw_name.lower()
                         
                         if s_url in url_map:
-                            # Already exists by URL, preserve custom genre/country if already set
                             existing = url_map[s_url]
                             if existing.get('genre') in ('General', '', None):
                                 existing['genre'] = cat_title
                         elif c_name_lower in name_map:
-                            # Stream URL updated for existing channel!
                             existing = name_map[c_name_lower]
-                            old_url = existing.get('stream_url')
-                            if old_url in url_map:
-                                del url_map[old_url]
-                            existing['stream_url'] = s_url
-                            url_map[s_url] = existing
-                            urls_updated += 1
+                            if resolve_stream_update(existing, s_url, url_map):
+                                urls_updated += 1
                         else:
-                            # Brand new channel
                             raw_thumb = ch.get('thumbnail_url') or ''
                             new_ch = {
                                 "id": f"rana_{ch.get('live_tv_id') or int(time.time())}",
@@ -211,12 +236,8 @@ def main():
                     continue
                 elif c_name_lower in name_map:
                     existing = name_map[c_name_lower]
-                    old_url = existing.get('stream_url')
-                    if old_url in url_map:
-                        del url_map[old_url]
-                    existing['stream_url'] = s_url
-                    url_map[s_url] = existing
-                    urls_updated += 1
+                    if resolve_stream_update(existing, s_url, url_map):
+                        urls_updated += 1
                 else:
                     new_ch = {
                         "id": f"iptv_in_{int(time.time())}_{new_added}",
@@ -248,12 +269,8 @@ def main():
                     continue
                 elif c_name_lower in name_map:
                     existing = name_map[c_name_lower]
-                    old_url = existing.get('stream_url')
-                    if old_url in url_map:
-                        del url_map[old_url]
-                    existing['stream_url'] = s_url
-                    url_map[s_url] = existing
-                    urls_updated += 1
+                    if resolve_stream_update(existing, s_url, url_map):
+                        urls_updated += 1
                 else:
                     new_ch = {
                         "id": f"iptv_global_{int(time.time())}_{new_added}",
