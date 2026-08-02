@@ -97,7 +97,7 @@
       })
       .finally(() => {
         btnLogin.disabled = false;
-        btnLogin.textContent = "Login with Firebase Auth";
+        btnLogin.textContent = "Login";
       });
   });
 
@@ -478,10 +478,9 @@
     }
 
     closeModal();
-    statChannelCount.textContent = `● ${allChannels.length.toLocaleString()} Channels`;
+    statChannelCount.textContent = `● ${allChannels.length.toLocaleString()} Channels (unsaved edits)`;
     populateFilterDropdowns();
     filterAndRenderTable();
-    btnSaveGithub.click();
   });
 
   function deleteChannel(channelId) {
@@ -490,10 +489,9 @@
 
     if (confirm(`Are you sure you want to delete channel "${ch.name}"?`)) {
       allChannels = allChannels.filter(c => String(c.id) !== String(channelId));
-      statChannelCount.textContent = `● ${allChannels.length.toLocaleString()} Channels`;
+      statChannelCount.textContent = `● ${allChannels.length.toLocaleString()} Channels (unsaved edits)`;
       populateFilterDropdowns();
       filterAndRenderTable();
-      btnSaveGithub.click();
     }
   }
 
@@ -515,7 +513,8 @@
           channels: allChannels,
           updated_at: new Date().toISOString()
         });
-        alert("🎉 SUCCESS! Master database saved to Firebase. All Web & App users will see your updated channels live!");
+        statChannelCount.textContent = `● ${allChannels.length.toLocaleString()} Channels`;
+        alert(`🎉 SUCCESS! ${allChannels.length.toLocaleString()} channels published live! All Web & App users will see your updates instantly.`);
       } else {
         throw new Error("Firebase Firestore SDK not loaded");
       }
