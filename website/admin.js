@@ -113,23 +113,19 @@
     });
   });
 
-  // Load Master Database from Firestore or JSON fallback
+  // Load Master Database from GitHub Raw (no size limit) with fallback
   async function loadMasterDatabase() {
     try {
-      if (window.firebaseDb) {
-        const { db, doc, getDoc } = window.firebaseDb;
-        const docRef = doc(db, "metadata", "channels");
-        const docSnap = await getDoc(docRef);
-        if (docSnap.exists() && docSnap.data().channels_json) {
-          allChannels = JSON.parse(docSnap.data().channels_json);
-          statChannelCount.textContent = `● ${allChannels.length.toLocaleString()} Channels`;
-          populateFilterDropdowns();
-          filterAndRenderTable();
-          return;
-        }
+      const res = await fetch(`https://raw.githubusercontent.com/joelgomes001/IPTV-Player/main/website/channels.json?_t=${Date.now()}`, { cache: 'no-cache' });
+      if (res.ok) {
+        allChannels = await res.json();
+        statChannelCount.textContent = `● ${allChannels.length.toLocaleString()} Channels`;
+        populateFilterDropdowns();
+        filterAndRenderTable();
+        return;
       }
     } catch(e) {
-      console.log("Firestore load notice, falling back to channels.json:", e);
+      console.log("GitHub raw fetch notice, falling back to channels.json:", e);
     }
 
     fetch(`channels.json?_t=${Date.now()}`, { cache: 'no-cache' })
@@ -495,29 +491,76 @@
     }
   }
 
-  // Save & Publish Database to Firebase Firestore (Protected by Firebase Auth)
+  // Publish via GitHub API using secure token from Firestore (never in source code)
   btnSaveGithub.addEventListener('click', async () => {
     if (!window.firebaseAuth || !window.firebaseAuth.auth.currentUser) {
-      alert("Please login via Firebase Admin Authentication first.");
+      alert("Please login first.");
       return;
     }
 
     btnSaveGithub.disabled = true;
-    btnSaveGithub.textContent = "Publishing to Firebase...";
+    btnSaveGithub.textContent = "Publishing...";
 
     try {
-      if (window.firebaseDb) {
-        const { db, doc, setDoc } = window.firebaseDb;
-        const docRef = doc(db, "metadata", "channels");
-        await setDoc(docRef, {
-          channels_json: JSON.stringify(allChannels),
-          updated_at: new Date().toISOString()
-        });
-        statChannelCount.textContent = `● ${allChannels.length.toLocaleString()} Channels`;
-        alert(`🎉 SUCCESS! ${allChannels.length.toLocaleString()} channels published live! All Web & App users will see your updates instantly.`);
-      } else {
-        throw new Error("Firebase Firestore SDK not loaded");
+      // Fetch GitHub token securely from Firestore (only authenticated admins can read)
+      const { db, doc, getDoc } = window.firebaseDb;
+      const secretDoc = await getDoc(doc(db, "admin_secrets", "github"));
+      if (!secretDoc.exists() || !secretDoc.data().token) {
+        throw new Error("GitHub token not found in Firestore. Add it to admin_secrets/github.token in Firebase Console.");
       }
+      const ghToken = secretDoc.data().token;
+      const repo = "joelgomes001/IPTV-Player";
+
+      async function commitFile(filePath, content, msg) {
+        const apiUrl = `https://api.github.com/repos/${repo}/contents/${filePath}`;
+        let sha = null;
+        try {
+          const r = await fetch(apiUrl, { headers: { 'Authorization': `token ${ghToken}` } });
+          if (r.ok) sha = (await r.json()).sha;
+        } catch(e) {}
+
+        const bytes = new TextEncoder().encode(content);
+        let bin = '';
+        for (let i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i]);
+        const payload = { message: msg, content: btoa(bin) };
+        if (sha) payload.sha = sha;
+
+        const res = await fetch(apiUrl, {
+          method: 'PUT',
+          headers: { 'Authorization': `token ${ghToken}`, 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        if (!res.ok) throw new Error((await res.json()).message || `Failed to commit ${filePath}`);
+      }
+
+      // Generate M3U playlist
+      function genM3u() {
+        const lines = ['#EXTM3U'];
+        allChannels.forEach((ch, idx) => {
+          const name = ch.name || 'Live Channel';
+          const genre = ch.genre || 'General';
+          const country = ch.country || 'International';
+          const logo = ch.thumbnail || '';
+          const url = ch.stream_url || '';
+          if (url) {
+            const group = country !== 'International' ? `${country} - ${genre}` : genre;
+            lines.push(`#EXTINF:-1 tvg-id="${ch.id || idx}" tvg-name="${name}" tvg-logo="${logo}" group-title="${group}",${name}`);
+            lines.push(url);
+          }
+        });
+        return lines.join('\n');
+      }
+
+      const jsonStr = JSON.stringify(allChannels, null, 2);
+      const m3uStr = genM3u();
+
+      await Promise.all([
+        commitFile('website/channels.json', jsonStr, `Admin: update ${allChannels.length} channels`),
+        commitFile('website/playlist.m3u', m3uStr, `Admin: update playlist.m3u`)
+      ]);
+
+      statChannelCount.textContent = `● ${allChannels.length.toLocaleString()} Channels`;
+      alert(`🎉 SUCCESS! ${allChannels.length.toLocaleString()} channels published live!`);
     } catch (e) {
       alert(`Publish Error: ${e.message}`);
     } finally {
