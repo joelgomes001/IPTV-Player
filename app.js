@@ -580,11 +580,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return allChannels.filter(ch => {
       if (searchInput && searchInput.value.trim()) {
         const query = searchInput.value.toLowerCase().trim();
-        const nameMatch = ch.name && ch.name.toLowerCase().includes(query);
-        const urlMatch = ch.stream_url && ch.stream_url.toLowerCase().includes(query);
-        const genreMatch = ch.genre && ch.genre.toLowerCase().includes(query);
-        const countryMatch = ch.country && ch.country.toLowerCase().includes(query);
-        if (!nameMatch && !urlMatch && !genreMatch && !countryMatch) return false;
+        if (!ch.name || !ch.name.toLowerCase().includes(query)) return false;
       }
 
       if (currentQuickFilter === 'Favorites') {
@@ -628,7 +624,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Filter and Render Channels with Batch Infinite Scrolling
   function filterAndRender() {
-    if (searchInput) searchInput.placeholder = 'Search channel name, genre, country, or .m3u8 link...';
+    if (searchInput) searchInput.placeholder = 'Search channels by name...';
     updateActiveFilterBadge();
     currentFilteredChannels = getFilteredChannels();
     channelsGrid.innerHTML = '';
@@ -637,7 +633,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (currentFilteredChannels.length === 0) {
       const msg = searchInput.value.trim() 
-        ? `No channels found matching "${searchInput.value.trim()}". Try searching another keyword or .m3u8 link.`
+        ? `No channels found matching "${searchInput.value.trim()}".`
         : currentQuickFilter === 'Favorites' 
         ? 'No favorite channels saved yet. Click the star ★ on any channel to save it!' 
         : currentQuickFilter === 'Recent'
@@ -660,11 +656,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const matches = allChannels.filter(ch => {
-      const nameMatch = ch.name && ch.name.toLowerCase().includes(query);
-      const urlMatch = ch.stream_url && ch.stream_url.toLowerCase().includes(query);
-      const genreMatch = ch.genre && ch.genre.toLowerCase().includes(query);
-      const countryMatch = ch.country && ch.country.toLowerCase().includes(query);
-      return nameMatch || urlMatch || genreMatch || countryMatch;
+      return ch.name && ch.name.toLowerCase().includes(query);
     }).slice(0, 10);
 
     if (matches.length === 0) {
