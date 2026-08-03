@@ -4870,7 +4870,7 @@ https://dkaiai6digij6.cloudfront.net/Lights_Legends_Icons.m3u8
 #EXTINF:-1 tvg-id="iptv-org-2436" tvg-name="Biosfera TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/khytcgd.png" group-title="Turkey - Entertainment",Biosfera TV (720p) [Not 24/7]
 https://tvdatta.com:3021/live/biosferatvlive.m3u8
 #EXTINF:-1 tvg-id="iptv-org-2437" tvg-name="Bir TV (720p)" tvg-logo="https://birtv.tv/assets/upload/637f83951df60.png" group-title="Bangladesh - Entertainment",Bir TV (720p)
-https://live.artidijitalmedya.com/artidijital_birtv/birtv/playlist.m3u8
+https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv-org-2438" tvg-name="Bis (1080p)" tvg-logo="https://i.imgur.com/VUt1lmH.png" group-title="Entertainment",Bis (1080p)
 http://143.14.178.40:7777/BIS_HD/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-2439" tvg-name="bitMe (1080p)" tvg-logo="https://i.imgur.com/79hrcx8.png" group-title="Pakistan - Entertainment",bitMe (1080p)
@@ -21238,7 +21238,7 @@ https://lotus.stingray.com/manifest/ose-115ads-montreal/samsungtvplus/master.m3u
 #EXTINF:-1 tvg-id="iptv-org-10620" tvg-name="Stingray Greatest Hits (1080p)" tvg-logo="https://i.imgur.com/6tWCzTp.png" group-title="Music",Stingray Greatest Hits (1080p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883053
 #EXTINF:-1 tvg-id="iptv-org-10621" tvg-name="Stingray Greatest Hits (1080p)" tvg-logo="https://i.imgur.com/6tWCzTp.png" group-title="Poland - Music",Stingray Greatest Hits (1080p)
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-greatest-hits/master.m3u8?ads.vf=7XQlh7i26u0
+https://lotus.stingray.com/manifest/ose-455ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="iptv-org-10622" tvg-name="Stingray Greatest Holiday Hits" tvg-logo="https://i.imgur.com/Hz2d6og.png" group-title="United States - Music",Stingray Greatest Holiday Hits
 https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/54947915-6504-4548-aaef-eabd451f8607/1.m3u8
 #EXTINF:-1 tvg-id="iptv-org-10623" tvg-name="Stingray HipHop and RnB (1080p)" tvg-logo="https://i.imgur.com/6tWCzTp.png" group-title="Entertainment",Stingray HipHop and RnB (1080p)
@@ -32373,7 +32373,7 @@ https://stream.elektamedia.com/live/c7eds/Primired/SA_LIVE_hls_enc/master.m3u8
 https://iptv.prosto.tv/ch134/tracks-v2a1/1.m3u8?21yo=1&live=1&ip=104.28.156.59&id=742347&secret=vu2y5m72&ses=ca0cfbf5db9d8003&uid=vu2y5m72&cs_track=false&e=1782900912&st=j-Ja2visdxrjH_8haQZjNg
 #EXTINF:-1 tvg-id="16278" tvg-name="Svarozhichi UA" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/svarozhichiua.png" group-title="Pakistan - General",Svarozhichi UA
 https://iptv.prosto.tv/ch168/tracks-v1a1/mono.m3u8?live=1&ip=178.136.40.86&id=742347&secret=vu2y5m72&21yo=0&e=1782894916&st=mHrJrPX41-PBgjNh_gwuqA
-#EXTINF:-1 tvg-id="16279" tvg-name="Cartoon Network" tvg-logo="https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2025/04/15180709/CartoonNetwork_NavLogo_120x72_NEW.jpg" group-title="United States - Kids",Cartoon Network
+#EXTINF:-1 tvg-id="16279" tvg-name="Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png" group-title="United States - Kids",Cartoon Network
 http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="16280" tvg-name="MotoGP Channel" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/motogpchannel.png" group-title="United States - General",MotoGP Channel
 https://amg12058-c15studio-amg12058c13-lg-us-9277.playouts.now.amagi.tv/playlist.m3u8
@@ -33025,3 +33025,79 @@ https://sl.vodep39240327.workers.dev/channel/SET%20HD.m3u8
 https://p1.cdn.vet/live/ch3/i/ch3i.m3u8?sid=b5yYjVkMmRiYTNlODY4YzE5MDgxOQMTM5NTE3NzI0MGMyNmNk
 #EXTINF:-1 tvg-id="rej_28159_1785657535_6" tvg-name="News 12 m3u8" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/news12m3u8.png" group-title="United States - News",News 12 m3u8
 https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_NJ_A1/index_new.m3u8?omap=https
+#EXTINF:-1 tvg-id="iptv_global_1785736890_0" tvg-name="B4U Movies APAC (720p)" tvg-logo="https://i.imgur.com/M9kMFJl.png" group-title="Movies",B4U Movies APAC (720p)
+https://s3.itcnbd.live/channel/129d01070adb9ee3.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1785736890_1" tvg-name="B4U Music APAC (720p)" tvg-logo="https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540" group-title="Music",B4U Music APAC (720p)
+https://s3.itcnbd.live/channel/6f6b7b6d25fbd0e6.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1785736893_2" tvg-name="Dien Bien TV (1080p)" tvg-logo="https://i.imgur.com/u308o8q.png" group-title="Bangladesh - Entertainment",Dien Bien TV (1080p)
+https://stream.langsontv.vn/live/2855dfeccb7f49a41a2b0441b3bfeda413c/playlist.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1785736893_3" tvg-name="Disney Channel EMEA (576p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="Kids",Disney Channel EMEA (576p)
+http://185.102.171.218/DisneyChannel/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1785736893_4" tvg-name="Dong Nai TV 2 (720p)" tvg-logo="https://i.imgur.com/tNKPSkO.png" group-title="Entertainment",Dong Nai TV 2 (720p)
+https://vtvgolive-ott3.vtvdigital.vn/live/dongnai2tv/chunklist_2.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1785736893_5" tvg-name="Green Gold TV" tvg-logo="https://i.ibb.co/TDPsPVkT/Greengoldtv.png" group-title="United Kingdom - Entertainment",Green Gold TV
+https://vglivessai.akamaized.net/eu/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/675a37e5-f517-434e-adae-d25ae1706340/fbdb017c-7b61-4f62-8719-28b27e44c862/4.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1785736893_6" tvg-name="History2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/960px-History2_logo_%282022%29.svg.png" group-title="Documentary",History2
+http://88.212.15.19/live/test_h2/playlist.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1785736893_7" tvg-name="HTV Key (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_HTV_Key.png" group-title="Entertainment",HTV Key (1080p)
+https://freem3u.xyz/api/live/play.m3u8?vid=9
+#EXTINF:-1 tvg-id="iptv_global_1785736893_8" tvg-name="Khanh Hoa TV (1080p)" tvg-logo="https://i.imgur.com/qLMcGPT.png" group-title="Entertainment",Khanh Hoa TV (1080p)
+https://cdnbaokhanhhoa.com/live/1332e3a79e27.m3u8?vhost=video
+#EXTINF:-1 tvg-id="iptv_global_1785736893_9" tvg-name="La 100 (1080p)" tvg-logo="https://cloudfront-us-east-1.images.arcpublishing.com/radiomitre/CZJMM4BJVRFANO4VGMMYWSTEVE.png" group-title="Entertainment",La 100 (1080p)
+https://mdstrm.com/live-stream-playlist/68b74fd1d6512526f1f7c75a.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1785736893_10" tvg-name="Lara en Redes" tvg-logo="https://laraenredes.com/wp-content/uploads/elementor/thumbs/LOGO-LARA-EN-REDES-2025-r768xu4o4gvkigl9v1lorc3aq3n35710u0g7cah8e0.jpg" group-title="Entertainment",Lara en Redes
+https://streamtv.laraenredes.com:3020/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1785736893_11" tvg-name="Lionsgate Play" tvg-logo="https://i.ibb.co/jvFcxJK6/Lionsgate-Play.png" group-title="Entertainment",Lionsgate Play
+http://103.159.180.34:5001/live/2327.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1785736893_12" tvg-name="MCM Top (1080p)" tvg-logo="https://i.imgur.com/EVtWQLd.png" group-title="Entertainment",MCM Top (1080p)
+http://89.33.29.118/MCM/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1785736894_13" tvg-name="Ninh Thuan TV (1080p)" tvg-logo="https://i.imgur.com/HIyUzLM.png" group-title="Entertainment",Ninh Thuan TV (1080p)
+https://cdnbaokhanhhoa.com/live/90405a889081.m3u8?vhost=video
+#EXTINF:-1 tvg-id="iptv_global_1785736894_14" tvg-name="ON Vie Drama (720p)" tvg-logo="" group-title="Entertainment",ON Vie Drama (720p)
+http://dvrfl05.bozztv.com/vch_vchannel18/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1785736894_15" tvg-name="Puls 2 HD (1080p)" tvg-logo="https://i.imgur.com/EOnzPiZ.png" group-title="Entertainment",Puls 2 HD (1080p)
+http://193.24.244.60:1001/udp/239.254.4.122:6060
+#EXTINF:-1 tvg-id="iptv_global_1785736894_16" tvg-name="ROCK Action HD (576p)" tvg-logo="https://i.imgur.com/l6lmlqG.png" group-title="Entertainment",ROCK Action HD (576p)
+http://202.169.224.202:8800/udp/239.9.1.1:1234
+#EXTINF:-1 tvg-id="iptv_global_1785736894_17" tvg-name="ROCK Entertainment (576p)" tvg-logo="https://i.imgur.com/PWzq0aU.png" group-title="Entertainment",ROCK Entertainment (576p)
+http://202.169.224.202:8800/udp/239.9.1.8:1234
+#EXTINF:-1 tvg-id="iptv_global_1785736894_18" tvg-name="Showtime (720p)" tvg-logo="https://i.imgur.com/Or0LKsu.png" group-title="United States - Movies",Showtime (720p)
+http://40.160.24.55/SHOWTIME/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1785736894_19" tvg-name="Son La TV (720p)" tvg-logo="https://i.imgur.com/MxV9psR.png" group-title="Entertainment",Son La TV (720p)
+https://kenhdp-vtvgo.vtvdigital.vn/kenhdp/sonla-720p.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1785736894_20" tvg-name="Tra Vinh TV (1080p)" tvg-logo="https://i.imgur.com/F12VdKO.png" group-title="Entertainment",Tra Vinh TV (1080p)
+https://freem3u.xyz/api/live/play.m3u8?vid=91
+#EXTINF:-1 tvg-id="iptv_global_1785736894_21" tvg-name="TRT Spor Yildiz (1440p) [Geo-blocked]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg/960px-TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg.png" group-title="Turkey - Entertainment",TRT Spor Yildiz (1440p) [Geo-blocked]
+https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor
+#EXTINF:-1 tvg-id="iptv_global_1785736894_22" tvg-name="TV Arad (720p)" tvg-logo="https://i.imgur.com/4yZV72X.png" group-title="Entertainment",TV Arad (720p)
+https://live.djemba.ro/memfs/1b01c281-126d-4787-9d51-9e06c96bb9f9.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1785736894_23" tvg-name="TV Puls HD (1080p)" tvg-logo="https://i.imgur.com/gXA7pai.png" group-title="Entertainment",TV Puls HD (1080p)
+http://193.24.244.60:1001/udp/239.254.4.121:6060
+#EXTINF:-1 tvg-id="iptv_global_1785736894_24" tvg-name="Vinh Long TV 1 (576p) [Not 24/7]" tvg-logo="https://i.imgur.com/5YFsqPx.png" group-title="Entertainment",Vinh Long TV 1 (576p) [Not 24/7]
+http://125hvt.ddns.net:21585/thvl1/playlist.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1785736894_25" tvg-name="Vinh Long TV 2 (1080p)" tvg-logo="https://i.imgur.com/iluoazf.png" group-title="Entertainment",Vinh Long TV 2 (1080p)
+https://1011154949.vnns.net/CDN-FPT02/THVL2-HD-1080p/playlist.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1785736894_26" tvg-name="Zee Cinema ME (432p) [Geo-blocked]" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png" group-title="India - Movies",Zee Cinema ME (432p) [Geo-blocked]
+https://ev-eu-hw-fast-mpd.starzplayarabia.com/Zee_Cinema/dash/drm/index.mpd
+#EXTINF:-1 tvg-id="rej_47398_1785736908_27" tvg-name="We Sport Moldova" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/wesportmoldova.png" group-title="Pakistan - Sports",We Sport Moldova
+http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2471/index.m3u8
+#EXTINF:-1 tvg-id="rej_45983_1785736908_28" tvg-name="Sophia TV Australia" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/sophiatvaustralia.png" group-title="Turkey - Entertainment",Sophia TV Australia
+https://5afd52b55ff79.streamlock.net/SophiaTV/sophiatv2023_360p.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="rej_36525_1785736908_29" tvg-name="LHA TELEVISION" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/lhatelevision.png" group-title="Entertainment",LHA TELEVISION
+http://168.194.100.147:9010/hls/stream/index.m3u8
+#EXTINF:-1 tvg-id="rej_29887_1785736913_30" tvg-name="12 TV Parma" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/12tvparma.png" group-title="Entertainment",12 TV Parma
+https://12tvparma.fluid.stream/12TVParma/livestream/playlist.m3u8
+#EXTINF:-1 tvg-id="rej_29387_1785736914_31" tvg-name="DD Girnar" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/ddgirnar.png" group-title="DD Channels",DD Girnar
+https://cdn-4.pishow.tv/live/38/master.m3u8
+#EXTINF:-1 tvg-id="rej_28956_1785736914_32" tvg-name="Add:" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/add.png" group-title="United Kingdom - Entertainment",Add:
+https://live20.bozztv.com/akamaissh101/ssh101/fieritv/chunks.m3u8
+#EXTINF:-1 tvg-id="rej_28159_1785736915_33" tvg-name="News 12 m3u8" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/news12m3u8.png" group-title="United States - News",News 12 m3u8
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_WC_A1/index_new.m3u8?omap=https
+#EXTINF:-1 tvg-id="rej_28962_1785736915_34" tvg-name="CBeebies" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/cbeebies.png" group-title="Japan - Kids",CBeebies
+https://hls5eu.sweet.tv/stream/znmxhz6v7mqiv98nvqy2t7m3z36qwr55bzn2a5xrnyd8h3phk7rersgtpgistbsi98qrj65gqfvm8uq9vb5bn2ghmp6scjtizmmrwfrkku8pfp7i9iqr6z8ajwg8mqm5dxmehqkkscsdr89xid7usdnvhutqthp5ycu36bz7bxbdfeh4wpzdq9kps4ps8===.m3u8
+#EXTINF:-1 tvg-id="rej_23557_1785736923_35" tvg-name="Add:" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/add.png" group-title="Entertainment",Add:
+https://video05.logicahost.com.br/extremotv/extremotv/playlist.m3u8
+#EXTINF:-1 tvg-id="rej_39662_1785736938_36" tvg-name="Kişisel Gelişim TV" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/kiiselgeliimtv.png" group-title="Entertainment",Kişisel Gelişim TV
+https://kisiselvideo.stopvideodownload.com:8443/nefes/ngrp:live_all/playlist.m3u8
+#EXTINF:-1 tvg-id="rej_47195_1785736938_37" tvg-name="CCTV17" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/cctv17.png" group-title="China - Entertainment",CCTV17
+https://hls-qhmh.lanzhousobey.cn/qhmh/myds.m3u8
