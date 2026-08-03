@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JTBS IPTV</string>
+    <string name="sync_server">Sync Server</string>
+    <string name="search_hint">Search channels...</string>
+</resources>

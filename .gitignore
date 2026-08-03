@@ -10,6 +10,8 @@ Thumbs.db
 .idea/
 *.iml
 .vscode/
+local.properties
+/android/local.properties
 
 # Local Scratch & Logs
 scratch/
@@ -25,16 +27,15 @@ temp/
 /firestore.rules
 /google-services.json
 
-# Generated Files
-/playlist.m3u
+# Scripts & workflows (moved to private repo)
+/scripts/
+/.github/workflows/channel_sync.yml
 
-# Root Web File Duplicates
-/admin.html
-/admin.js
-/app.js
-/index.html
-/styles.css
-/logo.jpg
-/logo.png
-/m3u8_playlists.txt
-/project-context.md
+# Ignored Generated Files
+/playlist.m3u
+/channels.json
+
+# Ignore all website files except the channel database and playlist
+/website/*
+!/website/channels.json
+!/website/playlist.m3u
