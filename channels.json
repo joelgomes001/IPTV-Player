@@ -24353,7 +24353,7 @@
     "id": "iptv-org-2437",
     "name": "Bir TV (720p)",
     "genre": "Entertainment",
-    "stream_url": "https://live.artidijitalmedya.com/artidijital_birtv/birtv/playlist.m3u8",
+    "stream_url": "https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://birtv.tv/assets/upload/637f83951df60.png",
     "poster": "",
@@ -106193,7 +106193,7 @@
     "id": "iptv-org-10621",
     "name": "Stingray Greatest Hits (1080p)",
     "genre": "Music",
-    "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-greatest-hits/master.m3u8?ads.vf=7XQlh7i26u0",
+    "stream_url": "https://lotus.stingray.com/manifest/ose-455ads-montreal/samsungtvplus/master.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/6tWCzTp.png",
     "poster": "",
@@ -165127,6 +165127,386 @@
     "stream_url": "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_NJ_A1/index_new.m3u8?omap=https",
     "stream_from": "hls",
     "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/news12m3u8.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736890_0",
+    "name": "B4U Movies APAC (720p)",
+    "genre": "Movies",
+    "country": "International",
+    "stream_url": "https://s3.itcnbd.live/channel/129d01070adb9ee3.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/M9kMFJl.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736890_1",
+    "name": "B4U Music APAC (720p)",
+    "genre": "Music",
+    "country": "International",
+    "stream_url": "https://s3.itcnbd.live/channel/6f6b7b6d25fbd0e6.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736893_2",
+    "name": "Dien Bien TV (1080p)",
+    "genre": "Entertainment",
+    "country": "Bangladesh",
+    "stream_url": "https://stream.langsontv.vn/live/2855dfeccb7f49a41a2b0441b3bfeda413c/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/u308o8q.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736893_3",
+    "name": "Disney Channel EMEA (576p)",
+    "genre": "Kids",
+    "country": "International",
+    "stream_url": "http://185.102.171.218/DisneyChannel/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736893_4",
+    "name": "Dong Nai TV 2 (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://vtvgolive-ott3.vtvdigital.vn/live/dongnai2tv/chunklist_2.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/tNKPSkO.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736893_5",
+    "name": "Green Gold TV",
+    "genre": "Entertainment",
+    "country": "United Kingdom",
+    "stream_url": "https://vglivessai.akamaized.net/eu/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/675a37e5-f517-434e-adae-d25ae1706340/fbdb017c-7b61-4f62-8719-28b27e44c862/4.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.ibb.co/TDPsPVkT/Greengoldtv.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736893_6",
+    "name": "History2",
+    "genre": "Documentary",
+    "country": "International",
+    "stream_url": "http://88.212.15.19/live/test_h2/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/960px-History2_logo_%282022%29.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736893_7",
+    "name": "HTV Key (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://freem3u.xyz/api/live/play.m3u8?vid=9",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_HTV_Key.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736893_8",
+    "name": "Khanh Hoa TV (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://cdnbaokhanhhoa.com/live/1332e3a79e27.m3u8?vhost=video",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/qLMcGPT.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736893_9",
+    "name": "La 100 (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://mdstrm.com/live-stream-playlist/68b74fd1d6512526f1f7c75a.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://cloudfront-us-east-1.images.arcpublishing.com/radiomitre/CZJMM4BJVRFANO4VGMMYWSTEVE.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736893_10",
+    "name": "Lara en Redes",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://streamtv.laraenredes.com:3020/hybrid/play.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://laraenredes.com/wp-content/uploads/elementor/thumbs/LOGO-LARA-EN-REDES-2025-r768xu4o4gvkigl9v1lorc3aq3n35710u0g7cah8e0.jpg",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736893_11",
+    "name": "Lionsgate Play",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://103.159.180.34:5001/live/2327.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.ibb.co/jvFcxJK6/Lionsgate-Play.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736893_12",
+    "name": "MCM Top (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://89.33.29.118/MCM/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/EVtWQLd.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736894_13",
+    "name": "Ninh Thuan TV (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://cdnbaokhanhhoa.com/live/90405a889081.m3u8?vhost=video",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/HIyUzLM.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736894_14",
+    "name": "ON Vie Drama (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://dvrfl05.bozztv.com/vch_vchannel18/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736894_15",
+    "name": "Puls 2 HD (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://193.24.244.60:1001/udp/239.254.4.122:6060",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/EOnzPiZ.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736894_16",
+    "name": "ROCK Action HD (576p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://202.169.224.202:8800/udp/239.9.1.1:1234",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/l6lmlqG.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736894_17",
+    "name": "ROCK Entertainment (576p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://202.169.224.202:8800/udp/239.9.1.8:1234",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/PWzq0aU.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736894_18",
+    "name": "Showtime (720p)",
+    "genre": "Movies",
+    "country": "United States",
+    "stream_url": "http://40.160.24.55/SHOWTIME/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/Or0LKsu.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736894_19",
+    "name": "Son La TV (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://kenhdp-vtvgo.vtvdigital.vn/kenhdp/sonla-720p.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/MxV9psR.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736894_20",
+    "name": "Tra Vinh TV (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://freem3u.xyz/api/live/play.m3u8?vid=91",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/F12VdKO.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736894_21",
+    "name": "TRT Spor Yildiz (1440p) [Geo-blocked]",
+    "genre": "Entertainment",
+    "country": "Turkey",
+    "stream_url": "https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg/960px-TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736894_22",
+    "name": "TV Arad (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://live.djemba.ro/memfs/1b01c281-126d-4787-9d51-9e06c96bb9f9.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/4yZV72X.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736894_23",
+    "name": "TV Puls HD (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://193.24.244.60:1001/udp/239.254.4.121:6060",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/gXA7pai.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736894_24",
+    "name": "Vinh Long TV 1 (576p) [Not 24/7]",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://125hvt.ddns.net:21585/thvl1/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/5YFsqPx.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736894_25",
+    "name": "Vinh Long TV 2 (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://1011154949.vnns.net/CDN-FPT02/THVL2-HD-1080p/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/iluoazf.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1785736894_26",
+    "name": "Zee Cinema ME (432p) [Geo-blocked]",
+    "genre": "Movies",
+    "country": "India",
+    "stream_url": "https://ev-eu-hw-fast-mpd.starzplayarabia.com/Zee_Cinema/dash/drm/index.mpd",
+    "stream_from": "hls",
+    "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_47398_1785736908_27",
+    "name": "We Sport Moldova",
+    "genre": "Sports",
+    "country": "Pakistan",
+    "stream_url": "http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2471/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/wesportmoldova.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_45983_1785736908_28",
+    "name": "Sophia TV Australia",
+    "genre": "Entertainment",
+    "country": "Turkey",
+    "stream_url": "https://5afd52b55ff79.streamlock.net/SophiaTV/sophiatv2023_360p.stream/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/sophiatvaustralia.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_36525_1785736908_29",
+    "name": "LHA TELEVISION",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://168.194.100.147:9010/hls/stream/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/lhatelevision.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_29887_1785736913_30",
+    "name": "12 TV Parma",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://12tvparma.fluid.stream/12TVParma/livestream/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/12tvparma.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_29387_1785736914_31",
+    "name": "DD Girnar",
+    "genre": "DD Channels",
+    "country": "International",
+    "stream_url": "https://cdn-4.pishow.tv/live/38/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/ddgirnar.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_28956_1785736914_32",
+    "name": "Add:",
+    "genre": "Entertainment",
+    "country": "United Kingdom",
+    "stream_url": "https://live20.bozztv.com/akamaissh101/ssh101/fieritv/chunks.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/add.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_28159_1785736915_33",
+    "name": "News 12 m3u8",
+    "genre": "News",
+    "country": "United States",
+    "stream_url": "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_WC_A1/index_new.m3u8?omap=https",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/news12m3u8.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_28962_1785736915_34",
+    "name": "CBeebies",
+    "genre": "Kids",
+    "country": "Japan",
+    "stream_url": "https://hls5eu.sweet.tv/stream/znmxhz6v7mqiv98nvqy2t7m3z36qwr55bzn2a5xrnyd8h3phk7rersgtpgistbsi98qrj65gqfvm8uq9vb5bn2ghmp6scjtizmmrwfrkku8pfp7i9iqr6z8ajwg8mqm5dxmehqkkscsdr89xid7usdnvhutqthp5ycu36bz7bxbdfeh4wpzdq9kps4ps8===.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/cbeebies.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_23557_1785736923_35",
+    "name": "Add:",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://video05.logicahost.com.br/extremotv/extremotv/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/add.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_39662_1785736938_36",
+    "name": "Kişisel Gelişim TV",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://kisiselvideo.stopvideodownload.com:8443/nefes/ngrp:live_all/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/kiiselgeliimtv.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_47195_1785736938_37",
+    "name": "CCTV17",
+    "genre": "Entertainment",
+    "country": "China",
+    "stream_url": "https://hls-qhmh.lanzhousobey.cn/qhmh/myds.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/cctv17.png",
     "poster": ""
   }
 ]
