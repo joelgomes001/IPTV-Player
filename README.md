@@ -25,8 +25,7 @@ A state-of-the-art **IPTV Player** available as a responsive Web Application and
 
 ## 📱 Android APK Download
 
-Download the pre-compiled Universal Android `.apk` package:
-- 📲 [`JTBS_IPTV_Universal.apk`](JTBS_IPTV_Universal.apk)
+Download the pre-compiled Universal Android `.apk` package from Releases
 
 ---
 
