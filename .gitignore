@@ -16,7 +16,19 @@ scratch/
 temp/
 *.log
 
-# Ignore only temporary root duplicates (keeping website/, scripts/, channels.json, & github workflows for 2-day auto sync)
+# APK Binaries (use GitHub Releases instead)
+*.apk
+*.aab
+
+# Firebase Config (local only)
+/firebase.json
+/firestore.rules
+/google-services.json
+
+# Generated Files
+/playlist.m3u
+
+# Root Web File Duplicates
 /admin.html
 /admin.js
 /app.js
