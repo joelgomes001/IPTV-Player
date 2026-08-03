@@ -1,7 +1,5 @@
 # 📺 JTBS IPTV - Indian & Global Live TV Player
 
-![JTBS IPTV Banner](logo.png)
-
 A state-of-the-art **IPTV Player** available as a responsive Web Application and a **Universal Android Application** supporting Android Phones, Tablets, and Android TV / Fire TV / Google TV.
 
 ---
