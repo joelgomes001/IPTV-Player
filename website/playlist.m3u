@@ -33265,3 +33265,259 @@ http://46.56.85.151:8080/0.m3u8
 https://shift03.isp.bg/Cartoon_Network/index.m3u8
 #EXTINF:-1 tvg-id="rej_33420_1785909041_81" tvg-name="MN+" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/mn.png" group-title="Entertainment",MN+
 https://cdn1.skygo.mn/live/disk1/MNplus91/HLSv5-FTA-1080p/MNplus91-avc1_6000000=87.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_0" tvg-name="Zee Bangla HD 2" tvg-logo="" group-title="India - General",Zee Bangla HD 2
+https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Zeebangla/default/thenayeemparvez.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_1" tvg-name="Zee Bangla 🇮🇳" tvg-logo="" group-title="India - General",Zee Bangla 🇮🇳
+https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Zeebanglahd/default/index.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_2" tvg-name="ZEE BANGLA HD" tvg-logo="" group-title="India - General",ZEE BANGLA HD
+https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Zeebangla/default/index.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_3" tvg-name="B4U Kadak (1080p) [Geo-blocked]" tvg-logo="" group-title="General",B4U Kadak (1080p) [Geo-blocked]
+https://amg00877-b4unew-amg00877c4-lg-in-5452.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_4" tvg-name="DD Bihar (504p)" tvg-logo="" group-title="General",DD Bihar (504p)
+https://d2lk5u59tns74c.cloudfront.net/out/v1/380b0765f87741a4812bc952ec6fbf21/index.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_5" tvg-name="DD Chhattisgarh (504p)" tvg-logo="" group-title="General",DD Chhattisgarh (504p)
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/5078083881bc489ea14f4c85e7abe4d6/index.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_6" tvg-name="DD Madhya Pradesh (504p)" tvg-logo="" group-title="General",DD Madhya Pradesh (504p)
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b5256b391a7c4ae6977535b73fd6f591/index.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_7" tvg-name="DD Yadagiri (504p)" tvg-logo="" group-title="General",DD Yadagiri (504p)
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/c89fa6d6f5864ac29670d6f91cb7e32a/index.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_8" tvg-name="DD Kisan (504p)" tvg-logo="" group-title="General",DD Kisan (504p)
+https://d2lk5u59tns74c.cloudfront.net/out/v1/4f053f2c12a24641bf701fb7f2376750/index.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_9" tvg-name="DD Uttarakhand (504p)" tvg-logo="" group-title="General",DD Uttarakhand (504p)
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/a70323c56ac647c2a8c8fc34e4c73912/index.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_10" tvg-name="DD Rajasthan (504p)" tvg-logo="" group-title="General",DD Rajasthan (504p)
+https://d2lk5u59tns74c.cloudfront.net/out/v1/5b6bbbf682b741ecbe279f75a4a9a3e6/index.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_11" tvg-name="DD Uttar Pradesh (504p)" tvg-logo="" group-title="General",DD Uttar Pradesh (504p)
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/70d4f6874fa64032a685e3123520f07d/index.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_12" tvg-name="Aaj Tak" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Aaj_Tak.png" group-title="News",Aaj Tak
+https://feeds.intoday.in/aajtak/api/master.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_13" tvg-name="Balle Balle" tvg-logo="" group-title="General",Balle Balle
+https://cdn-4.pishow.tv/live/987/master.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_14" tvg-name="Aaj Tak HD 720p" tvg-logo="https://akm-img-a-in.tosshub.com/aajtak/resource/img/bemisaal-20-saal/at-hd-191x84.png" group-title="News",Aaj Tak HD 720p
+https://aajtakhdlive-amd.akamaized.net/hls/live/2014415/aajtakhd/aajtakhdlive/live_720p/chunks.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_15" tvg-name="Good News Today" tvg-logo="" group-title="General",Good News Today
+https://tezlive-amd.akamaized.net/hls/live/2016145/gnt/gntlive/live_720p/chunks.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_16" tvg-name="Ekushe TV Ch-1" tvg-logo="" group-title="General",Ekushe TV Ch-1
+http://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_17" tvg-name="Aaj Tak (404p)" tvg-logo="" group-title="General",Aaj Tak (404p)
+https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_18" tvg-name="B4U Movies" tvg-logo="" group-title="General",B4U Movies
+https://cdn-2.pishow.tv/live/419/master.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_19" tvg-name="ABP Ananda" tvg-logo="" group-title="India - freecatv",ABP Ananda
+https://abplivetv.akamaized.net/hls/live/2043012/ananda/master.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_20" tvg-name="9X Tashan" tvg-logo="" group-title="General",9X Tashan
+https://cdn-2.pishow.tv/live/1613/master.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_21" tvg-name="NDTV 24X7 (480p) [Not 24/7]" tvg-logo="" group-title="General",NDTV 24X7 (480p) [Not 24/7]
+https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_22" tvg-name="Aaj Tak" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Aaj_Tak.png" group-title="News",Aaj Tak
+https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/playlist.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_23" tvg-name="NDTV 24x7" tvg-logo="" group-title="General",NDTV 24x7
+https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_24" tvg-name="ABP Majha (720p)" tvg-logo="" group-title="India - General",ABP Majha (720p)
+https://abplivetv.akamaized.net/hls/live/2043011/manjha/master.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_25" tvg-name="France 24" tvg-logo="" group-title="General",France 24
+https://static.france24.com/live/F24_FR_HI_HLS/live_tv.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_26" tvg-name="ABP Ganga (1080p)" tvg-logo="" group-title="India - General",ABP Ganga (1080p)
+https://abplivetv.akamaized.net/hls/live/2043013/ganga/master.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_27" tvg-name="9XM (1080p)" tvg-logo="" group-title="General",9XM (1080p)
+https://epiconvh.akamaized.net/live/9XM/master.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_28" tvg-name="India TV 720p" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/India_TV.png" group-title="News",India TV 720p
+https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index_3.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_29" tvg-name="Red Bull Tv" tvg-logo="" group-title="General",Red Bull Tv
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_30" tvg-name="R Bharat" tvg-logo="https://i.imgur.com/RpIdCB3.png" group-title="News",R Bharat
+https://vg-republictvyupp.akamaized.net/ptnr-yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-561573/main.m3u8?ads.channel=4923&ads.content_custom_1_param=FAST&ads.user=2&ads.content_custom_3_param=YuppFastIndia&hdnts=st=1757248550~exp=1757270150~acl=!*/ptnr-yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-561573/*!/payload/yupptvott_5_-1_f22a9ff995a34b88_IN_171.76.87.153_yuppfast_2_channel_20_-1/*~data=yupptvott_5_-1_f22a9ff995a34b88_IN_171.76.87.153_yuppfast_2_channel_20_-1~hmac=e01aba95098531a76fa8e10c58a4a57613c277e3be7262b0e16b755a56f60ff9&ads.network_name=yuppfast&ads.app_store_url=&ads.app_bundle=&ads.content_livestream=1&ads.content_genre=NEWS&ads.channel_name=RepublicBharat&ads.language=HIN&ads.user=0
+#EXTINF:-1 tvg-id="m3u_new_1785914209_31" tvg-name="ABP News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ABP_News_India.png" group-title="India - News",ABP News
+https://abplivetv.akamaized.net/hls/live/2043010/hindi/master.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_32" tvg-name="NDTV Profit (480p) [Not 24/7]" tvg-logo="" group-title="General",NDTV Profit (480p) [Not 24/7]
+https://ndtvprofitelemarchana.akamaized.net/hls/live/2003680/ndtvprofit/master.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_33" tvg-name="Madha TV (600p)" tvg-logo="" group-title="General",Madha TV (600p)
+https://60e68b19dd194.streamlock.net:55/madhatv/madhatv.stream_HDp/playlist.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_34" tvg-name="AMG TV" tvg-logo="" group-title="General",AMG TV
+https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/chunklist.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_35" tvg-name="Z News" tvg-logo="https://india.mom-gmr.org/uploads/_processed_/f/0/csm_16519-1592_import_82f128ba68.png" group-title="News",Z News
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeenews/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8744f9fb-d696-4204-9795-5215ad930c39/main.m3u8?ads.channel=1501&ads.content_custom_1_param=FAST&ads.user=2&ads.content_custom_3_param=YuppFastIndia&hdnts=st=1757248874~exp=1757270474~acl=!*/ptnr-yupptv/title-zeenews/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8744f9fb-d696-4204-9795-5215ad930c39/*!/payload/yupptvott_5_-1_f22a9ff995a34b88_IN_171.76.87.153_yuppfast_2_channel_13_-1/*~data=yupptvott_5_-1_f22a9ff995a34b88_IN_171.76.87.153_yuppfast_2_channel_13_-1~hmac=8f2edb00612097d45ee13a95a2a198d6a4072bf4313aa1a718d71cc17694f8ad&ads.network_name=yuppfast&ads.app_store_url=&ads.app_bundle=&ads.content_livestream=1&ads.content_genre=NEWS&ads.channel_name=ZeeNews&ads.language=HIN&ads.user=0
+#EXTINF:-1 tvg-id="m3u_new_1785914209_36" tvg-name="Ekushey TV" tvg-logo="" group-title="India - General",Ekushey TV
+https://ekusheyserver.com:443/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_37" tvg-name="ABP News" tvg-logo="https://india.mom-gmr.org/uploads/_processed_/f/0/csm_16519-1592_import_82f128ba68.png" group-title="India - News",ABP News
+https://abplive.vgcdn.net/ptnr-yupptv/title-ABP_News_yupp/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/1e0dff06-24fb-4d91-9d57-fb6e918834e2/master.m3u8?ads.channel=225&ads.content_custom_1_param=FAST&ads.user=2&ads.content_custom_3_param=YuppFastIndia&hdnts=st=1757248927~exp=1757270527~acl=!*/ptnr-yupptv/title-ABP_News_yupp/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/1e0dff06-24fb-4d91-9d57-fb6e918834e2/*!/payload/yupptvott_5_-1_f22a9ff995a34b88_IN_171.76.87.153_yuppfast_2_channel_225_-1/*~data=yupptvott_5_-1_f22a9ff995a34b88_IN_171.76.87.153_yuppfast_2_channel_225_-1~hmac=f5dc0e00491538c2b84c61544c37f39eab6727b839704ae5e44bd1e673b8a02a&ads.network_name=yuppfast&ads.app_store_url=&ads.app_bundle=&ads.content_livestream=1&ads.content_genre=NEWS&ads.channel_name=ABPNews&ads.language=HIN&ads.user=0
+#EXTINF:-1 tvg-id="m3u_new_1785914209_38" tvg-name="India TV" tvg-logo="https://india.mom-gmr.org/uploads/_processed_/f/0/csm_16519-1592_import_82f128ba68.png" group-title="News",India TV
+https://vg-indiatvyupp.akamaized.net/ptnr-yupptv/title-Indiatvmi/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/9bb243fa-9ec5-4045-9d1d-0326debcace6/main.m3u8?ads.channel=115&ads.content_custom_1_param=FAST&ads.user=2&ads.content_custom_3_param=YuppFastIndia&hdnts=st=1757248765~exp=1757270365~acl=!*/ptnr-yupptv/title-Indiatvmi/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/9bb243fa-9ec5-4045-9d1d-0326debcace6/*!/payload/yupptvott_5_-1_f22a9ff995a34b88_IN_171.76.87.153_yuppfast_2_channel_231_-1/*~data=yupptvott_5_-1_f22a9ff995a34b88_IN_171.76.87.153_yuppfast_2_channel_231_-1~hmac=ae81c8001fb6488b9763a4f9f282b86219141dc0c77fd7e11aa7ee7fe81df7d2&ads.network_name=yuppfast&ads.app_store_url=&ads.app_bundle=&ads.content_livestream=1&ads.content_genre=NEWS&ads.channel_name=IndiaTV&ads.language=HIN&ads.user=0
+#EXTINF:-1 tvg-id="m3u_new_1785914209_39" tvg-name="NDTV Profit (480p)" tvg-logo="" group-title="General",NDTV Profit (480p)
+https://ndtvprofitelemarchana.akamaized.net/hls/live/2003680-b/ndtvprofit/master.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_40" tvg-name="MOVIES RUSSIAN" tvg-logo="" group-title="General",MOVIES RUSSIAN
+http://myott.top/stream/DEKA6YA5JRN/107.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_41" tvg-name="Hollywood HD" tvg-logo="" group-title="freecatv",Hollywood HD
+http://iptv.prosto.tv:7000/ch50/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_42" tvg-name="Sony Aath" tvg-logo="" group-title="General",Sony Aath
+http://isstnjz4.megogo.xyz/iptv/SNZC9Z4RPEYGA3/6641/index.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_43" tvg-name="CGTN" tvg-logo="" group-title="General",CGTN
+http://iptv.prosto.tv:7000/ch84/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_44" tvg-name="Bangladesh Betar (88.8)" tvg-logo="" group-title="India - General",Bangladesh Betar (88.8)
+http://as3.digitalsynapsebd.com:8263/;stream.mp3
+#EXTINF:-1 tvg-id="m3u_new_1785914209_45" tvg-name="Ekushey TV" tvg-logo="" group-title="India - General",Ekushey TV
+http://live.ekushey-tv.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_46" tvg-name="Astro 🇲🇾 Cricket HD" tvg-logo="" group-title="General",Astro 🇲🇾 Cricket HD
+http://195.26.87.217/live?channelId=26034&deviceMac=00:1A:79:33:E9:41
+#EXTINF:-1 tvg-id="m3u_new_1785914209_47" tvg-name="Willow Cricket HD" tvg-logo="" group-title="General",Willow Cricket HD
+http://195.26.87.217/live?channelId=302&deviceMac=00:1A:79:33:E9:41
+#EXTINF:-1 tvg-id="m3u_new_1785914209_48" tvg-name="Star Cinema (576p)" tvg-logo="" group-title="India - General",Star Cinema (576p)
+http://c0.cdn.trinity-tv.net/stream/nh9u54a7sfnc2hwzxr2zwykwkqm43bgyyzsm68ybbbnjei8kytwcgs3zm5gnw5c6efa5gr3fadzqe686w8gj2eaehrj89wvujvqza3kez78dtknwbbmnqf79yygmqqg7e9pnc3i3bpywjkiqrwke94yf.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_49" tvg-name="ALKASS SPORTS TWO" tvg-logo="" group-title="General",ALKASS SPORTS TWO
+https://liveakgr.alkassdigital.net/hls/live/2097037/Alkass2laq/master.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_50" tvg-name="Azstar TV" tvg-logo="" group-title="India - General",Azstar TV
+http://live.livestreamtv.ca/azstar/smil:azstar.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_51" tvg-name="Steelbird Music (720p) [Not 24/7]" tvg-logo="" group-title="General",Steelbird Music (720p) [Not 24/7]
+http://cdn25.live247stream.com/steelbirdmusic/tv/playlist.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_52" tvg-name="ALKASS SPORTS ONE" tvg-logo="" group-title="General",ALKASS SPORTS ONE
+https://liveakgr.alkassdigital.net/hls/live/2097037/Alkass3laq/master.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_53" tvg-name="TLT 1" tvg-logo="" group-title="General",TLT 1
+http://cdn.live247stream.com/thelight/tv/playlist.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_54" tvg-name="Bollywood for u" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/sinxiy.png" group-title="Music",Bollywood for u
+https://streams2.sofast.tv/ptnr-yupptv/title-BOLLYWOOD-4U-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/22d13e33-8705-40e8-9809-4e80aa795f15/manifest.m3u8?ads.channel=6604&ads.content_custom_1_param=FAST&ads.user=2&ads.content_custom_3_param=YuppFastIndia&hdnts=st=1757249403~exp=1757271003~acl=!*/ptnr-yupptv/title-BOLLYWOOD-4U-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/22d13e33-8705-40e8-9809-4e80aa795f15/*!/payload/yupptvott_5_-1_f22a9ff995a34b88_IN_171.76.87.153_yuppfast_2_channel_47_-1/*~data=yupptvott_5_-1_f22a9ff995a34b88_IN_171.76.87.153_yuppfast_2_channel_47_-1~hmac=a8fb2d44cab56e3982eaeb59f59beb88a5ef4665a9d7515a94c3df9056999abe&ads.network_name=yuppfast&ads.app_store_url=&ads.app_bundle=&ads.content_livestream=1&ads.content_genre=ENTERTAINMENT&ads.channel_name=Bollywood4U&ads.language=HIN&ads.user=0
+#EXTINF:-1 tvg-id="m3u_new_1785914209_55" tvg-name="COLORS BANGLA HD" tvg-logo="" group-title="India - General",COLORS BANGLA HD
+https://catchup.yuppcdn.net:443/amazonv2/36/preview/colorsbanglahd/master/chunklist.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_56" tvg-name="Horse and Country" tvg-logo="" group-title="General",Horse and Country
+https://hncfree-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_57" tvg-name="A2i Music" tvg-logo="" group-title="General",A2i Music
+https://stream.sen-gt.com/A2iMusic/myStream/chunklist_w652109108.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_58" tvg-name="ABP Ananda" tvg-logo="" group-title="India - General",ABP Ananda
+https://abp-i.akamaihd.net/hls/live/765530/abpananda/master.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_59" tvg-name="ABP Ananda (akamai)" tvg-logo="" group-title="India - General",ABP Ananda (akamai)
+https://abp-i.akamaihd.net:443/hls/live/765530/abpananda/master.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_60" tvg-name="FRANCE" tvg-logo="" group-title="General",FRANCE
+https://stream.sen-gt.com/A2itv/myStream/chunklist_w1124459956.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_61" tvg-name="BEIN SPORT LIVE 🇶🇦" tvg-logo="" group-title="General",BEIN SPORT LIVE 🇶🇦
+http://mmn.mypsx.net:1935/live/mmnhdsport/chunklist.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_62" tvg-name="A2i Religion" tvg-logo="" group-title="General",A2i Religion
+https://stream.sen-gt.com/A2iReligion/myStream/chunklist_w672043691.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_63" tvg-name="Lotus Macau" tvg-logo="" group-title="General",Lotus Macau
+http://anren.live/HK/BiIOU11uLA.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_64" tvg-name="Times Now [Geo-blocked]" tvg-logo="" group-title="General",Times Now [Geo-blocked]
+https://pubads.g.doubleclick.net/ssai/event/1mR1QUQ3Tg-VuKfiyjwNuA/master.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_65" tvg-name="Mirror Now" tvg-logo="" group-title="General",Mirror Now
+https://pubads.g.doubleclick.net/ssai/event/DXkHhH2QSnma-HnE3QJqlA/master.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_66" tvg-name="Zindagi TV" tvg-logo="" group-title="General",Zindagi TV
+https://5ad386ff92705.streamlock.net/live_transcoder/ngrp:zindagitv.stream_all/chunklist.m3u
+#EXTINF:-1 tvg-id="m3u_new_1785914209_67" tvg-name="Sky Sport 1 HD DE" tvg-logo="" group-title="General",Sky Sport 1 HD DE
+http://nl.seetv.cc/play/833/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_68" tvg-name="BT Sport 2 HD" tvg-logo="" group-title="General",BT Sport 2 HD
+http://nl.seetv.cc/play/923/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_69" tvg-name="BT Sport 1" tvg-logo="" group-title="General",BT Sport 1
+http://nl.seetv.cc/play/922/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_70" tvg-name="Max Sport 3 HD" tvg-logo="" group-title="General",Max Sport 3 HD
+http://nl.seetv.cc/play/6877/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_71" tvg-name="Digi sport 2 HD" tvg-logo="" group-title="General",Digi sport 2 HD
+http://nl.seetv.cc/play/11069/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_72" tvg-name="Eurosport 2 HD" tvg-logo="" group-title="General",Eurosport 2 HD
+http://nl.seetv.cc/play/11082/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_73" tvg-name="BeIN Sport 3 HD" tvg-logo="" group-title="General",BeIN Sport 3 HD
+http://nl.seetv.cc/play/1103/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_74" tvg-name="Sport 5 Stars HD" tvg-logo="" group-title="India - General",Sport 5 Stars HD
+http://nl.seetv.cc/play/6916/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_75" tvg-name="BeIN Sport 2 HD" tvg-logo="" group-title="General",BeIN Sport 2 HD
+http://nl.seetv.cc/play/1102/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_76" tvg-name="Sky Sport Austria HD DE" tvg-logo="" group-title="General",Sky Sport Austria HD DE
+http://nl.seetv.cc/play/5129/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_77" tvg-name="Digi24" tvg-logo="" group-title="General",Digi24
+http://nl.seetv.cc/play/11072/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_78" tvg-name="SKY Sports F1" tvg-logo="" group-title="General",SKY Sports F1
+http://nl.seetv.cc/play/9923/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_79" tvg-name="Sky Sport Bundesliga 1 HD DE" tvg-logo="" group-title="General",Sky Sport Bundesliga 1 HD DE
+http://nl.seetv.cc/play/836/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_80" tvg-name="Nova Sport" tvg-logo="" group-title="General",Nova Sport
+http://nl.seetv.cc/play/6827/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_81" tvg-name="Sky Sport News HD DE" tvg-logo="" group-title="General",Sky Sport News HD DE
+http://nl.seetv.cc/play/832/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_82" tvg-name="ÁÍÒ3" tvg-logo="" group-title="General",ÁÍÒ3
+http://nl.seetv.cc/play/6825/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_83" tvg-name="BeIN Sport 1 HD" tvg-logo="" group-title="General",BeIN Sport 1 HD
+http://nl.seetv.cc/play/1101/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_84" tvg-name="Sport  5 Plus HD" tvg-logo="" group-title="General",Sport  5 Plus HD
+http://nl.seetv.cc/play/6924/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_85" tvg-name="ONE HD" tvg-logo="" group-title="General",ONE HD
+http://nl.seetv.cc/play/1506/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_86" tvg-name="Diema Sport 2" tvg-logo="" group-title="General",Diema Sport 2
+http://nl.seetv.cc/play/6831/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_87" tvg-name="Sport 1 HD DE" tvg-logo="" group-title="General",Sport 1 HD DE
+http://nl.seetv.cc/play/818/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_88" tvg-name="Sport  2 HD" tvg-logo="" group-title="General",Sport  2 HD
+http://nl.seetv.cc/play/1521/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_89" tvg-name="Sport 1 HD" tvg-logo="" group-title="General",Sport 1 HD
+http://nl.seetv.cc/play/1522/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_90" tvg-name="Movistar Formula 1" tvg-logo="" group-title="India - General",Movistar Formula 1
+http://nl.seetv.cc/play/1121/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_91" tvg-name="ONE 2 HD" tvg-logo="" group-title="General",ONE 2 HD
+http://nl.seetv.cc/play/6915/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_92" tvg-name="Eurosport 2" tvg-logo="" group-title="General",Eurosport 2
+http://nl.seetv.cc/play/11081/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_93" tvg-name="Sport 5 Gold" tvg-logo="" group-title="General",Sport 5 Gold
+http://nl.seetv.cc/play/6923/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_94" tvg-name="Max Sport 2 HD" tvg-logo="" group-title="General",Max Sport 2 HD
+http://nl.seetv.cc/play/6876/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_95" tvg-name="Diema Sport" tvg-logo="" group-title="General",Diema Sport
+http://nl.seetv.cc/play/6830/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_96" tvg-name="Sport 5 Live HD" tvg-logo="" group-title="General",Sport 5 Live HD
+http://nl.seetv.cc/play/1531/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_97" tvg-name="Fightklub HD PL" tvg-logo="" group-title="General",Fightklub HD PL
+http://nl.seetv.cc/play/1905/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_98" tvg-name="Digi sport 1 HD" tvg-logo="" group-title="General",Digi sport 1 HD
+http://nl.seetv.cc/play/11068/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_99" tvg-name="Sport 5 HD" tvg-logo="" group-title="General",Sport 5 HD
+http://nl.seetv.cc/play/1507/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_100" tvg-name="Max Sport 4 HD" tvg-logo="" group-title="General",Max Sport 4 HD
+http://nl.seetv.cc/play/6878/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_101" tvg-name="Sport 4 HD" tvg-logo="" group-title="General",Sport 4 HD
+http://nl.seetv.cc/play/1566/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_102" tvg-name="Diema Sport 3" tvg-logo="" group-title="General",Diema Sport 3
+http://nl.seetv.cc/play/6832/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_103" tvg-name="TVP Sport HD" tvg-logo="" group-title="General",TVP Sport HD
+http://nl.seetv.cc/play/1910/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_104" tvg-name="CANAL+ Sport 1 HD PL" tvg-logo="" group-title="General",CANAL+ Sport 1 HD PL
+http://nl.seetv.cc/play/5460/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_105" tvg-name="CANAL+ Sport 4 HD PL" tvg-logo="" group-title="General",CANAL+ Sport 4 HD PL
+http://nl.seetv.cc/play/5463/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_106" tvg-name="Eleven Sports 4 HD" tvg-logo="" group-title="General",Eleven Sports 4 HD
+http://nl.seetv.cc/play/5446/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_107" tvg-name="NDTV India 480p" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/NDTV_India.png" group-title="News",NDTV India 480p
+https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679-b/ndtvindia/masterb_480p@2.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_108" tvg-name="Eurosport 2 HD PL" tvg-logo="" group-title="General",Eurosport 2 HD PL
+http://nl.seetv.cc/play/5454/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_109" tvg-name="Eleven Sports 2 HD" tvg-logo="" group-title="General",Eleven Sports 2 HD
+http://nl.seetv.cc/play/1903/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_110" tvg-name="Eleven Sports 1 HD" tvg-logo="" group-title="General",Eleven Sports 1 HD
+http://nl.seetv.cc/play/1904/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_111" tvg-name="CANAL+ Sport 3 HD PL" tvg-logo="" group-title="General",CANAL+ Sport 3 HD PL
+http://nl.seetv.cc/play/5462/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_112" tvg-name="Eleven Sports 3 HD" tvg-logo="" group-title="General",Eleven Sports 3 HD
+http://nl.seetv.cc/play/5445/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_113" tvg-name="Sport 3 HD" tvg-logo="" group-title="General",Sport 3 HD
+http://nl.seetv.cc/play/1565/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_114" tvg-name="CANAL+ Sport 5 HD PL" tvg-logo="" group-title="General",CANAL+ Sport 5 HD PL
+http://nl.seetv.cc/play/5464/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_115" tvg-name="Ekusey TV" tvg-logo="" group-title="General",Ekusey TV
+https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_116" tvg-name="Sky Sports Cricket" tvg-logo="" group-title="General",Sky Sports Cricket
+https://sports.freesportstime.com/live/streamfreecric.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_117" tvg-name="Polsat Sport Fight" tvg-logo="" group-title="General",Polsat Sport Fight
+http://nl.seetv.cc/play/5458/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_118" tvg-name="Polsat Sport Premium 3 HD" tvg-logo="" group-title="General",Polsat Sport Premium 3 HD
+http://nl.seetv.cc/play/5449/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_119" tvg-name="Eurosport 1 HD PL" tvg-logo="" group-title="General",Eurosport 1 HD PL
+http://nl.seetv.cc/play/5453/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_120" tvg-name="Polsat Sport Extra" tvg-logo="" group-title="General",Polsat Sport Extra
+http://nl.seetv.cc/play/5457/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_121" tvg-name="Polsat Sport Premium 5 HD" tvg-logo="" group-title="General",Polsat Sport Premium 5 HD
+http://nl.seetv.cc/play/5451/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_122" tvg-name="Polsat Sport Premium 1 HD" tvg-logo="" group-title="General",Polsat Sport Premium 1 HD
+http://nl.seetv.cc/play/5447/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_123" tvg-name="Extreme Sport" tvg-logo="" group-title="General",Extreme Sport
+http://nl.seetv.cc/play/5469/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_124" tvg-name="Polsat Sport" tvg-logo="" group-title="General",Polsat Sport
+http://nl.seetv.cc/play/5456/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_125" tvg-name="FightBox HD" tvg-logo="" group-title="General",FightBox HD
+http://nl.seetv.cc/play/5467/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_126" tvg-name="Polsat Sport Premium 2 HD" tvg-logo="" group-title="General",Polsat Sport Premium 2 HD
+http://nl.seetv.cc/play/5448/C94BDA70C92CDB2/video.m3u8
+#EXTINF:-1 tvg-id="m3u_new_1785914209_127" tvg-name="Polsat Sport Premium 6 HD" tvg-logo="" group-title="General",Polsat Sport Premium 6 HD
+http://nl.seetv.cc/play/5452/C94BDA70C92CDB2/video.m3u8
