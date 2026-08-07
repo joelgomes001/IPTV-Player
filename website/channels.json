@@ -9063,7 +9063,7 @@
     "id": "iptv-org-908",
     "name": "Zee Action (576p)",
     "genre": "Movies",
-    "stream_url": "http://103.72.101.252:8080/live/488.m3u8",
+    "stream_url": "http://103.175.73.12:8080/live/270/master.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://dtil.tmsimg.com/assets/GNLZZGG0022K5ZV.png?lock=720x540",
     "poster": "",
@@ -9113,7 +9113,7 @@
     "id": "iptv-org-913",
     "name": "Zee Biskope (576p)",
     "genre": "Movies",
-    "stream_url": "http://103.154.3.101:5001/live/559.m3u8",
+    "stream_url": "http://103.175.73.12:8080/live/347/master.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_BISKOPE/images/LOGO_HD/LOGO_HD_image.png",
     "poster": "",
@@ -35173,7 +35173,7 @@
     "id": "iptv-org-3519",
     "name": "CNBC Indonesia (720p)",
     "genre": "News",
-    "stream_url": "https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8",
+    "stream_url": "https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/playlist.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/CNBC_Indonesia_2025.svg/960px-CNBC_Indonesia_2025.svg.png",
     "poster": "",
@@ -89923,7 +89923,7 @@
     "id": "iptv-org-8994",
     "name": "PTC Punjabi Canada (1080p)",
     "genre": "Entertainment",
-    "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/ptc-punjabi-canada/index.m3u8?ads.vf=78XheDwhNDq",
+    "stream_url": "https://stream.ottlive.co.in/ptccanada/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/88/PTC_Punjabi.png",
     "poster": "",
@@ -167607,6 +167607,346 @@
     "stream_url": "http://nl.seetv.cc/play/5452/C94BDA70C92CDB2/video.m3u8",
     "stream_from": "hls",
     "thumbnail": "",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1786078621_0",
+    "name": "Aruljothi TV (576p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://jothi.inet.moe/jothitv/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/BmQ0r5S.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1786078621_1",
+    "name": "Brio TV (576p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://mumt03.tangotv.in/Dsly5z3HBRIOTV/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://jiotvimages.cdn.jio.com/dare_images/images/Brio_TV.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1786078621_2",
+    "name": "Colors Infinity (576p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "http://103.175.73.12:8080/live/29/29_0.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_INFINITY/images/LOGO_HD/image.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1786078621_3",
+    "name": "ETV Abhiruchi (1080p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://dg3721c3ez5m0.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_ABHIRUCHI_H264_cloud-in/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/3D5SN3E.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1786078621_4",
+    "name": "ETV Cinema (396p)",
+    "genre": "Movies",
+    "country": "India",
+    "stream_url": "https://yupplivegcpusa.yuppcdn.net/100823/smil:etvcinema.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+    "stream_from": "hls",
+    "thumbnail": "https://dtil.tmsimg.com/assets/s143026_ld_h15_aa.png?lock=720x540",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1786078621_5",
+    "name": "ETV Plus (396p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://yupplivegcpusa.yuppcdn.net/100823/smil:etvplus.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+    "stream_from": "hls",
+    "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_PLUS/images/LOGO_HD/image.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1786078621_6",
+    "name": "ETV Plus HD (1080p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://d12ee3o8yfkkhd.cloudfront.net/c6a4b411295f47f48c908d2ac0605bad/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_PLUS/images/LOGO_HD/image.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1786078621_7",
+    "name": "Raj TV (1080p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RAJTV/master_1.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_TV/images/LOGO_HD/image.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1786078621_8",
+    "name": "Sony Pix",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://playyonogames.in/sliv/stream.m3u8?id=1000009258",
+    "stream_from": "hls",
+    "thumbnail": "https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1786078621_9",
+    "name": "Star Maa HD (1080p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://anet.keralive.workers.dev/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/starmaa1_live_https/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/5c9PVS0.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1786078621_10",
+    "name": "Star Sports Khel (1080p)",
+    "genre": "Sports",
+    "country": "India",
+    "stream_url": "http://103.175.73.12:8080/live/151/151_0.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_KHEL/images/LOGO_HD/LOGO_HD_image.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1786078632_11",
+    "name": "Zee Kannada HD (1080p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://yuppnimresmum.akamaized.net/28072023/smil:zeekannadahd.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+    "stream_from": "hls",
+    "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_KANNADA_HD/images/LOGO_HD/LOGO_HD_image.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1786078632_12",
+    "name": "Animax Asia Philippines (576p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://thinkkast.dpdns.org/thinkkast/cg_animax_sd_new/versiglia/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Animax.png/960px-Animax.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1786078632_13",
+    "name": "Armenia TV (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://starcius-cinema.com/20690/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/UnoI5uM.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1786078634_14",
+    "name": "AXN Asia Philippines (576p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://thinkkast.dpdns.org/thinkkast/cg_axn_sd/versiglia/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1786078635_15",
+    "name": "BBC Earth Asia (720p)",
+    "genre": "News",
+    "country": "United Kingdom",
+    "stream_url": "https://thinkkast.dpdns.org/thinkkast/cg_bbcearth_hd1/versiglia/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/nGSsUd4.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1786078635_16",
+    "name": "BBC Lifestyle Philippines (720p)",
+    "genre": "News",
+    "country": "United Kingdom",
+    "stream_url": "https://thinkkast.dpdns.org/thinkkast/bbc_lstylehd/versiglia/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/9mzJJ3y.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1786078635_17",
+    "name": "BBC News Asia Pacific (576p)",
+    "genre": "News",
+    "country": "United Kingdom",
+    "stream_url": "https://thinkkast.dpdns.org/thinkkast/bbcworld_news_sd/versiglia/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1786078638_18",
+    "name": "Fox Sports 2 (720p)",
+    "genre": "Sports",
+    "country": "United States",
+    "stream_url": "https://ftv.itscwd273.workers.dev/?id=FOXSPORTS2",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/LHtxKI8.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1786078638_19",
+    "name": "Green Gold TV HD",
+    "genre": "Entertainment",
+    "country": "United Kingdom",
+    "stream_url": "https://vglivessai.akamaized.net/eu/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/675a37e5-f517-434e-adae-d25ae1706340/fbdb017c-7b61-4f62-8719-28b27e44c862/0.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1786078644_20",
+    "name": "Nicktoons (720p)",
+    "genre": "Kids",
+    "country": "International",
+    "stream_url": "http://40.160.24.55/NICKTOONS/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://images.pluto.tv/channels/654ca7f92c1d3300086b608c/colorLogoPNG_1751457678592.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1786078644_21",
+    "name": "Observator News (360p)",
+    "genre": "News",
+    "country": "International",
+    "stream_url": "https://live77cdn2.antenaplay.ro/live_ObservatorNews/live_ObservatorNews.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/f6xEIAr.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1786078647_22",
+    "name": "Starcius Cinema TV",
+    "genre": "Movies",
+    "country": "International",
+    "stream_url": "http://starcius-cinema.com/12042/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://cdn4.telesco.pe/file/vl0vXehST7L24PvmTa7vfWI6Vl7Td8ORLA3bZBJbyr5uBgXHpcCPaEB3IMyjzyqyL9Tb_PJrQD8_GVpXQy9fuI2ZGEBGYmAk4TkEQrGHEw8rDldi4FxmEC3T6DZyg9sD1ao8gxW3Bqmb-MX3zHkp2vG1kDJ40taA9BYun75KTmSyTBagc3muHS5vJvrjmCX8YMbFcv1egZesVkOw4McL61iKt3XyXQN1fqgAqwu3h5zM1sIJwUF2bK-HW3CAoyfZy6di1LG2mbfqcmiTm2yZcQ99qolm3HybxBKn2YeG9mDm9LBzIG9YZnyqSF6vUClk4IZvMYdLV9YL46MkmRH6qw.jpg",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1786078647_23",
+    "name": "Telecentro (480p) [Not 24/7]",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://streamtv.intervenhosting.net:3531/live/telecentrovelive.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/QtRNfaj.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1786078647_24",
+    "name": "TV Today Janakpur",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://tvtoday.rpmc.com.np/hls/bipashatech/1_2/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/5fZF69m.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1786078647_25",
+    "name": "Utsav Bharat (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://d1taaads3ztvmu.cloudfront.net/120723/smil:lifeokuk.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/IQ2n0WY.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1786078647_26",
+    "name": "Utsav Plus (720p)",
+    "genre": "Entertainment",
+    "country": "Pakistan",
+    "stream_url": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/UtsavPlus.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/TERVtWT.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1786078648_27",
+    "name": "WGBO-DT 66.1 (2160p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://unidfp-nlds154.global.ssl.fastly.net/nlds/univisionnow/univision_chi2/as/live/univision_chi2_hd_pc.m3u8?t1=null",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/5RIEi99.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1786078648_28",
+    "name": "Zee TV Asia Pacific (720p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ZeeTVHDAPAC.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Zee_TV_Logo_2025.svg/960px-Zee_TV_Logo_2025.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_39636_1786078666_29",
+    "name": "Mihrap TV",
+    "genre": "Entertainment",
+    "country": "Pakistan",
+    "stream_url": "https://yayin30.haber100.com/live/mihraptv/chunklist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/mihraptv.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_15416_1786078688_30",
+    "name": "I've found some Chinese livestream links today!",
+    "genre": "Entertainment",
+    "country": "Bangladesh",
+    "stream_url": "http://live.ybtvyun.com/video/s10006-b571c289a478/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/ivefoundsomechineselivestreamlinkstoday.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_15416_1786078688_31",
+    "name": "I've found some Chinese livestream links today!",
+    "genre": "Entertainment",
+    "country": "Bangladesh",
+    "stream_url": "http://live.ybtvyun.com/video/s10006-44f040627ca1/index.m3u8?zjild",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/ivefoundsomechineselivestreamlinkstoday.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_15416_1786078688_32",
+    "name": "I've found some Chinese livestream links today!",
+    "genre": "Entertainment",
+    "country": "Bangladesh",
+    "stream_url": "http://live.ybtvyun.com/video/s10016-7e5f23de35df/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/ivefoundsomechineselivestreamlinkstoday.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_15416_1786078688_33",
+    "name": "I've found some Chinese livestream links today!",
+    "genre": "Entertainment",
+    "country": "Bangladesh",
+    "stream_url": "http://live.ybtvyun.com/video/s10016-19a16c47eb99/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/ivefoundsomechineselivestreamlinkstoday.png",
     "poster": ""
   }
 ]
