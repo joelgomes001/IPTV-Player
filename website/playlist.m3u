@@ -27753,8 +27753,8 @@ http://216.144.250.174/Sony_MaX_HD_02/playlist.m3u8
 http://216.144.250.174/Sony_Mix_HD/playlist.m3u8
 #EXTINF:-1 tvg-id="new-source-54" tvg-name="IN: SONY MAX" tvg-logo="" group-title="India - Movies",IN: SONY MAX
 https://sony247channels.akamaized.net/hls/live/2011745/SonyMaxSD/master.m3u8?hdnea=exp=1594424839~acl=/*~hmac=83f1aab290adcecd58296efe621ec7c8ed08d086c488a97c87cf62465105997c&__nn__=5606168722001&hdne
-#EXTINF:-1 tvg-id="new-source-55" tvg-name="IN: SONY MAX HD" tvg-logo="" group-title="India - Movies",IN: SONY MAX HD
-https://sony247channels.akamaized.net/hls/live/2011670/SonyMaxhd/master.m3u8?hdnea=exp=1594424839~acl=/*~hmac=83f1aab290adcecd58296efe621ec7c8ed08d086c488a97c87cf62465105997c&__nn__=5606168722001&hdne
+#EXTINF:-1 tvg-id="new-source-55" tvg-name="SONY MAX HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX-HD_WHITE.png" group-title="India - Movies",SONY MAX HD
+https://sliv.tgaadi.workers.dev/sonymaxhd.m3u8
 #EXTINF:-1 tvg-id="new-source-56" tvg-name="IN: SONY TV HD" tvg-logo="" group-title="India - Entertainment",IN: SONY TV HD
 https://sony247channels.akamaized.net/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1594424839~acl=/*~hmac=83f1aab290adcecd58296efe621ec7c8ed08d086c488a97c87cf62465105997c&__nn__=5606168722001&hdne
 #EXTINF:-1 tvg-id="new-source-57" tvg-name="IN: SONY SAB HD" tvg-logo="" group-title="India - Entertainment",IN: SONY SAB HD
