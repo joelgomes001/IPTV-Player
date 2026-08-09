@@ -138774,7 +138774,7 @@
     "name": "SONY MAX HD",
     "genre": "Movies",
     "country": "India",
-    "stream_url": "https://sliv.tgaadi.workers.dev/sonymaxhd.m3u8",
+    "stream_url": "https://media.dpdns.org/?url=https%3A%2F%2Fsliv.tgaadi.workers.dev%2Fsonymaxhd.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://www.sonypicturesnetworks.com/images/logos/Sony_MAX-HD_WHITE.png",
     "poster": ""
