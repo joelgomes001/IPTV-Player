@@ -34073,7 +34073,7 @@
     "id": "iptv-org-3409",
     "name": "Cine Sony (1080p)",
     "genre": "Movies",
-    "stream_url": "http://177.234.249.178:8888/SONY-MOVIES/index.m3u8",
+    "stream_url": "https://177.234.249.178:8888/SONY-MOVIES/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/bZWoDTg.png",
     "poster": "",
