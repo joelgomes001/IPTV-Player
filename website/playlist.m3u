@@ -31134,7 +31134,7 @@ https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist
 #EXTINF:-1 tvg-id="iptv-new-15709" tvg-name="Song Max" tvg-logo="https://imglink.cc/cdn/4mRBs1A-x_.png" group-title="India - Music",Song Max
 https://edge2.roarzone.net:8447/roarzone/edge3/sony_max_hd/index.m3u8?token=0acbc3381f074f74cd7db448c566c55fe7592a3c-efc9e16855524918b6a0e514aaddd012-1781061322-1781050522
 #EXTINF:-1 tvg-id="iptv-new-15711" tvg-name="Sony Max 2" tvg-logo="https://imglink.cc/cdn/4mRBs1A-x_.png" group-title="India - Movies",Sony Max 2
-https://edge2.roarzone.net:8447/roarzone/edge3/sonymax_2/index.m3u8?token=1ae6cc9578f7e8a9fbeb42b32a9ea6e19c246ec6-aa37a828978035cc1450f0721cf5f067-1781061322-1781050522
+https://media.dpdns.org/?url=https%3A//sliv.tgaadi.workers.dev/max2.m3u8
 #EXTINF:-1 tvg-id="iptv-new-15713" tvg-name="Star Gold" tvg-logo="https://imglink.cc/cdn/Nkj7hqlPz-.jpg" group-title="India - Movies",Star Gold
 http://198.195.239.50:8095/StarGold/index.m3u8
 #EXTINF:-1 tvg-id="iptv-new-15715" tvg-name="9X Tashan" tvg-logo="https://imglink.cc/cdn/IYDn_LwwiV.png" group-title="India - Music",9X Tashan
@@ -31608,11 +31608,11 @@ http://sm-monirul.top/ultra_restream/play/euro_sports_hd.m3u8
 #EXTINF:-1 tvg-id="iptv-new-16265" tvg-name="ICC Test Championship Highlights" tvg-logo="" group-title="Entertainment",ICC Test Championship Highlights
 http://sm-monirul.top/ultra_restream/play/icc_wtc_final.m3u8
 #EXTINF:-1 tvg-id="iptv-new-16267" tvg-name="SONY SPORTS TEN 1 HD" tvg-logo="" group-title="India - Sports",SONY SPORTS TEN 1 HD
-http://sm-monirul.top/ultra_restream/play/sony_sports_1_hd.m3u8
+https://media.dpdns.org/?url=https%3A//sliv.tgaadi.workers.dev/ten1hd.m3u8
 #EXTINF:-1 tvg-id="iptv-new-16269" tvg-name="SONY SPORTS TEN 2 HD" tvg-logo="" group-title="India - Sports",SONY SPORTS TEN 2 HD
-http://sm-monirul.top/ultra_restream/play/sony_sports_2_hd.m3u8
+https://media.dpdns.org/?url=https%3A//sliv.tgaadi.workers.dev/ten2hd.m3u8
 #EXTINF:-1 tvg-id="iptv-new-16271" tvg-name="SONY SPORTS TEN 5 HD" tvg-logo="" group-title="India - Sports",SONY SPORTS TEN 5 HD
-http://sm-monirul.top/ultra_restream/play/sony_sports_5_hd.m3u8
+https://media.dpdns.org/?url=https%3A//sliv.tgaadi.workers.dev/sonysixhd.m3u8
 #EXTINF:-1 tvg-id="iptv-new-16273" tvg-name="SONY TEN Cricket" tvg-logo="" group-title="India - Sports",SONY TEN Cricket
 http://sm-monirul.top/ultra_restream/play/ten_cricket.m3u8
 #EXTINF:-1 tvg-id="iptv-new-16275" tvg-name="EPL channel 1" tvg-logo="" group-title="Entertainment",EPL channel 1
@@ -35669,3 +35669,13 @@ https://1261a78709344810a5b834d397509879.mediatailor.us-west-2.amazonaws.com/v1/
 https://97bf7b92.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9SdWdieVBhc3NUVl9ITFM/playlist.m3u8?ads.wurl_channel=1872&ads.wurl_name=RugbyPassTV&ads.coppa=0&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D
 #EXTINF:-1 tvg-id="shajon_1786260853_998" tvg-name="Pickle TV" tvg-logo="https://media.unreel.me/prod/freelivesports/logo/63fba2fd-ea9b-485f-bc45-44b1eef221a5" group-title="Sports",Pickle TV
 https://fce26776.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U3BvcnRzVHJpYmFsLWV1X1BpY2tsZVRWX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-id="proxy_1786348163_0" tvg-name="Sony SAB HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png" group-title="India - General",Sony SAB HD
+https://media.dpdns.org/?url=https%3A//sliv.tgaadi.workers.dev/sabhd.m3u8
+#EXTINF:-1 tvg-id="proxy_1786348163_1" tvg-name="Sony PIX HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/PIX%20HD_WHITE.png" group-title="India - General",Sony PIX HD
+https://media.dpdns.org/?url=https%3A//sliv.tgaadi.workers.dev/pixhd.m3u8
+#EXTINF:-1 tvg-id="proxy_1786348163_2" tvg-name="Sony Sports Ten 3 HD (Hindi)" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_3_Hindi_HD.png" group-title="India - Sports",Sony Sports Ten 3 HD (Hindi)
+https://media.dpdns.org/?url=https%3A//sliv.tgaadi.workers.dev/ten3hd.m3u8
+#EXTINF:-1 tvg-id="proxy_1786348163_3" tvg-name="Sony Pal" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20PAL.png" group-title="India - General",Sony Pal
+https://media.dpdns.org/?url=https%3A//sliv.tgaadi.workers.dev/sonypalsd.m3u8
+#EXTINF:-1 tvg-id="proxy_1786348163_4" tvg-name="Sony WAH" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_WAH.png" group-title="India - General",Sony WAH
+https://media.dpdns.org/?url=https%3A//sliv.tgaadi.workers.dev/sonywah.m3u8

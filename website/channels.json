@@ -155674,7 +155674,7 @@
     "name": "Sony Max 2",
     "genre": "Movies",
     "country": "India",
-    "stream_url": "https://edge2.roarzone.net:8447/roarzone/edge3/sonymax_2/index.m3u8?token=1ae6cc9578f7e8a9fbeb42b32a9ea6e19c246ec6-aa37a828978035cc1450f0721cf5f067-1781061322-1781050522",
+    "stream_url": "https://media.dpdns.org/?url=https%3A//sliv.tgaadi.workers.dev/max2.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://imglink.cc/cdn/4mRBs1A-x_.png",
     "poster": ""
@@ -158044,7 +158044,7 @@
     "name": "SONY SPORTS TEN 1 HD",
     "genre": "Sports",
     "country": "India",
-    "stream_url": "http://sm-monirul.top/ultra_restream/play/sony_sports_1_hd.m3u8",
+    "stream_url": "https://media.dpdns.org/?url=https%3A//sliv.tgaadi.workers.dev/ten1hd.m3u8",
     "stream_from": "hls",
     "thumbnail": "",
     "poster": ""
@@ -158054,7 +158054,7 @@
     "name": "SONY SPORTS TEN 2 HD",
     "genre": "Sports",
     "country": "India",
-    "stream_url": "http://sm-monirul.top/ultra_restream/play/sony_sports_2_hd.m3u8",
+    "stream_url": "https://media.dpdns.org/?url=https%3A//sliv.tgaadi.workers.dev/ten2hd.m3u8",
     "stream_from": "hls",
     "thumbnail": "",
     "poster": ""
@@ -158064,7 +158064,7 @@
     "name": "SONY SPORTS TEN 5 HD",
     "genre": "Sports",
     "country": "India",
-    "stream_url": "http://sm-monirul.top/ultra_restream/play/sony_sports_5_hd.m3u8",
+    "stream_url": "https://media.dpdns.org/?url=https%3A//sliv.tgaadi.workers.dev/sonysixhd.m3u8",
     "stream_from": "hls",
     "thumbnail": "",
     "poster": ""
@@ -178347,6 +178347,56 @@
     "stream_url": "https://fce26776.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U3BvcnRzVHJpYmFsLWV1X1BpY2tsZVRWX0hMUw/playlist.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://media.unreel.me/prod/freelivesports/logo/63fba2fd-ea9b-485f-bc45-44b1eef221a5",
+    "poster": ""
+  },
+  {
+    "id": "proxy_1786348163_0",
+    "name": "Sony SAB HD",
+    "genre": "General",
+    "country": "India",
+    "stream_url": "https://media.dpdns.org/?url=https%3A//sliv.tgaadi.workers.dev/sabhd.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://www.sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png",
+    "poster": ""
+  },
+  {
+    "id": "proxy_1786348163_1",
+    "name": "Sony PIX HD",
+    "genre": "General",
+    "country": "India",
+    "stream_url": "https://media.dpdns.org/?url=https%3A//sliv.tgaadi.workers.dev/pixhd.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://www.sonypicturesnetworks.com/images/logos/PIX%20HD_WHITE.png",
+    "poster": ""
+  },
+  {
+    "id": "proxy_1786348163_2",
+    "name": "Sony Sports Ten 3 HD (Hindi)",
+    "genre": "Sports",
+    "country": "India",
+    "stream_url": "https://media.dpdns.org/?url=https%3A//sliv.tgaadi.workers.dev/ten3hd.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_3_Hindi_HD.png",
+    "poster": ""
+  },
+  {
+    "id": "proxy_1786348163_3",
+    "name": "Sony Pal",
+    "genre": "General",
+    "country": "India",
+    "stream_url": "https://media.dpdns.org/?url=https%3A//sliv.tgaadi.workers.dev/sonypalsd.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://www.sonypicturesnetworks.com/images/logos/SONY%20PAL.png",
+    "poster": ""
+  },
+  {
+    "id": "proxy_1786348163_4",
+    "name": "Sony WAH",
+    "genre": "General",
+    "country": "India",
+    "stream_url": "https://media.dpdns.org/?url=https%3A//sliv.tgaadi.workers.dev/sonywah.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://www.sonypicturesnetworks.com/images/logos/Sony_WAH.png",
     "poster": ""
   }
 ]
