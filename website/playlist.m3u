@@ -1498,7 +1498,7 @@ https://airtelapp.shemaroo.com/marathibana/smil:marathibanaadp.smil/playlist.m3u
 #EXTINF:-1 tvg-id="iptv-org-750" tvg-name="Shemaroo TV (720p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHEMAROO_TV/images/LOGO_HD/image.png" group-title="India - Entertainment",Shemaroo TV (720p)
 https://airtelapp.shemaroo.com/shemarootv/smil:shemarootvadp.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv-org-751" tvg-name="Shemaroo Umang (720p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHEMAROO_UMANG/images/LOGO_HD/image.png" group-title="India - Entertainment",Shemaroo Umang (720p)
-http://103.213.31.109:90/ShemarooUmang/playlist.m3u8
+https://airtelapp.shemaroo.com/shemarooumang/smil:shemarooumangadp.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv-org-752" tvg-name="Shubh TV (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHUBH_TV/images/LOGO_HD/image.png" group-title="India - Entertainment",Shubh TV (1080p)
 https://d2g1vdc6ozl2o8.cloudfront.net/out/v1/0a0dc7d7911b4fddbb4dfc963fdd4b9e/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-753" tvg-name="Shubhsandesh TV (720p) [Not 24/7]" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHUBHSANDESH_TV/images/LOGO_HD/image.png" group-title="India - Religious",Shubhsandesh TV (720p) [Not 24/7]
@@ -1544,7 +1544,7 @@ http://103.253.18.58:8000/play/a02u
 #EXTINF:-1 tvg-id="iptv-org-773" tvg-name="Star Gold Thrills (576p)" tvg-logo="https://i.imgur.com/azqtpYh.png" group-title="India - Movies",Star Gold Thrills (576p)
 http://103.157.248.140:8000/play/a00b/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-774" tvg-name="Star Jalsha HD (720p)" tvg-logo="https://i.imgur.com/IlufzR5.png" group-title="India - Entertainment",Star Jalsha HD (720p)
-http://tvsen7.aynascope.net/sjhdbd/index.m3u8
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starjalsha.smil/chunklist_b1928000.m3u8
 #EXTINF:-1 tvg-id="iptv-org-775" tvg-name="Star Maa Gold (576p)" tvg-logo="https://i.imgur.com/8v4JXYu.png" group-title="India - Entertainment",Star Maa Gold (576p)
 http://103.121.6.5:8000/play/a063/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-776" tvg-name="Star Maa Movies HD (1080p)" tvg-logo="https://dtil.tmsimg.com/assets/s143826_ld_h15_aa.png?lock=720x540" group-title="India - Movies",Star Maa Movies HD (1080p)
@@ -2960,7 +2960,7 @@ https://stream.alabbassia.com/live/alabbassia/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-1481" tvg-name="Alacantí TV (576p) [Not 24/7]" tvg-logo="https://i.imgur.com/pcWU6e1.png" group-title="France - Entertainment",Alacantí TV (576p) [Not 24/7]
 https://streaming01.gestec-video.com/hls/artequatreAlacanti.m3u8
 #EXTINF:-1 tvg-id="iptv-org-1482" tvg-name="Alalam News Channel Syria (1080p)" tvg-logo="https://i.imgur.com/WQKYPKD.png" group-title="News",Alalam News Channel Syria (1080p)
-https://live2.alalam.ir/live/Alalam/index.m3u8
+http://live2.alalam.ir/live/Alalam/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-1483" tvg-name="Alanya Posta TV (1080p)" tvg-logo="https://i.imgur.com/a3w9eFe.png" group-title="Turkey - Entertainment",Alanya Posta TV (1080p)
 https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv-org-1484" tvg-name="Alaska y Mario" tvg-logo="https://i.imgur.com/MCbCSWv.png" group-title="Entertainment",Alaska y Mario
@@ -3902,7 +3902,7 @@ http://187.102.210.46/ATV/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-1952" tvg-name="ATV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/83/Atv_pakistan.PNG" group-title="Turkey - Entertainment",ATV (1080p)
 http://115.42.65.142:9981/stream/channelid/299762256
 #EXTINF:-1 tvg-id="iptv-org-1953" tvg-name="ATV (1080p)" tvg-logo="https://i.imgur.com/HyVUwFC.png" group-title="Turkey - Entertainment",ATV (1080p)
-http://5.254.89.106/8709/index.m3u8
+http://190.93.224.42/ATV/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-1954" tvg-name="ATV Alanya (1080p)" tvg-logo="https://i.imgur.com/bUwarR0.png" group-title="Turkey - Entertainment",ATV Alanya (1080p)
 https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv-org-1955" tvg-name="ATV Argentina" tvg-logo="https://i.ibb.co/rMBVDmZ/atvargentina-x1.png" group-title="Argentina - News",ATV Argentina
@@ -6310,7 +6310,7 @@ https://cbsn-dal.cbsnstream.cbsnews.com/out/v1/ffa98bbf7d2b4c038c229bd4d9122708/
 #EXTINF:-1 tvg-id="iptv-org-3156" tvg-name="CBS News Texas (720p)" tvg-logo="https://i.imgur.com/6tWCzTp.png" group-title="United States - News",CBS News Texas (720p)
 https://jmp2.uk/plu-5eceb0d4065c240007688ec6.m3u8
 #EXTINF:-1 tvg-id="iptv-org-3157" tvg-name="CBS Sports Golazo Network (720p)" tvg-logo="https://i.imgur.com/eMjutHS.png" group-title="United States - Sports",CBS Sports Golazo Network (720p)
-https://proped3fhg87.airspace-cdn.cbsivideo.com/golazo-live-dai/master/golazo-live-dai.m3u8
+https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
 #EXTINF:-1 tvg-id="iptv-org-3158" tvg-name="CBS Sports HQ (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/q8BENJg.png" group-title="United States - Sports",CBS Sports HQ (1080p) [Geo-blocked]
 https://propee33f9c2.airspace-cdn.cbsivideo.com/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-3159" tvg-name="CBS Sports Network USA (1080p)" tvg-logo="https://i.imgur.com/A8CnA8g.png" group-title="United States - Sports",CBS Sports Network USA (1080p)
@@ -7306,7 +7306,7 @@ https://streamserver3.seneca.tv/cval_live/cdn_enc_3/master.m3u8
 #EXTINF:-1 tvg-id="iptv-org-3654" tvg-name="Cosmic Frontiers (1080p)" tvg-logo="https://i.ibb.co/GC73Fxt/logo.png" group-title="Bangladesh - Entertainment",Cosmic Frontiers (1080p)
 https://amg00376-magellan-amg00376c14-rakuten-uk-1694.playouts.now.amagi.tv/playlist/amg00376-magellantv-spacesciencenowcauk-rakutenuk/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv-org-3655" tvg-name="Cosmos Tv" tvg-logo="https://i0.wp.com/fmcosmos.com/wp-content/uploads/2021/11/COSMOS-TV.png" group-title="Argentina - News",Cosmos Tv
-https://canaletaplus.com:3922/live/cosmoslive.m3u8
+https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
 #EXTINF:-1 tvg-id="iptv-org-3656" tvg-name="Cosmos TV (720p)" tvg-logo="https://i.imgur.com/dAMyExY.jpg" group-title="Documentary",Cosmos TV (720p)
 https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8
 #EXTINF:-1 tvg-id="iptv-org-3657" tvg-name="Cosmovision (720p)" tvg-logo="https://i.imgur.com/QlvYfEJ.png" group-title="Entertainment",Cosmovision (720p)
@@ -9424,7 +9424,7 @@ https://webtvstream.bhtelecom.ba/filmbox_premium.m3u8
 #EXTINF:-1 tvg-id="iptv-org-4713" tvg-name="FILMBOX+ Hits Czechia" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bhits.png" group-title="Czech Republic - Movies",FILMBOX+ Hits Czechia
 http://88.212.15.19/live/test_film_boxpremium_hd_hevc/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv-org-4714" tvg-name="FILMBOX+ Hits Romania (576p)" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bhits.png" group-title="Romania - Movies",FILMBOX+ Hits Romania (576p)
-https://aes.m3u8simplu.workers.dev/filmboxpremium/index.m3u8
+https://nosignal1.antenaplay.ro/hls/fb-hits-sd/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-4715" tvg-name="FILMBOX+ Love & Crime" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Blove-and-crime.png" group-title="Poland - Movies",FILMBOX+ Love & Crime
 http://88.212.15.19/live/test_filmbox_plus_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv-org-4716" tvg-name="FILMBOX+ Love & Crime Adria" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Blove-and-crime.png" group-title="Bangladesh - Movies",FILMBOX+ Love & Crime Adria
@@ -9440,7 +9440,7 @@ http://88.212.15.19/live/test_filmbox/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv-org-4721" tvg-name="FILMBOX+ One Magyar" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bone.png" group-title="Movies",FILMBOX+ One Magyar
 http://88.212.15.19/live/test_filmbox_plus_hun_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv-org-4722" tvg-name="FILMBOX+ One Romania (576p)" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bone.png" group-title="Romania - Movies",FILMBOX+ One Romania (576p)
-https://aes.m3u8simplu.workers.dev/filmbox/index.m3u8
+https://nosignal1.antenaplay.ro/hls/fb-one-sd/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-4723" tvg-name="FILMBOX+ One Ukraine & Baltics (450p) [Geo-blocked]" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bone.png" group-title="United Kingdom - Movies",FILMBOX+ One Ukraine & Baltics (450p) [Geo-blocked]
 https://s70378.cdn.ngenix.net/filmbox/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-4724" tvg-name="Filmelier TV" tvg-logo="https://i.imgur.com/X0JJlOX.png" group-title="Movies",Filmelier TV
@@ -28250,7 +28250,7 @@ https://sktv.mxnticek.eu/new/stream.php?ch=PrimaStar
 #EXTINF:-1 tvg-id="new-source-357" tvg-name="Prima Krimi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/czech-republic/prima-krimi-cz.png" group-title="Czech Republic - Entertainment",Prima Krimi
 https://sktv.mxnticek.eu/new/stream.php?ch=PrimaKrimi
 #EXTINF:-1 tvg-id="new-source-358" tvg-name="Prima MAX" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/czech-republic/prima-max-cz.png" group-title="Czech Republic - Entertainment",Prima MAX
-https://sktv.mxnticek.eu/new/stream.php?ch=PrimaMax
+http://88.212.15.19/live/test_prima_max_cz/playlist.m3u8
 #EXTINF:-1 tvg-id="new-source-359" tvg-name="Prima Cool" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/czech-republic/prima-cool-cz.png" group-title="Czech Republic - Entertainment",Prima Cool
 http://88.212.15.19/live/prima_cool_cz_avc/index.m3u8
 #EXTINF:-1 tvg-id="new-source-360" tvg-name="Prima Show" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/czech-republic/prima-show-cz.png" group-title="Czech Republic - Entertainment",Prima Show
@@ -36769,3 +36769,65 @@ http://ikitv.sqn.at:8000/play/a023/index.m3u8
 https://d368vp0qqzvkid.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_nbc-direct/adcee832-5511-4ed1-bcef-58616c0f530f/4.m3u8
 #EXTINF:-1 tvg-id="rej_49486_1787630040_35" tvg-name="Fajer 1 ps" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/fajer1ps.png" group-title="Entertainment",Fajer 1 ps
 https://palestine24.aboozayed.web.id/live/streams/alfajer1.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1787838984_0" tvg-name="Asianet HD (720p)" tvg-logo="https://i.imgur.com/Wv7MOzg.png" group-title="India - Entertainment",Asianet HD (720p)
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/AsianetHD.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1787838989_1" tvg-name="Hosanna TV" tvg-logo="https://i.imgur.com/VYorU1L.png" group-title="India - Entertainment",Hosanna TV
+https://asia.mslivestream.net/mslive/bfba54c5c96a6359e2da0ca35f4998af.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1787838989_2" tvg-name="Hosanna TV Global" tvg-logo="https://i.imgur.com/VYorU1L.png" group-title="India - Entertainment",Hosanna TV Global
+https://ktismaservers.in:3349/live/hosannatvlive.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1787838989_3" tvg-name="Hosanna TV Hindi" tvg-logo="https://i.imgur.com/VYorU1L.png" group-title="India - Entertainment",Hosanna TV Hindi
+https://ktismaservers.in:3466/live/hosannattvhindhilive.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1787838993_4" tvg-name="MH One Shraddha (576p)" tvg-logo="https://i.imgur.com/Lrm8qTO.png" group-title="India - Entertainment",MH One Shraddha (576p)
+https://mumt01.tangotv.in/O5aw8Zn3MHONESHRADDHA/index.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1787838998_5" tvg-name="Samachar Plus 24x7 (576p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Samachar_Plus.png" group-title="India - News",Samachar Plus 24x7 (576p)
+https://mumt05.tangotv.in/87NeALx2VERTENTSAMACHARPLUS/index.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1787839005_6" tvg-name="Soham TV (576p)" tvg-logo="https://i.imgur.com/cpedJ0L.png" group-title="India - Entertainment",Soham TV (576p)
+https://mumt03.tangotv.in/Dsly5z3HSOHAMTV/index.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1787839006_7" tvg-name="Star Maa HD (720p)" tvg-logo="https://i.imgur.com/5c9PVS0.png" group-title="India - Entertainment",Star Maa HD (720p)
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starmaa1.smil/chunklist_b2628000.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1787839006_8" tvg-name="Star Maa Movies HD (720p)" tvg-logo="https://dtil.tmsimg.com/assets/s143826_ld_h15_aa.png?lock=720x540" group-title="India - Movies",Star Maa Movies HD (720p)
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:maamovies.smil/chunklist_b2628000.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1787839006_9" tvg-name="Star Pravah HD (720p)" tvg-logo="https://i.imgur.com/ZT0u7AK.png" group-title="India - Entertainment",Star Pravah HD (720p)
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starpravah.smil/chunklist_b1928000.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1787839006_10" tvg-name="Suvarna News (576p)" tvg-logo="https://i.imgur.com/0H1HObK.png" group-title="India - News",Suvarna News (576p)
+https://streams.tangotv.in/SUVARNANEWS/ORIGIN/index.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1787839006_11" tvg-name="Tamilan TV (576p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Tamilan_Television.png" group-title="India - Entertainment",Tamilan TV (576p)
+https://mumt04.tangotv.in/m18aqlK4TAMILANTELEVISION/index.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1787839010_12" tvg-name="Vedic (576p)" tvg-logo="https://dtil.tmsimg.com/assets/s144069_ld_h15_aa.png?lock=720x540" group-title="India - Entertainment",Vedic (576p)
+https://mumt05.tangotv.in/87NeALx2VEDIC/index.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1787839012_13" tvg-name="Village TV (1080p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/VillageTV.png" group-title="India - Entertainment",Village TV (1080p)
+https://live.villagetv.net/villagetv/hd/index.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1787839012_14" tvg-name="WOW Kidz Tamil (720p)" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yupptvnew/content/common/channel/logos/mjvezt.png" group-title="India - Entertainment",WOW Kidz Tamil (720p)
+https://yuppparoriglin.akamaized.net/181224/smil:wowkidztam.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
+#EXTINF:-1 tvg-id="iptv_in_1787839012_15" tvg-name="YET Max (720p)" tvg-logo="https://yettelevision.com/assets/images/logo/channel_11847.png" group-title="India - Entertainment",YET Max (720p)
+https://live.yettelevision.com:5443/LiveApp/streams/yettv2.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1787839012_16" tvg-name="YET TV (720p)" tvg-logo="https://yettelevision.com/assets/images/logo/channel_1.png" group-title="India - Entertainment",YET TV (720p)
+https://live.yettelevision.com:5443/LiveApp/streams/yettv.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1787839038_17" tvg-name="BBC First Romania" tvg-logo="https://i.imgur.com/UBoBYUI.png" group-title="United Kingdom - News",BBC First Romania
+https://onyx1.mofta1.cfd/bibi1/usergendxn09l2s6cek.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1787839039_18" tvg-name="Bollywood Classic Romania" tvg-logo="https://i.imgur.com/ugPo6ca.png" group-title="Entertainment",Bollywood Classic Romania
+https://flash1.bogulus1.cfd/boly/usergenr9j8s2t.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1787839051_19" tvg-name="Eurosport 4K Czechia" tvg-logo="https://i.imgur.com/0o3zjC7.png" group-title="Sports",Eurosport 4K Czechia
+http://88.212.15.19/live/esp_4k_atk/playlist.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1787839053_20" tvg-name="FILMBOX+ Comedy Romania" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bcomedy.png" group-title="Movies",FILMBOX+ Comedy Romania
+https://nosignal1.antenaplay.ro/hls/fb-comedy-hd/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1787839053_21" tvg-name="FILMBOX+ Festival HD (1080p)" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bfestival.png" group-title="Movies",FILMBOX+ Festival HD (1080p)
+https://nosignal1.antenaplay.ro/hls/fb-festival-hd/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1787839054_22" tvg-name="FILMBOX+ Love & Crime Romania" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Blove-and-crime.png" group-title="Movies",FILMBOX+ Love & Crime Romania
+https://nosignal1.antenaplay.ro/hls/fb-love-and-crime-sd/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1787839058_23" tvg-name="Greater Love TV (720p)" tvg-logo="https://i.imgur.com/WE0cRXR.png" group-title="United Kingdom - Entertainment",Greater Love TV (720p)
+https://rpn.bozztv.com/dvrfl04/itv04019/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1787839058_24" tvg-name="Hello Taste" tvg-logo="https://i.imgur.com/TdKO0er.png" group-title="Brazil - Entertainment",Hello Taste
+https://dai.google.com/linear/hls/pa/event/YeG0_KbLRjGeYKU2qVhl_Q/stream/30ddffe9-87f0-4dc7-b0fe-8f0e12044f3e:GRQ/variant/c209b0d3694ace6f439e2179fdad8e66/bandwidth/2628000.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1787839116_25" tvg-name="Swerve Sports (720p)" tvg-logo="https://i.imgur.com/GT0Yi2T.png" group-title="Sports",Swerve Sports (720p)
+https://a-cdn.klowdtv.com/live3/swervewomenssports_720p/playlist.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1787839132_26" tvg-name="Video Mix TV" tvg-logo="https://i.imgur.com/nyLrIPP.png" group-title="Entertainment",Video Mix TV
+https://2-fss-2.streamhoster.com/pl_118/206436-3189488-1/playlist.m3u8
+#EXTINF:-1 tvg-id="rej_34691_1787839162_27" tvg-name="TRT GENC" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/trtgenc.png" group-title="Turkey - Entertainment",TRT GENC
+https://tv-trtgenc.medya.trt.com.tr/master_1080.m3u8
+#EXTINF:-1 tvg-id="rej_49537_1787839186_28" tvg-name="Showtime East" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/showtimeeast.png" group-title="United States - Movies",Showtime East
+http://41.205.93.154/SHOWTIMES/index.m3u8
+#EXTINF:-1 tvg-id="rej_49511_1787839189_29" tvg-name="PRIMA SPORT2 RO" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/primasport2ro.png" group-title="Pakistan - Sports",PRIMA SPORT2 RO
+http://eb4b8dcf.kablakaka.ru/iptv/PXXFGKYYT6PCZA/7060/index.m3u8
+#EXTINF:-1 tvg-id="rej_49510_1787839189_30" tvg-name="PRIMA SPORT1 RO" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/primasport1ro.png" group-title="Pakistan - Sports",PRIMA SPORT1 RO
+http://eb4b8dcf.kablakaka.ru/iptv/PXXFGKYYT6PCZA/7059/index.m3u8
