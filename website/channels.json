@@ -184628,5 +184628,295 @@
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/GPiE2Rb.png",
     "poster": ""
+  },
+  {
+    "id": "iptv_in_1788251150_0",
+    "name": "Aastha SD (576p)",
+    "genre": "Religious",
+    "country": "India",
+    "stream_url": "http://103.175.73.12:8080/live/338/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/IqgrV92.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1788251161_1",
+    "name": "Arputhar Yesu TV (576p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://account33.livebox.co.in/jesushelpshls/live.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://arputharyesutv.net/wp-content/uploads/2022/07/AR-LOGO-PNG.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1788251161_2",
+    "name": "Asianet Movies HD (720p)",
+    "genre": "Movies",
+    "country": "India",
+    "stream_url": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:asianetmovies1.smil/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/cps67hs.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1788251161_3",
+    "name": "B4U Kadak (576p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "http://103.175.73.12:8080/live/44/44_0.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://dtil.tmsimg.com/assets/s142695_ld_h15_aa.png?lock=720x540",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1788251161_4",
+    "name": "Colors Kannada HD (1080i)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorskannadahd1.smil/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_KANNADA_HD/images/LOGO_HD/image.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1788251162_5",
+    "name": "Fast1 (576p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://cdn-6.pishow.tv/live/10008/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://papaji.freetvindia.com/media/channels/fast1.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251178_6",
+    "name": "4ever Cinema (1080p)",
+    "genre": "Movies",
+    "country": "International",
+    "stream_url": "http://stream.mcquack.net/258/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/vFOgVbG.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251178_7",
+    "name": "4ever Drama (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://stream.mcquack.net/260/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/CD3vZU6.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251178_8",
+    "name": "4ever Music (1080p)",
+    "genre": "Music",
+    "country": "International",
+    "stream_url": "http://stream.mcquack.net/257/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/UJ5oaeU.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251178_9",
+    "name": "4ever Theater (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://stream.mcquack.net/259/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/kfngtev.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251183_10",
+    "name": "¡Viva Latino! (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://stream.mcquack.net/285/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/KRakHAq.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251204_11",
+    "name": "ATR (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://stream.mcquack.net/244/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/lRJAXC7.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251205_12",
+    "name": "Black (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://stream.mcquack.net/283/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/iSzAO32.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251209_13",
+    "name": "Cine+",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2gzMy90cmFja3MtdjJhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDc1MjM2MiZzdD12bmp2elZKY2JtUndKMkFzY1l0UWpR&master=567",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/SAtdShq.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251209_14",
+    "name": "Cine+ Hit",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDAvdHJhY2tzLXYyYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTI3NDUmc3Q9cVZaQ3Vpd2l3UzEwLW1tMzEwMktDZw%3D%3D&master=539",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/b3FcLU1.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251209_15",
+    "name": "Cine+ Kids",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNzUvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTI5MDYmc3Q9TUtpMWlxbmN6NGFDdjRrdmN0TkVtUQ%3D%3D&master=540",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/lmfc2u4.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251209_16",
+    "name": "Cine+ Legend",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoMzQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTI2Mzgmc3Q9RHdRc3AyN2l6V3J1dllqUEZ5aS1yUQ%3D%3D&master=568",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/QtOfzSH.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251215_17",
+    "name": "Fashion TV (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://stream.mcquack.net/287/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/Bk7W39G.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251223_18",
+    "name": "Hum TV (720p)",
+    "genre": "Entertainment",
+    "country": "United Kingdom",
+    "stream_url": "https://g4wlkwx8l23a-hls-live.5centscdn.com/HUM/271ddf829afeece44d8732757fba1a66.sdp/playlist_dvr.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.ibb.co/Tx4GfKT5/Hum-TV-HD.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251225_19",
+    "name": "IraneFarda TV",
+    "genre": "Entertainment",
+    "country": "Germany",
+    "stream_url": "https://iranefardalive.com/stream/live.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/ixgcgZY.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251229_20",
+    "name": "Konkurent Ukraine",
+    "genre": "Entertainment",
+    "country": "United Kingdom",
+    "stream_url": "http://775065.live.tvstitch.com/playlist.m3u8?source=aHR0cHM6Ly9obHMtY2RuMi5keXZ5YXBwLmNvbS9rb25rdXJlbnQtdWtyYWluYS90cmFja3MtdjFhMS9tb25vLnRzLm0zdTg/dG9rZW49ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmphR0Z1Ym1Wc1gybGtJam96TVRFc0ltTm9ZVzV1Wld4ZmJtRnRaU0k2SWx4MU1EUXhZVngxTURRelpWeDFNRFF6WkZ4MU1EUXpZVngxTURRME0xeDFNRFEwTUZ4MU1EUXpOVngxTURRelpGeDFNRFEwTWlCY2RUQTBNak5jZFRBME0yRmNkVEEwTkRCY2RUQTBNekJjZFRBME5UZGNkVEEwTTJSY2RUQTBNekFpTENKcGNDSTZJakUzT0M0eE16WXVOREl1TWpJd0lpd2lZMjkxYm5SeWVTSTZJbFZyY21GcGJtVWlMQ0oxYzJWeVgybGtJam8zTkRBM0xDSjFjMlZ5WDNCb2IyNWxJam9pS3pNNE1Ea3pNRGsyTnpReU15SXNJblZ6WlhKZmNtOXNaWE1pT2xzaVkyeHBaVzUwSWwwc0luQnliMlpwYkdWZmFXUWlPalkwTnpFc0luTmxjM05wYjI1ZmFXUWlPaUprTURBNU5tSm1PQzB5TTJVMUxUUmxaVFl0WW1Vek5TMW1PREE0TXpsbFpqbGtPRFFpTENKbGJuWnBjbTl1YldWdWRDSTZJbkJ5YjJSMVkzUnBiMjRpTENKd2JHRjBabTl5YlNJNklrUmxjMnQwYjNBaUxDSjFjMlZ5WDJGblpXNTBJam9pVFc5NmFXeHNZVnd2TlM0d0lDaFhhVzVrYjNkeklFNVVJREV3TGpBN0lGZHBialkwT3lCNE5qUXBJRUZ3Y0d4bFYyVmlTMmwwWEM4MU16Y3VNellnS0V0SVZFMU1MQ0JzYVd0bElFZGxZMnR2S1NCRGFISnZiV1ZjTHpFMU1pNHdMakF1TUNCVFlXWmhjbWxjTHpVek55NHpOaUlzSW1WNGNDSTZNVGM0T0RNek5qTXdOSDAuOGgzdDlhSkFPUjh0djhvX0NZWjlDbHVuaTVvZ2NiRVFVcC1SbThlcUMwNA==&master=311",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/a/a9/%D0%9A%D0%BE%D0%BD%D0%BA%D1%83%D1%80%D0%B5%D0%BD%D1%82_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0_%282025%29.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251229_21",
+    "name": "Kvartal TV (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g2NS90cmFja3MtdjJhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDcxMDcwMCZzdD1MXzZYc2M4elNra3RCaWYyVzU1dWF3&master=180",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/6ZYWizP.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251235_22",
+    "name": "Nevis Television",
+    "genre": "Entertainment",
+    "country": "Bangladesh",
+    "stream_url": "https://media.slactech.com:1936/NTvDirect/ngrp:NTvDirect_all/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/u76GqAi.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251246_23",
+    "name": "Niki Junior (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://stream.mcquack.net/262/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/DrHsNin.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251246_24",
+    "name": "Niki Kids (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://stream.mcquack.net/271/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/HH4HZ2J.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251257_25",
+    "name": "Sonce+",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTI1LjIzOjcwMDAvY2g0My90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTU3LjEyOC4yMzYuMjIzJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDc1NTE0NiZzdD02SC1HSlEtemw4X1NCQjMzRjVLTUpn&master=1103",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Sonce%2B_%28logo%29_2024.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251278_26",
+    "name": "TVP2 (1080p) [Not 24/7]",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://tvpi.travny.workers.dev/tvp2.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/XxCc32B.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251278_27",
+    "name": "UA Music (1080p)",
+    "genre": "Music",
+    "country": "International",
+    "stream_url": "http://stream.mcquack.net/281/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/6c/UA_Music.png?_=20230223183537",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788251284_28",
+    "name": "Viasat True Crime Ukraine",
+    "genre": "Entertainment",
+    "country": "United Kingdom",
+    "stream_url": "http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoMjgvdHJhY2tzLXYyYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3MDczMDImc3Q9ZzIyOUNTdUZudUd6dm9UbkJNNzJ6dw%3D%3D&master=1091",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/1/18/Viasat_True_Crime_%2820.05.2026%29.png",
+    "poster": ""
   }
 ]
