@@ -292,7 +292,7 @@ http://15.235.187.72/hls/sdtv.m3u8
 #EXTINF:-1 tvg-id="167" tvg-name="Bangla Bhakti" tvg-logo="https://ranacabletv.alwaysdata.net/oxoo/uploads/tv_image/sm/bangla-bhakti.jpeg" group-title="Bangladesh - Religious",Bangla Bhakti
 http://147.93.153.123:8082/eagle/index.m3u8
 #EXTINF:-1 tvg-id="153" tvg-name="Maya Tv" tvg-logo="https://ranacabletv.alwaysdata.net/oxoo/uploads/tv_image/sm/mayatv.jpeg" group-title="Honduras - Religious",Maya Tv
-rtmp://94.136.184.69:1935/static/mayatv
+https://media.streambrothers.com:19360/8036/8036.m3u8
 #EXTINF:-1 tvg-id="150" tvg-name="Jtvbhakti" tvg-logo="https://ranacabletv.alwaysdata.net/oxoo/uploads/tv_image/sm/jtvbhakti.png" group-title="India - Religious",Jtvbhakti
 rtmp://147.93.153.123:1935/static/jtvbhakti
 #EXTINF:-1 tvg-id="140" tvg-name="Rc Tv sankirtan" tvg-logo="https://ranacabletv.alwaysdata.net/oxoo/uploads/tv_image/sm/rc-tv-sankirtan.png" group-title="India - Religious",Rc Tv sankirtan
@@ -1110,7 +1110,7 @@ https://amg00861-terninternation-lifestyle-samsungau-kdlyy.amagi.tv/playlist/amg
 #EXTINF:-1 tvg-id="iptv-org-556" tvg-name="INH 24x7 (396p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INH_24X7/images/LOGO_HD/image.png" group-title="News",INH 24x7 (396p)
 https://d1msejlow1t3l4.cloudfront.net/fta/inh24x7/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv-org-557" tvg-name="Insync (576p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Insync.png" group-title="Music",Insync (576p)
-http://103.175.73.12:8080/live/160/master.m3u8
+https://mumt04.tangotv.in/m18aqlK4INSYNC/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-558" tvg-name="INWILD (1080p)" tvg-logo="https://cdn.uc.assets.prezly.com/92770c71-9d6f-400f-8311-38e9cfec52c2/InWild_landscape-green.png" group-title="Documentary",INWILD (1080p)
 https://amg00861-terninternation-inwild-samsunguk-w5wic.amagi.tv/playlist/amg00861-terninternation-inwild-samsunguk/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv-org-559" tvg-name="InWonder (1080p)" tvg-logo="https://cdn.uc.assets.prezly.com/f12e798d-6da4-46e1-8ec5-e391d6762659/InWonder_portrait-purple.png" group-title="Documentary",InWonder (1080p)
@@ -13888,7 +13888,7 @@ https://593aed234297b.streamlock.net/meervandaag/meervandaag/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv-org-6945" tvg-name="Meet Marry Murder" tvg-logo="https://i.imgur.com/6tWCzTp.png" group-title="Entertainment",Meet Marry Murder
 https://jmp2.uk/plu-691b453846ca5e6d1665f03b.m3u8
 #EXTINF:-1 tvg-id="iptv-org-6946" tvg-name="Mega (1080p)" tvg-logo="https://i.imgur.com/RlZfR84.png" group-title="Greece - Entertainment",Mega (1080p)
-http://15.204.246.24:8080/MEGAHD/index.m3u8
+http://stream.mcquack.net/325/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-6947" tvg-name="Mega (720p)" tvg-logo="https://i.imgur.com/Hsr0EvO.png" group-title="Greece - Entertainment",Mega (720p)
 https://cdn15.live-tv.cloud/ua_infinitas_tv/mega-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv-org-6948" tvg-name="Mega Channel (720p)" tvg-logo="https://i.imgur.com/UsyFADE.png" group-title="Greece - Entertainment",Mega Channel (720p)
@@ -37447,3 +37447,109 @@ https://live-stranafm.cdnvideo.ru/stranafm/smil:stranafm.smil/playlist.m3u8
 http://223.110.245.139/PLTV/4/224/3221227008/index.m3u8
 #EXTINF:-1 tvg-id="rej_50562_1788593634_176" tvg-name="Cinemax Classic East" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/cinemaxclassiceast.png" group-title="United States - Movies",Cinemax Classic East
 http://23.237.104.106:8080/USA_5STARMAX/index.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1788768274_0" tvg-name="Sony Aath (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_8/images/LOGO_HD/image.png" group-title="India - Entertainment",Sony Aath (1080p)
+https://cloudplay-sonyliv.pages.dev/aath.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1788768274_1" tvg-name="Sony BBC Earth HD (1080p)" tvg-logo="https://dtil.tmsimg.com/assets/s143800_ld_h15_aa.png?lock=720x540" group-title="India - News",Sony BBC Earth HD (1080p)
+https://cloudplay-sonyliv.pages.dev/bbcearthhd.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1788768274_2" tvg-name="Sony Marathi (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_MARATHI/images/LOGO_HD/image.png" group-title="India - Entertainment",Sony Marathi (1080p)
+https://cloudplay-sonyliv.pages.dev/marathi.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1788768274_3" tvg-name="Sony Max (1080p)" tvg-logo="https://dtil.tmsimg.com/assets/s157590_ld_h15_aa.png?lock=720x540" group-title="India - Entertainment",Sony Max (1080p)
+https://cloudplay-sonyliv.pages.dev/max.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1788768274_4" tvg-name="Sony Max 2 (1080p)" tvg-logo="https://i.imgur.com/gqUYk6C.png" group-title="India - Entertainment",Sony Max 2 (1080p)
+https://cloudplay-sonyliv.pages.dev/max2.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1788768274_5" tvg-name="Sony Max HD (1080p)" tvg-logo="https://dtil.tmsimg.com/assets/s157590_ld_h15_aa.png?lock=720x540" group-title="India - Entertainment",Sony Max HD (1080p)
+https://cloudplay-sonyliv.pages.dev/maxhd.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1788768274_6" tvg-name="Sony Pal (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_PAL/images/LOGO_HD/image.png" group-title="India - Entertainment",Sony Pal (1080p)
+https://cloudplay-sonyliv.pages.dev/pal.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1788768274_7" tvg-name="Sony Pix HD (1080p)" tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png" group-title="India - Entertainment",Sony Pix HD (1080p)
+https://cloudplay-sonyliv.pages.dev/pixhd.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1788768274_8" tvg-name="Sony SAB HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB/images/LOGO_HD/image.png" group-title="India - Entertainment",Sony SAB HD (1080p)
+https://cloudplay-sonyliv.pages.dev/sabhd.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1788768274_9" tvg-name="Sony Sports Ten 1 (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png" group-title="India - Sports",Sony Sports Ten 1 (1080p)
+https://cloudplay-sonyliv.pages.dev/ten1.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1788768274_10" tvg-name="Sony Sports Ten 1 HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png" group-title="India - Sports",Sony Sports Ten 1 HD (1080p)
+https://cloudplay-sonyliv.pages.dev/ten1hd.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1788768274_11" tvg-name="Sony Sports Ten 2 (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_2/images/LOGO_HD/image.png" group-title="India - Sports",Sony Sports Ten 2 (1080p)
+https://cloudplay-sonyliv.pages.dev/ten2.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1788768274_12" tvg-name="Sony Sports Ten 2 HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_2/images/LOGO_HD/image.png" group-title="India - Sports",Sony Sports Ten 2 HD (1080p)
+https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1788768274_13" tvg-name="Sony Sports Ten 3 Hindi (1080p)" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="India - Sports",Sony Sports Ten 3 Hindi (1080p)
+https://cloudplay-sonyliv.pages.dev/ten3.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1788768274_14" tvg-name="Sony Sports Ten 3 Hindi HD (1080p)" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="India - Sports",Sony Sports Ten 3 Hindi HD (1080p)
+https://cloudplay-sonyliv.pages.dev/ten3hd.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1788768274_15" tvg-name="Sony Sports Ten 4 (1080p)" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025T4PV.png?lock=720x540" group-title="India - Sports",Sony Sports Ten 4 (1080p)
+https://cloudplay-sonyliv.pages.dev/ten4.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1788768274_16" tvg-name="Sony Sports Ten 4 Telugu (1080p)" tvg-logo="https://dtil.tmsimg.com/assets/s149166_ld_h15_aa.png?lock=720x540" group-title="India - Sports",Sony Sports Ten 4 Telugu (1080p)
+https://cloudplay-sonyliv.pages.dev/ten4hd.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1788768274_17" tvg-name="Sony Sports Ten 5 (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_5/images/LOGO_HD/image.png" group-title="India - Sports",Sony Sports Ten 5 (1080p)
+https://cloudplay-sonyliv.pages.dev/ten5.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1788768274_18" tvg-name="Sony Sports Ten 5 HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_5/images/LOGO_HD/image.png" group-title="India - Sports",Sony Sports Ten 5 HD (1080p)
+https://cloudplay-sonyliv.pages.dev/ten5hd.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1788768274_19" tvg-name="Sony Wah (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_WAH/images/LOGO_HD/image.png" group-title="India - Entertainment",Sony Wah (1080p)
+https://cloudplay-sonyliv.pages.dev/wah.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1788768274_20" tvg-name="Sony Yay! (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_YAY/images/LOGO_HD/image.png" group-title="India - Entertainment",Sony Yay! (1080p)
+https://cloudplay-sonyliv.pages.dev/yay.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768303_21" tvg-name="AMC en Espanol" tvg-logo="https://i.imgur.com/L1h6W5Q.png" group-title="Movies",AMC en Espanol
+https://amc-amcespanol-1-us.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768304_22" tvg-name="Aspire TV Life (1080p)" tvg-logo="https://press.upentertainment.com/wp-content/uploads/2022/03/aspire-tv-life-logo.jpg" group-title="Pakistan - Entertainment",Aspire TV Life (1080p)
+https://uptv-aspiretvlife-klowdtv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768314_23" tvg-name="Cine+ Kids (576p)" tvg-logo="https://i.imgur.com/lmfc2u4.png" group-title="Entertainment",Cine+ Kids (576p)
+http://dtv.vol.net.ua/Cine_plus_Kids_HD/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768315_24" tvg-name="Color Vision (1280p) [Not 24/7]" tvg-logo="https://i.imgur.com/rkgWToA.jpg" group-title="Entertainment",Color Vision (1280p) [Not 24/7]
+https://hls.tvabierta.net/hls/009.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768317_25" tvg-name="Detvora+ (1080p)" tvg-logo="https://interra-cdn-europe1.b-cdn.net/logo-detvora.png" group-title="Entertainment",Detvora+ (1080p)
+https://cdn.rostelekom-tv.xyz/live/WAYU4PTJ_VVz4wAQ.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768319_26" tvg-name="Disney XD (576p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg" group-title="Kids",Disney XD (576p)
+http://185.227.34.179:8080/disney-xd/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768319_27" tvg-name="DocuBox Russia" tvg-logo="https://i.imgur.com/pX4U9OG.png" group-title="Russia - Entertainment",DocuBox Russia
+http://dtv.vol.net.ua/DOCUBOX-HD/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768327_28" tvg-name="HBO Hits (720p)" tvg-logo="https://static.hbo.com/2025-09/HBO_Hits_Plex_Logo_bw.svg" group-title="United States - Music",HBO Hits (720p)
+http://tvsen7.aynascope.net/hbo2/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768327_29" tvg-name="HBO Hits East HD (720p)" tvg-logo="https://static.hbo.com/2025-09/HBO_Hits_Plex_Logo_bw.svg" group-title="United States - Music",HBO Hits East HD (720p)
+http://4.30.180.36:8420/hbo2/index.m3u8?token=test
+#EXTINF:-1 tvg-id="iptv_global_1788768328_30" tvg-name="History2 Ukraine (360p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/960px-History2_logo_%282022%29.svg.png" group-title="United Kingdom - Documentary",History2 Ukraine (360p)
+http://dtv.vol.net.ua/H2-HD/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768328_31" tvg-name="History Ukraine" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/960px-History_%282021%29.svg.png" group-title="United Kingdom - Documentary",History Ukraine
+http://dtv.vol.net.ua/History_HD/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768328_32" tvg-name="Hollywood Ukraine (576p)" tvg-logo="https://i.imgur.com/eVqPfRk.png" group-title="United Kingdom - Entertainment",Hollywood Ukraine (576p)
+http://dtv.vol.net.ua/Hollywood-HD/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768330_33" tvg-name="JOJG-DTV (1080p)" tvg-logo="https://i.imgur.com/fAZ2BEZ.png" group-title="Entertainment",JOJG-DTV (1080p)
+https://tv-stream-test.daydreamer-json.cc/fe8bf835820fb530467f75a9cb761504/hevc/playlist.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768370_34" tvg-name="Prokino (360p)" tvg-logo="https://i.imgur.com/Vm9nbi8.png" group-title="Entertainment",Prokino (360p)
+http://dtv.vol.net.ua/ProKino/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768375_35" tvg-name="Smurf TV (480p)" tvg-logo="https://img.static-ottera.com/prod/tg/linear_channel/thumbnails/widescreen/EJIyYyBMkbW5UntSCAkGp-uLla7Z8KWHvDjyEqoOf3k.jpg" group-title="Entertainment",Smurf TV (480p)
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=4065
+#EXTINF:-1 tvg-id="iptv_global_1788768385_36" tvg-name="Super+ (360p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Super%2B_UA_%282024%29.svg/960px-Super%2B_UA_%282024%29.svg.png" group-title="Entertainment",Super+ (360p)
+http://dtv.vol.net.ua/super_plus/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768387_37" tvg-name="Telefe Rosario (720p) [Geo-blocked]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Telefe_Rosario_%282018%29.png/960px-Telefe_Rosario_%282018%29.png" group-title="Entertainment",Telefe Rosario (720p) [Geo-blocked]
+https://smt-usr-edge01.sensa.com.ar/output/ARR2/TelefeRosarioH/playlist.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768387_38" tvg-name="Telefe Tucuman (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Telefe_Tucum%C3%A1n_%282018%29.png/960px-Telefe_Tucum%C3%A1n_%282018%29.png" group-title="Indonesia - Entertainment",Telefe Tucuman (1080p)
+https://g2.mc-hor.transport.edge-access.net/a05/ngrp:elochotv-100168_all/Playlist.m3u8?sense=true
+#EXTINF:-1 tvg-id="iptv_global_1788768387_39" tvg-name="Telesistema 11 (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/ZzeZKCu.png" group-title="Entertainment",Telesistema 11 (1080p) [Not 24/7]
+https://cdn4.wind.do/streams/telesistema/telesistema_master.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768387_40" tvg-name="Teleuniverso (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/gQev8ST.png" group-title="Entertainment",Teleuniverso (720p) [Not 24/7]
+https://hls.tvabierta.net/hls/029.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768399_41" tvg-name="Velvet. European Movies (1080p)" tvg-logo="https://antiabuse-container.b-cdn.net/eurkino.png" group-title="Movies",Velvet. European Movies (1080p)
+https://cdn.rostelekom-tv.xyz/live/LQ3j0n7j0Kq4OQm8.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768399_42" tvg-name="Velvet. Golden Collection (1080p)" tvg-logo="https://interra-cdn-europe1.b-cdn.net/zolo.png" group-title="Entertainment",Velvet. Golden Collection (1080p)
+https://cdn.rostelekom-tv.xyz/live/v804qFZr0QVQ1s9Z.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768399_43" tvg-name="Velvet. Mentovskiye Serialy (1080p)" tvg-logo="https://interra-cdn-europe1.b-cdn.net/ment.png" group-title="Entertainment",Velvet. Mentovskiye Serialy (1080p)
+https://cdn.rostelekom-tv.xyz/live/tWQ0ge9rspBQhRst.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768399_44" tvg-name="Velvet. Scary (1080p)" tvg-logo="https://antiabuse-container.b-cdn.net/uzh1.png" group-title="Pakistan - Entertainment",Velvet. Scary (1080p)
+https://cdn.rostelekom-tv.xyz/live/NImhIFLevxCbtcP-.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768399_45" tvg-name="Velvet. Series Hits (1080p)" tvg-logo="https://antiabuse-container.b-cdn.net/serialyhity.png" group-title="Music",Velvet. Series Hits (1080p)
+https://cdn.rostelekom-tv.xyz/live/DeWr3Sgw1Aj2lJd0.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768399_46" tvg-name="Velvet. Sovetskoe Kino (1080p)" tvg-logo="https://interra-cdn-europe1.b-cdn.net/soviet.png" group-title="Entertainment",Velvet. Sovetskoe Kino (1080p)
+https://cdn.rostelekom-tv.xyz/live/nF4sFCa49nFPHSF_.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768399_47" tvg-name="Velvet. Svaty (1080p)" tvg-logo="https://interra-cdn-europe1.b-cdn.net/svatyv.png" group-title="Entertainment",Velvet. Svaty (1080p)
+https://cdn.rostelekom-tv.xyz/live/HSxyMqDlSVR54UTN.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768399_48" tvg-name="Velvet. World Series (1080p)" tvg-logo="https://antiabuse-container.b-cdn.net/mirseriallogo.png" group-title="Entertainment",Velvet. World Series (1080p)
+https://cdn.rostelekom-tv.xyz/live/2RR44py-yGlIWQIp.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768399_49" tvg-name="Viasat Explore (576p)" tvg-logo="https://i.imgur.com/RBqKj6R.png" group-title="Entertainment",Viasat Explore (576p)
+http://dtv.vol.net.ua/Viasat-Explore/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768400_50" tvg-name="Viasat Kino (576p)" tvg-logo="https://i.imgur.com/io0WAkA.png" group-title="Entertainment",Viasat Kino (576p)
+http://dtv.vol.net.ua/Viasat_Kino/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788768400_51" tvg-name="Viasat Kino Action (576p)" tvg-logo="https://i.imgur.com/HwsNIDK.png" group-title="Entertainment",Viasat Kino Action (576p)
+http://dtv.vol.net.ua/Viasat_Kino_Action_HD/index.m3u8
+#EXTINF:-1 tvg-id="rej_50687_1788768422_52" tvg-name="RoflTV.ru" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/rofltvru.png" group-title="Entertainment",RoflTV.ru
+https://82-202-159-151.sslip.io/live/stream.m3u8
