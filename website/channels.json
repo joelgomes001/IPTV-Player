@@ -184954,7 +184954,7 @@
     "name": "Disney Channel HD (1080p)",
     "genre": "Kids",
     "country": "India",
-    "stream_url": "http://66.102.126.10:8000/play/a013/index.m3u8",
+    "stream_url": "http://185.227.34.179:8080/disney-channel-hd/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL_HD/images/LOGO_HD/image.png",
     "poster": ""
@@ -187767,6 +187767,206 @@
     "stream_url": "https://82-202-159-151.sslip.io/live/stream.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/rofltvru.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1788940677_0",
+    "name": "Mei Alai TV (576p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://meialai.iptelevishion.com/meialai/2/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://www.meialai.in/assets/meialai-DBaBUZTH.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788940689_1",
+    "name": "7 News (720p)",
+    "genre": "News",
+    "country": "International",
+    "stream_url": "https://sscsott.com/7news/live/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/PTl92P5.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788940689_2",
+    "name": "8XM HD",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://cdn4.mjunoon.tv:8087/streamtest/135M/chunks.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.ibb.co/Kc0xHyBb/8XM-Logo.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788940694_3",
+    "name": "24 News HD",
+    "genre": "News",
+    "country": "International",
+    "stream_url": "https://cdn4.mjunoon.tv:8087/streamtest/146M/chunks.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/93/24_News_HD_Logo.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788940694_4",
+    "name": "365 News",
+    "genre": "News",
+    "country": "International",
+    "stream_url": "https://cdn4.mjunoon.tv:8087/streamtest/140M/chunks.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/8I6PWof.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788940714_5",
+    "name": "Asian Drama (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://103.172.187.30:12000/stream/mytv/null-11/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/wqtN7mH.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788940716_6",
+    "name": "B1",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://hls02ns.antenaplay.ro/hls/b1-tv-hd/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/B1_TV_logo.svg/960px-B1_TV_logo.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788940719_7",
+    "name": "Capital TV",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://cdn4.mjunoon.tv:8087/streamtest/111M/chunks.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/UxAE5O4.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788940722_8",
+    "name": "Chuxiong News Channel [Not 24/7]",
+    "genre": "News",
+    "country": "Bangladesh",
+    "stream_url": "http://hwapi.yntv.net/ew265l/848y54.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://www.tvchinese.net/uploads/tv/chuxiongtv.jpg",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788940731_9",
+    "name": "Ekoturk (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://cdn.ekoturk.net/hls/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://www.dsmart.com.tr/epg/images/0x60/5ffc18c6cfef0b15933a8b65",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788940737_10",
+    "name": "Golden Jade (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://103.172.187.30:12000/stream/mytv/null-12/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/lPYxsUr.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788940739_11",
+    "name": "Jade (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://103.172.187.30:12000/stream/mytv/null-1/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB1.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788940750_12",
+    "name": "Los Santos TV (1080i)",
+    "genre": "Entertainment",
+    "country": "Turkey",
+    "stream_url": "https://tiquiciatv.com/hls/lstv.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/5xw86wu.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788940751_13",
+    "name": "Mei Ah Movie Channel (1080p)",
+    "genre": "Movies",
+    "country": "International",
+    "stream_url": "http://103.172.187.30:12000/stream/mytv/null-9/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/laGiFM1.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788940758_14",
+    "name": "National 24 Plus",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://hls01ns.antenaplay.ro/hls/n24-plus-sd/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/VxBdga3.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788940759_15",
+    "name": "National TV",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://hls01ns.antenaplay.ro/hls/national-tv-sd/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/KHzUIwG.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788940763_16",
+    "name": "Nickelodeon (480p)",
+    "genre": "Kids",
+    "country": "International",
+    "stream_url": "https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/E84jnP8.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788940783_17",
+    "name": "S Free! (360p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://vodcdn.bamboo-cloud.com/livehls/6a81c67306304414d27742d3/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.postimg.cc/DZ47qB39/In-Shot-20260816-210045369.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1788940799_18",
+    "name": "Telemundo East HD (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://streamer1.nexgen.bz/TELEMUNDO/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://imgx.fubo.tv/station_logos/telemundo_c.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_41007_1788940830_19",
+    "name": "CNN Türk",
+    "genre": "News",
+    "country": "United States",
+    "stream_url": "http://46.32.176.50/cnnturk/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/cnntrk.png",
     "poster": ""
   }
 ]

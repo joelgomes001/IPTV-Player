@@ -36990,7 +36990,7 @@ https://streams.tangotv.in/BHARAT24/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="iptv_in_1788422029_2" tvg-name="Colors HD (1080p)" tvg-logo="https://i.imgur.com/M8uCJ0D.png" group-title="India - Entertainment",Colors HD (1080p)
 http://66.102.126.10:8000/play/a00a/index.m3u8
 #EXTINF:-1 tvg-id="iptv_in_1788422031_3" tvg-name="Disney Channel HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL_HD/images/LOGO_HD/image.png" group-title="India - Kids",Disney Channel HD (1080p)
-http://66.102.126.10:8000/play/a013/index.m3u8
+http://185.227.34.179:8080/disney-channel-hd/index.m3u8
 #EXTINF:-1 tvg-id="iptv_in_1788422031_4" tvg-name="Enterr 10 Rangeela (1080p)" tvg-logo="https://i.imgur.com/L4rv0Vm.png" group-title="India - Entertainment",Enterr 10 Rangeela (1080p)
 http://103.185.24.134:3001/SUN-BANGLA-HD/index.m3u8
 #EXTINF:-1 tvg-id="iptv_in_1788422031_5" tvg-name="ETV Bal Bharat (576p)" tvg-logo="https://i.imgur.com/zsTxPV9.png" group-title="India - Entertainment",ETV Bal Bharat (576p)
@@ -37553,3 +37553,43 @@ http://dtv.vol.net.ua/Viasat_Kino/index.m3u8
 http://dtv.vol.net.ua/Viasat_Kino_Action_HD/index.m3u8
 #EXTINF:-1 tvg-id="rej_50687_1788768422_52" tvg-name="RoflTV.ru" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/rofltvru.png" group-title="Entertainment",RoflTV.ru
 https://82-202-159-151.sslip.io/live/stream.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1788940677_0" tvg-name="Mei Alai TV (576p)" tvg-logo="https://www.meialai.in/assets/meialai-DBaBUZTH.png" group-title="India - Entertainment",Mei Alai TV (576p)
+https://meialai.iptelevishion.com/meialai/2/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788940689_1" tvg-name="7 News (720p)" tvg-logo="https://i.imgur.com/PTl92P5.png" group-title="News",7 News (720p)
+https://sscsott.com/7news/live/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788940689_2" tvg-name="8XM HD" tvg-logo="https://i.ibb.co/Kc0xHyBb/8XM-Logo.png" group-title="Entertainment",8XM HD
+https://cdn4.mjunoon.tv:8087/streamtest/135M/chunks.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788940694_3" tvg-name="24 News HD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/93/24_News_HD_Logo.png" group-title="News",24 News HD
+https://cdn4.mjunoon.tv:8087/streamtest/146M/chunks.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788940694_4" tvg-name="365 News" tvg-logo="https://i.imgur.com/8I6PWof.png" group-title="News",365 News
+https://cdn4.mjunoon.tv:8087/streamtest/140M/chunks.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788940714_5" tvg-name="Asian Drama (1080p)" tvg-logo="https://i.imgur.com/wqtN7mH.png" group-title="Entertainment",Asian Drama (1080p)
+http://103.172.187.30:12000/stream/mytv/null-11/master.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788940716_6" tvg-name="B1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/B1_TV_logo.svg/960px-B1_TV_logo.svg.png" group-title="Entertainment",B1
+https://hls02ns.antenaplay.ro/hls/b1-tv-hd/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788940719_7" tvg-name="Capital TV" tvg-logo="https://i.imgur.com/UxAE5O4.png" group-title="Entertainment",Capital TV
+https://cdn4.mjunoon.tv:8087/streamtest/111M/chunks.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788940722_8" tvg-name="Chuxiong News Channel [Not 24/7]" tvg-logo="https://www.tvchinese.net/uploads/tv/chuxiongtv.jpg" group-title="Bangladesh - News",Chuxiong News Channel [Not 24/7]
+http://hwapi.yntv.net/ew265l/848y54.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788940731_9" tvg-name="Ekoturk (720p)" tvg-logo="https://www.dsmart.com.tr/epg/images/0x60/5ffc18c6cfef0b15933a8b65" group-title="Entertainment",Ekoturk (720p)
+https://cdn.ekoturk.net/hls/master.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788940737_10" tvg-name="Golden Jade (1080p)" tvg-logo="https://i.imgur.com/lPYxsUr.png" group-title="Entertainment",Golden Jade (1080p)
+http://103.172.187.30:12000/stream/mytv/null-12/master.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788940739_11" tvg-name="Jade (1080p)" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB1.png" group-title="Entertainment",Jade (1080p)
+http://103.172.187.30:12000/stream/mytv/null-1/master.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788940750_12" tvg-name="Los Santos TV (1080i)" tvg-logo="https://i.imgur.com/5xw86wu.png" group-title="Turkey - Entertainment",Los Santos TV (1080i)
+https://tiquiciatv.com/hls/lstv.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788940751_13" tvg-name="Mei Ah Movie Channel (1080p)" tvg-logo="https://i.imgur.com/laGiFM1.png" group-title="Movies",Mei Ah Movie Channel (1080p)
+http://103.172.187.30:12000/stream/mytv/null-9/master.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788940758_14" tvg-name="National 24 Plus" tvg-logo="https://i.imgur.com/VxBdga3.png" group-title="Entertainment",National 24 Plus
+https://hls01ns.antenaplay.ro/hls/n24-plus-sd/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788940759_15" tvg-name="National TV" tvg-logo="https://i.imgur.com/KHzUIwG.png" group-title="Entertainment",National TV
+https://hls01ns.antenaplay.ro/hls/national-tv-sd/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788940763_16" tvg-name="Nickelodeon (480p)" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids",Nickelodeon (480p)
+https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788940783_17" tvg-name="S Free! (360p)" tvg-logo="https://i.postimg.cc/DZ47qB39/In-Shot-20260816-210045369.png" group-title="Entertainment",S Free! (360p)
+https://vodcdn.bamboo-cloud.com/livehls/6a81c67306304414d27742d3/master.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1788940799_18" tvg-name="Telemundo East HD (1080p)" tvg-logo="https://imgx.fubo.tv/station_logos/telemundo_c.png" group-title="Entertainment",Telemundo East HD (1080p)
+https://streamer1.nexgen.bz/TELEMUNDO/index.m3u8
+#EXTINF:-1 tvg-id="rej_41007_1788940830_19" tvg-name="CNN Türk" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/cnntrk.png" group-title="United States - News",CNN Türk
+http://46.32.176.50/cnnturk/playlist.m3u8
