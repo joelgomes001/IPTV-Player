@@ -49263,7 +49263,7 @@
     "id": "iptv-org-4928",
     "name": "FX Latin America (1080p)",
     "genre": "Entertainment",
-    "stream_url": "http://45.162.193.35/FX/index.m3u8",
+    "stream_url": "http://15.204.246.24:8080/FXHD/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png",
     "poster": "",
@@ -77093,7 +77093,7 @@
     "id": "iptv-org-7711",
     "name": "Nickelodeon (576p)",
     "genre": "Kids",
-    "stream_url": "http://tvsen7.aynascope.net/nicklodean/index.m3u8",
+    "stream_url": "http://103.185.24.134:3001/NICK/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/E84jnP8.png",
     "poster": "",
@@ -105453,7 +105453,7 @@
     "id": "iptv-org-10547",
     "name": "Star Channel Latin America (1080p)",
     "genre": "Movies",
-    "stream_url": "http://45.162.193.35/STAR_CHANNEL/index.m3u8",
+    "stream_url": "http://15.204.246.24:8080/STARCHANNELHD/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png",
     "poster": "",
@@ -106783,7 +106783,7 @@
     "id": "iptv-org-10680",
     "name": "Studio Universal Latin America (1080p)",
     "genre": "Entertainment",
-    "stream_url": "http://45.162.193.35/STUDIO-UNIVERSAL/index.m3u8",
+    "stream_url": "http://15.204.246.24:8080/StudioUniversalHD/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/960px-StudioUniversal2016.png",
     "poster": "",
@@ -179034,7 +179034,7 @@
     "name": "All Time Movies (576p)",
     "genre": "Movies",
     "country": "India",
-    "stream_url": "http://103.175.73.12:8080/live/54/54_0.m3u8",
+    "stream_url": "https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ALL_TIME_MOVIES/images/LOGO_HD/image.png",
     "poster": ""
@@ -189217,6 +189217,46 @@
     "stream_url": "https://dash4.antik.sk/live/test_zdf_avc_25p/playlist.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/rtLb6m9.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_51843_1789633843_0",
+    "name": "BSTV",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://mumt07.tangotv.in/zHjX9OFlBSTV/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/bstv.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_51684_1789633843_1",
+    "name": "BBC Earth UK",
+    "genre": "News",
+    "country": "United Kingdom",
+    "stream_url": "https://mumbai-edge.smartplaytv.in/BBCEarth/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/bbcearthuk.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_51658_1789633843_2",
+    "name": "Beep Beep",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://mumbai-edge.smartplaytv.in/BeepBeep/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/beepbeep.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_51703_1789633843_3",
+    "name": "Sindhura TV",
+    "genre": "Entertainment",
+    "country": "Turkey",
+    "stream_url": "https://mumbai-edge.smartplaytv.in/SindhuraTV/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/sindhuratv.png",
     "poster": ""
   }
 ]

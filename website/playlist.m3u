@@ -9852,7 +9852,7 @@ http://185.102.171.218/FOX/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-4927" tvg-name="FX (1080p)" tvg-logo="https://i.imgur.com/ZScwrpi.png" group-title="United States - Entertainment",FX (1080p)
 http://23.237.104.106:8080/USA_FX/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-4928" tvg-name="FX Latin America (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png" group-title="United States - Entertainment",FX Latin America (1080p)
-http://45.162.193.35/FX/index.m3u8
+http://15.204.246.24:8080/FXHD/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-4929" tvg-name="FX Latin America Brazil (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png" group-title="United States - Entertainment",FX Latin America Brazil (720p)
 http://167.250.126.140:7777/FX-HD/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-4930" tvg-name="FX Latin America South (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png" group-title="United States - Entertainment",FX Latin America South (720p)
@@ -15418,7 +15418,7 @@ https://aes.m3u8simplu.workers.dev/nickelodeon/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-7710" tvg-name="Nickelodeon (576p)" tvg-logo="https://i.imgur.com/w8iE8dV.png" group-title="Kids",Nickelodeon (576p)
 http://stream.mcquack.net/443/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-7711" tvg-name="Nickelodeon (576p)" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids",Nickelodeon (576p)
-http://tvsen7.aynascope.net/nicklodean/index.m3u8
+http://103.185.24.134:3001/NICK/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-7712" tvg-name="Nickelodeon (1080p)" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="United States - Kids",Nickelodeon (1080p)
 http://176.61.157.250/Nickelodeon/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-7713" tvg-name="Nickelodeon Asia Indonesia (720p)" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Indonesia - Kids",Nickelodeon Asia Indonesia (720p)
@@ -21090,7 +21090,7 @@ http://92.36.202.5:10001/play/a01s
 #EXTINF:-1 tvg-id="iptv-org-10546" tvg-name="STAR Channel (Finland) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png" group-title="India - Entertainment",STAR Channel (Finland) (720p)
 https://live-fi.tvkaista.net/star-channel/live.m3u8
 #EXTINF:-1 tvg-id="iptv-org-10547" tvg-name="Star Channel Latin America (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png" group-title="India - Movies",Star Channel Latin America (1080p)
-http://45.162.193.35/STAR_CHANNEL/index.m3u8
+http://15.204.246.24:8080/STARCHANNELHD/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-10548" tvg-name="Star Channel Latin America Central America (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png" group-title="India - Movies",Star Channel Latin America Central America (1080p)
 https://streamer.metronethn.com/StarChannel/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-10549" tvg-name="Star Cinema" tvg-logo="https://i.imgur.com/5sis895.png" group-title="India - Movies",Star Cinema
@@ -21356,7 +21356,7 @@ https://live-evg7.tv360.bitel.com.pe/bitel/studiopasco/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv-org-10679" tvg-name="Studio Rheden (1080p)" tvg-logo="https://i.imgur.com/swfxaac.png" group-title="Entertainment",Studio Rheden (1080p)
 https://stream.studiorhedenlive.nl/hlstv/stream.m3u8
 #EXTINF:-1 tvg-id="iptv-org-10680" tvg-name="Studio Universal Latin America (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/960px-StudioUniversal2016.png" group-title="United States - Entertainment",Studio Universal Latin America (1080p)
-http://45.162.193.35/STUDIO-UNIVERSAL/index.m3u8
+http://15.204.246.24:8080/StudioUniversalHD/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-10681" tvg-name="Studio Universal Latin America Brazil (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/960px-StudioUniversal2016.png" group-title="United States - Entertainment",Studio Universal Latin America Brazil (720p)
 http://177.52.24.163/STUDIO-UNIVERSAL-HD/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-10682" tvg-name="Stugfixarna Norge" tvg-logo="https://images.pluto.tv/channels/61c18ec6ac860c0007684981/colorLogoPNG.png" group-title="Sweden - Lifestyle",Stugfixarna Norge
@@ -35806,7 +35806,7 @@ https://watch.mistweather.com/hls/capd-tv/2_1/index.m3u8?tkn=3114656059
 #EXTINF:-1 tvg-id="rej_48132_1786422206_62" tvg-name="Lamore Rock Show WebTV" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/lamorerockshowwebtv.png" group-title="Bangladesh - Entertainment",Lamore Rock Show WebTV
 https://a.cdni.live/rodrigo2364/rodrigo2364/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv_in_1786596796_0" tvg-name="All Time Movies (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ALL_TIME_MOVIES/images/LOGO_HD/image.png" group-title="India - Movies",All Time Movies (576p)
-http://103.175.73.12:8080/live/54/54_0.m3u8
+https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8
 #EXTINF:-1 tvg-id="iptv_in_1786596798_1" tvg-name="Colors Gujarati (396p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_GUJARATI/images/LOGO_HD/image.png" group-title="India - Entertainment",Colors Gujarati (396p)
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ColorsGujarati.m3u8
 #EXTINF:-1 tvg-id="iptv_in_1786596802_2" tvg-name="Malabar News (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/Un2gxt4.png" group-title="India - News",Malabar News (720p) [Not 24/7]
@@ -37843,3 +37843,11 @@ http://181.78.8.199:8000/play/a0if/index.m3u8
 https://dash4.antik.sk/live/test_vox_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv_global_1789461172_42" tvg-name="ZDF" tvg-logo="https://i.imgur.com/rtLb6m9.png" group-title="Germany - Entertainment",ZDF
 https://dash4.antik.sk/live/test_zdf_avc_25p/playlist.m3u8
+#EXTINF:-1 tvg-id="rej_51843_1789633843_0" tvg-name="BSTV" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/bstv.png" group-title="Entertainment",BSTV
+https://mumt07.tangotv.in/zHjX9OFlBSTV/index.m3u8
+#EXTINF:-1 tvg-id="rej_51684_1789633843_1" tvg-name="BBC Earth UK" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/bbcearthuk.png" group-title="United Kingdom - News",BBC Earth UK
+https://mumbai-edge.smartplaytv.in/BBCEarth/index.m3u8
+#EXTINF:-1 tvg-id="rej_51658_1789633843_2" tvg-name="Beep Beep" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/beepbeep.png" group-title="Entertainment",Beep Beep
+https://mumbai-edge.smartplaytv.in/BeepBeep/index.m3u8
+#EXTINF:-1 tvg-id="rej_51703_1789633843_3" tvg-name="Sindhura TV" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/sindhuratv.png" group-title="Turkey - Entertainment",Sindhura TV
+https://mumbai-edge.smartplaytv.in/SindhuraTV/index.m3u8
