@@ -20004,7 +20004,7 @@ https://jmp2.uk/plu-5d2c571faeb3e2738ae27933.m3u8
 #EXTINF:-1 tvg-id="iptv_global_1790151790_394" tvg-name="5 Plus (720p)" tvg-logo="https://i.imgur.com/4EHL2mH.png" group-title="Entertainment",5 Plus (720p)
 https://mmtvs.exliatycl.online/5plus/stream.m3u8
 #EXTINF:-1 tvg-id="iptv_global_1790151790_395" tvg-name="5Sport (1080p)" tvg-logo="https://i.imgur.com/dRVsB89.png" group-title="Sports",5Sport (1080p)
-http://stream.mcquack.net/41/index.m3u8
+http://str2.iptvhd.ru:8080/5sport/index.m3u8
 #EXTINF:-1 tvg-id="iptv_global_1790151790_396" tvg-name="5tv" tvg-logo="https://i.imgur.com/mSn7ACs.png" group-title="Entertainment",5tv
 https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv_global_1790151790_397" tvg-name="6ter (1080p)" tvg-logo="https://i.imgur.com/2nd5Cox.png" group-title="Entertainment",6ter (1080p)
@@ -28775,3 +28775,89 @@ http://eb4b8dcf.kablakaka.ru/iptv/PXXFGKYYT6PCZA/7060/index.m3u8
 http://eb4b8dcf.kablakaka.ru/iptv/PXXFGKYYT6PCZA/7059/index.m3u8
 #EXTINF:-1 tvg-id="rej_48183_1790151906_4780" tvg-name="DIEMA SPORT 2 BG" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/diemasport2bg.png" group-title="Sports",DIEMA SPORT 2 BG
 https://7nyaler.streamhostingcdn.top/stream/76/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325480_0" tvg-name="5Gold (1080p)" tvg-logo="https://i.imgur.com/zFLRfXh.png" group-title="Pakistan - Entertainment",5Gold (1080p)
+http://str2.iptvhd.ru:8080/sport5gold/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325480_1" tvg-name="5Live (1080p)" tvg-logo="https://i.imgur.com/0yr3yvd.png" group-title="Pakistan - Entertainment",5Live (1080p)
+http://str2.iptvhd.ru:8080/5live/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325480_2" tvg-name="5Plus (1080p)" tvg-logo="https://i.imgur.com/L3RA9Lv.png" group-title="Entertainment",5Plus (1080p)
+http://89.33.29.115:8080/sportplus/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325480_3" tvg-name="5Sport 4K (2160p)" tvg-logo="https://i.imgur.com/Msfhpqd.png" group-title="Pakistan - Sports",5Sport 4K (2160p)
+http://str2.iptvhd.ru:8080/5SPORT_4K/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325481_4" tvg-name="5Stars (1080p)" tvg-logo="https://i.imgur.com/IQtAKIa.png" group-title="Entertainment",5Stars (1080p)
+http://89.33.29.115:8080/IL_5Stars/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325486_5" tvg-name="Avto24 (1080i)" tvg-logo="https://i.imgur.com/GXSXmN2.png" group-title="Pakistan - Entertainment",Avto24 (1080i)
+http://str2.iptvhd.ru:8080/Avto_24/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325490_6" tvg-name="Cablenoticias (1080p)" tvg-logo="https://i.imgur.com/FfhOGR9.png" group-title="News",Cablenoticias (1080p)
+http://181.78.211.244:8005/play/a09u/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325493_7" tvg-name="Caracol Internacional (576p)" tvg-logo="https://i.imgur.com/h7LWbt5.png" group-title="Entertainment",Caracol Internacional (576p)
+http://138.59.177.78:9999/play/a0a8/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325493_8" tvg-name="Channel 8 International (576p) [Geo-blocked]" tvg-logo="https://i.imgur.com/I8OU9oa.png" group-title="Entertainment",Channel 8 International (576p) [Geo-blocked]
+http://live-11cinema.cdnvideo.net/11cinemanet/11cinemanet/playlist.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325500_9" tvg-name="Disney Channel (Germany)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="Germany - Kids",Disney Channel (Germany)
+http://178.27.12.3:9981/stream/channelid/269948147?profile=pass
+#EXTINF:-1 tvg-id="iptv_global_1790325500_10" tvg-name="DSports (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/960px-DirecTV_Sports_Latin_America_%282018%29.png" group-title="Sports",DSports (720p)
+http://15.204.146.163:8002/play/a00g/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325505_11" tvg-name="Food Channel (1080p)" tvg-logo="https://i.imgur.com/mpXPmfw.png" group-title="Pakistan - Entertainment",Food Channel (1080p)
+http://str2.iptvhd.ru:8080/FoodChannel/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325505_12" tvg-name="Golden Premier 2 (1080p)" tvg-logo="https://i.imgur.com/GBlvQBI.png" group-title="Entertainment",Golden Premier 2 (1080p)
+http://200.229.147.210:9999/play/a00l/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325505_13" tvg-name="Golden Premier (1080p)" tvg-logo="https://i.imgur.com/JMa7jws.png" group-title="Entertainment",Golden Premier (1080p)
+http://200.229.147.210:9999/play/a00k/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325506_14" tvg-name="Halom TV (576i)" tvg-logo="https://i.imgur.com/x8shi7l.png" group-title="Entertainment",Halom TV (576i)
+rtmp://212.92.13.108/live/livestream1
+#EXTINF:-1 tvg-id="iptv_global_1790325507_15" tvg-name="Health Channel (1080p)" tvg-logo="https://cdn.epg.one/img2/2709.png" group-title="Entertainment",Health Channel (1080p)
+http://89.33.29.115:8080/Health/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325508_16" tvg-name="Home + (576p)" tvg-logo="https://i.imgur.com/HPsxqMx.png" group-title="Pakistan - Entertainment",Home + (576p)
+http://str2.iptvhd.ru:8080/home_plus/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325508_17" tvg-name="HOT Comedy (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/0/08/HOTComedyCentral.svg/250px-HOTComedyCentral.svg.png" group-title="Pakistan - Entertainment",HOT Comedy (1080p)
+http://str2.iptvhd.ru:8080/HOTComedy/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325508_18" tvg-name="HOT Senior (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HotNewLogo.svg/250px-HotNewLogo.svg.png" group-title="Pakistan - Entertainment",HOT Senior (1080p)
+http://str2.iptvhd.ru:8080/HOT_Senior/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325509_19" tvg-name="Junior (1080p)" tvg-logo="https://i.imgur.com/w8fYTnw.png" group-title="Pakistan - Entertainment",Junior (1080p)
+http://str2.iptvhd.ru:8080/junior/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325509_20" tvg-name="kabel eins Doku" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Kabel_eins_Doku_Logo_2016.svg/960px-Kabel_eins_Doku_Logo_2016.svg.png" group-title="Entertainment",kabel eins Doku
+http://178.27.12.3:9981/stream/channelid/1958526590?profile=pass
+#EXTINF:-1 tvg-id="iptv_global_1790325513_21" tvg-name="Luli (1080p)" tvg-logo="https://cdn.epg.one/img2/2695.png" group-title="Pakistan - Entertainment",Luli (1080p)
+http://str2.iptvhd.ru:8080/HOT_Luli/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325519_22" tvg-name="Nicktoons Scandinavia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png" group-title="Pakistan - Kids",Nicktoons Scandinavia
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/PE7C639D6VY8TCQQ4BYRZT7X/12059/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325521_23" tvg-name="One 2 (1080p)" tvg-logo="https://i.imgur.com/JQLhYEs.png" group-title="Pakistan - Entertainment",One 2 (1080p)
+http://str2.iptvhd.ru:8080/One/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325521_24" tvg-name="Pakapaka" tvg-logo="https://i.imgur.com/GJbRWwH.png" group-title="Entertainment",Pakapaka
+https://xyktmobile00.s.gy/PPV910_PAKAKA_ARG
+#EXTINF:-1 tvg-id="iptv_global_1790325521_25" tvg-name="Plim Plim (1080p)" tvg-logo="https://i.imgur.com/MYc8srh.png" group-title="Entertainment",Plim Plim (1080p)
+http://200.115.120.1:8000/play/ca091/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325522_26" tvg-name="ProSieben Maxx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/ProSieben_MAXX_Logo.svg/960px-ProSieben_MAXX_Logo.svg.png" group-title="Entertainment",ProSieben Maxx
+http://178.27.12.3:9981/stream/channelid/1567530044?profile=pass
+#EXTINF:-1 tvg-id="iptv_global_1790325522_27" tvg-name="Qazaqstan (576p)" tvg-logo="https://i.imgur.com/oI8g396.png" group-title="Entertainment",Qazaqstan (576p)
+https://fs.uplink.kz/qazaqstan/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="iptv_global_1790325523_28" tvg-name="RCN Mas (1080p)" tvg-logo="https://i.imgur.com/MJzuRAN.png" group-title="Entertainment",RCN Mas (1080p)
+http://45.226.205.96:48000/play/a0af/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325527_29" tvg-name="Setanta Sports 1 HD" tvg-logo="https://i.imgur.com/8ANUZAu.png" group-title="Sports",Setanta Sports 1 HD
+https://fs.uplink.kz/setanta_sports_1_hd/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="iptv_global_1790325528_30" tvg-name="Spacetoon Turkey (720p) [Not 24/7]" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/2/2b/Spacetoon_logo.png" group-title="Turkey - Entertainment",Spacetoon Turkey (720p) [Not 24/7]
+https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325528_31" tvg-name="Sport 2 (Israel) (1080p)" tvg-logo="https://i.imgur.com/Headxmx.png" group-title="Pakistan - Sports",Sport 2 (Israel) (1080p)
+http://str2.iptvhd.ru:8080/Sport_2/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325528_32" tvg-name="Sport 3 (Israel) (1080p)" tvg-logo="https://i.imgur.com/stSrBBh.png" group-title="Pakistan - Sports",Sport 3 (Israel) (1080p)
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/BWGFFCU59AE6AEV3KF3FXTBA/12251/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325528_33" tvg-name="Sport 4 (Israel) (1080p)" tvg-logo="https://i.imgur.com/wFXzzYs.png" group-title="Pakistan - Sports",Sport 4 (Israel) (1080p)
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/BWGFFCU59AE6AEV3KF3FXTBA/2389/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325529_34" tvg-name="TeenNick (Israel) (406p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/TeenNick_2019_logo.svg/960px-TeenNick_2019_logo.svg.png" group-title="Kids",TeenNick (Israel) (406p)
+http://89.33.29.115:8080/TeenNick/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325529_35" tvg-name="TeleHit (576p)" tvg-logo="https://i.imgur.com/NVxHxJn.png" group-title="Entertainment",TeleHit (576p)
+http://200.115.120.1:8000/play/ca048/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325529_36" tvg-name="Telepacifico (1080p)" tvg-logo="https://i.imgur.com/39hy97J.png" group-title="Entertainment",Telepacifico (1080p)
+http://138.121.15.230:9002/TELEPACIFICO/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325537_37" tvg-name="Viva Istanbul (1080p)" tvg-logo="https://cdn.epg.one/img2/88006.png" group-title="Pakistan - Entertainment",Viva Istanbul (1080p)
+http://str2.iptvhd.ru:8080/viva_plus/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325537_38" tvg-name="Viva Telenovelas (1080p)" tvg-logo="https://static.g-cdn.app/streams/viva-il.png" group-title="Pakistan - Entertainment",Viva Telenovelas (1080p)
+http://str2.iptvhd.ru:8080/VIVA/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325538_39" tvg-name="We TV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/We_TV_logo_2014.svg/960px-We_TV_logo_2014.svg.png" group-title="United States - Entertainment",We TV (1080p)
+http://23.237.104.106:8080/USA_WE_TV/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790325538_40" tvg-name="Yalta TV (480p) [Geo-blocked]" tvg-logo="https://img.cataloxy.ru/fl/97/e3/808131.gif" group-title="Entertainment",Yalta TV (480p) [Geo-blocked]
+http://195.26.83.96:7029/play/a006
+#EXTINF:-1 tvg-id="iptv_global_1790325538_41" tvg-name="ZDFneo" tvg-logo="https://i.imgur.com/1JIIGgL.png" group-title="Germany - Entertainment",ZDFneo
+http://178.27.12.3:9981/stream/channelid/1351813628?profile=pass
+#EXTINF:-1 tvg-id="rej_39640_1790325558_42" tvg-name="İmam Hatip TV" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/mamhatiptv.png" group-title="Pakistan - Entertainment",İmam Hatip TV
+https://live.euromediacenter.com/imamhatiptv/video.m3u8
