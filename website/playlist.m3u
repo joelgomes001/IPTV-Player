@@ -4356,7 +4356,7 @@ https://d3p03mkvhnk6ll.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv-org-3965" tvg-name="Dhoho TV (720p)" tvg-logo="https://i.imgur.com/4Khyyfh.png" group-title="Entertainment",Dhoho TV (720p)
 https://dhohotv.siar.us/dhohotv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv-org-3964" tvg-name="DHE (1080p)" tvg-logo="https://i.imgur.com/nsttoEa.png" group-title="Movies",DHE (1080p)
-http://190.11.225.124:5000/live/dhe_hd/playlist.m3u8
+http://15.204.246.24:8080/DHEHD/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-3966" tvg-name="Di TV (1080p)" tvg-logo="https://i.imgur.com/zApTDWn.png" group-title="News",Di TV (1080p)
 https://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx4/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv-org-3967" tvg-name="DI.TV 80 (720p)" tvg-logo="https://i.imgur.com/2AqKAMy.png" group-title="United Kingdom - Entertainment",DI.TV 80 (720p)
@@ -27108,7 +27108,7 @@ https://rtmp.tamtv.com.ve/tmp_hls/stream/index.m3u8
 #EXTINF:-1 tvg-id="iptv_global_1790151846_3946" tvg-name="Tanzania Safari Channel (576p)" tvg-logo="https://i.imgur.com/fcLFYhn.png" group-title="United Kingdom - Entertainment",Tanzania Safari Channel (576p)
 https://stream-134630.castr.net/5fe35eae8c53540cab83659a/live_31dabe40323511f08b8efff0016f3b67/index.m3u8
 #EXTINF:-1 tvg-id="iptv_global_1790151846_3947" tvg-name="Tarab (1080p)" tvg-logo="https://assets.mbcmood.com/channels/1738059679TARAB_Logo.png" group-title="Entertainment",Tarab (1080p)
-https://shd-amg-fast-btpls.shahid.net/tx002/playlist.m3u8
+https://shd-amg-fast.edgenextcdn.net/tx002/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv_global_1790151846_3948" tvg-name="Tastemade Brasil (720p)" tvg-logo="https://i.imgur.com/FPy4zF4.png" group-title="Brazil - Entertainment",Tastemade Brasil (720p)
 https://jmp2.uk/plu-5fd1419a3b4f4b000773ba85.m3u8
 #EXTINF:-1 tvg-id="iptv_global_1790151846_3949" tvg-name="TBC1" tvg-logo="https://i.imgur.com/OmiVZ1u.png" group-title="Entertainment",TBC1
@@ -28861,3 +28861,85 @@ http://195.26.83.96:7029/play/a006
 http://178.27.12.3:9981/stream/channelid/1351813628?profile=pass
 #EXTINF:-1 tvg-id="rej_39640_1790325558_42" tvg-name="İmam Hatip TV" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/mamhatiptv.png" group-title="Pakistan - Entertainment",İmam Hatip TV
 https://live.euromediacenter.com/imamhatiptv/video.m3u8
+#EXTINF:-1 tvg-id="iptv_in_1790499765_0" tvg-name="Sony Max (576p) [Geo-blocked]" tvg-logo="https://dtil.tmsimg.com/assets/s157590_ld_h15_aa.png?lock=720x540" group-title="India - Entertainment",Sony Max (576p) [Geo-blocked]
+http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=156013&extension=ts&play_token=slNi06NyY0
+#EXTINF:-1 tvg-id="iptv_global_1790499771_1" tvg-name="Arena Sport Premium M1" tvg-logo="https://tvarenasport.mk/wp-content/themes/tvarenasport-mk/assets/channels/arena-m1.png" group-title="Sports",Arena Sport Premium M1
+https://racitonsen.s.gy/AM1P
+#EXTINF:-1 tvg-id="iptv_global_1790499771_2" tvg-name="Arena Sport Premium M2" tvg-logo="https://tvarenasport.mk/wp-content/themes/tvarenasport-mk/assets/channels/arena-m2.png" group-title="Sports",Arena Sport Premium M2
+https://racitonsen.s.gy/AM2P
+#EXTINF:-1 tvg-id="iptv_global_1790499771_3" tvg-name="Arena Sport Premium M3" tvg-logo="https://tvarenasport.mk/wp-content/themes/tvarenasport-mk/assets/channels/arena-m3.png" group-title="Sports",Arena Sport Premium M3
+https://racitonsen.s.gy/AM3P
+#EXTINF:-1 tvg-id="iptv_global_1790499773_4" tvg-name="AXN Asia Philippines (576p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="Entertainment",AXN Asia Philippines (576p)
+https://sra72yz.s.gy/AXN_ASIA_PHILIPPINES.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790499773_5" tvg-name="AXN Latin America South (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="United States - Entertainment",AXN Latin America South (1080p)
+http://181.78.12.119:16123/play/ch46/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790499773_6" tvg-name="Azteca 7 (1080p)" tvg-logo="https://i.imgur.com/UtFXjIn.png" group-title="Entertainment",Azteca 7 (1080p)
+http://187.245.231.226:8000/play/a0uz/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790499773_7" tvg-name="Bandamax (1080p)" tvg-logo="https://i.imgur.com/4DfnOTA.png" group-title="Brazil - Entertainment",Bandamax (1080p)
+http://181.78.106.127:5000/play/ca064/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790499777_8" tvg-name="Canal Caribe" tvg-logo="https://i.imgur.com/CV5Rz35.png" group-title="Entertainment",Canal Caribe
+https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:CKZ3s6Wuv4gDjndG.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790499778_9" tvg-name="Canal Sur" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Canal_Sur_Televisi%C3%B3n_2011-2017_logo.svg/960px-Canal_Sur_Televisi%C3%B3n_2011-2017_logo.svg.png" group-title="United Kingdom - Entertainment",Canal Sur
+https://cdn.stmify.com/zapitv/stream/CANAL_SUR/canal_sur_hd.mpd
+#EXTINF:-1 tvg-id="iptv_global_1790499779_10" tvg-name="Channel One (Russia) Europa (480p)" tvg-logo="https://i.imgur.com/RUSX0rX.png" group-title="Russia - Entertainment",Channel One (Russia) Europa (480p)
+https://streaming.thestream.cyou/live/210-req_offset_28000000-req_window_0-1k_v5.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790499779_11" tvg-name="Chaozhou Public Channel" tvg-logo="https://i.imgur.com/8YIrgB7.png" group-title="Entertainment",Chaozhou Public Channel
+http://113.64.146.48:1688/hls/4/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790499780_12" tvg-name="Cinemaraton Plus (1080i)" tvg-logo="https://assets.antenaplay.ro/2026/03/10/RMNdkVBCTNfsogsYqHaB.png" group-title="Movies",Cinemaraton Plus (1080i)
+https://hls02ns.antenaplay.ro/hls/cinemaraton-plus-hd/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790499780_13" tvg-name="Cinemax Action East HD (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Cinemax_Action_Logo.png/960px-Cinemax_Action_Logo.png" group-title="Movies",Cinemax Action East HD (1080p)
+https://sra72yz.s.gy/CINEMAX_ACTION_HD.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790499780_14" tvg-name="Class CNBC (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Class_CNBC_2026.svg/960px-Class_CNBC_2026.svg.png" group-title="United States - News",Class CNBC (1080p)
+https://www.dailymotion.com/cdn/live/video/x91c8ww.m3u8?sec=D9OwEfHs-e7O6pQ-qlnROg
+#EXTINF:-1 tvg-id="iptv_global_1790499781_15" tvg-name="Cubavision" tvg-logo="https://i.imgur.com/ki9ipMU.png" group-title="Entertainment",Cubavision
+https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:9KJTMRBAm2BbnsYK.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790499793_16" tvg-name="HBO Drama (1080p)" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/HBO_Drama_Logo.svg/960px-HBO_Drama_Logo.svg.png" group-title="United States - Movies",HBO Drama (1080p)
+https://sra72yz.s.gy/HBO_DRAMA_HD.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790499794_17" tvg-name="Insula non stop (576i)" tvg-logo="https://assets.antenaplay.ro/2026/08/20/DlZIyQ0kSAH3YYj30Ovi.png" group-title="United Kingdom - Entertainment",Insula non stop (576i)
+https://live4dai.antenaplay.ro/live2_sdi05/live2_sdi05_600k.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790499796_18" tvg-name="KBS America" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b5/KBS_America_2020.svg" group-title="United States - Entertainment",KBS America
+https://xyktmobile00.s.gy/PPV918_KBSAMERI
+#EXTINF:-1 tvg-id="iptv_global_1790499796_19" tvg-name="KBS N Sports [Geo-blocked]" tvg-logo="https://i.imgur.com/xZ2s9eY.png" group-title="South Korea - Sports",KBS N Sports [Geo-blocked]
+https://xyktmobile00.s.gy/PPV919_KBSNSPO_SD
+#EXTINF:-1 tvg-id="iptv_global_1790499797_20" tvg-name="La 1 (1086p)" tvg-logo="https://i.ibb.co/MxJNPHsn/La-1.png" group-title="United Kingdom - Entertainment",La 1 (1086p)
+https://cdn.stmify.com/zapitv/stream/LA_1/la1_4k.mpd
+#EXTINF:-1 tvg-id="iptv_global_1790499800_21" tvg-name="MBC TV (South Korea) [Geo-blocked]" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bd/Munhwa_Broadcasting_Corporation_2023.svg/revision/latest/scale-to-width-down/512" group-title="South Korea - Entertainment",MBC TV (South Korea) [Geo-blocked]
+https://xyktmobile00.s.gy/PPV930_S_OPERA_SD
+#EXTINF:-1 tvg-id="iptv_global_1790499802_22" tvg-name="Mi Musica Reggaeton (1080p)" tvg-logo="https://i.imgur.com/MMb9u4u.png" group-title="Music",Mi Musica Reggaeton (1080p)
+http://181.78.12.119:16123/play/ch53/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790499802_23" tvg-name="Mi Musica Romantica (1080p)" tvg-logo="https://i.imgur.com/eIaRv0U.png" group-title="Music",Mi Musica Romantica (1080p)
+http://181.78.12.119:16123/play/ch54/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790499802_24" tvg-name="Mi Musica Salsa (1080p)" tvg-logo="https://i.imgur.com/sT91t83.png" group-title="Music",Mi Musica Salsa (1080p)
+http://181.78.12.119:16123/play/ch55/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790499804_25" tvg-name="New Channel (480p)" tvg-logo="https://videocdn.bamboo-cloud.com/p/11294/sp/1129400/thumbnail/entry_id/0_hd6fo6eq/version/100002/width/1920" group-title="Entertainment",New Channel (480p)
+https://vodcdn.bamboo-cloud.com/livehls/6ab2104508fd5ee36702e3d4/master.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790499804_26" tvg-name="New Channel Pop! (480p)" tvg-logo="https://videocdn.bamboo-cloud.com/p/11294/sp/1129400/thumbnail/entry_id/0_vjhh0bly/version/100012/width/1920" group-title="Entertainment",New Channel Pop! (480p)
+https://vodcdn.bamboo-cloud.com/livehls/6ab37c6c7e057f9063071c85/master.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790499805_27" tvg-name="Nick Jr. (United States) East HD (1080p)" tvg-logo="https://i.imgur.com/KT4tdQs.png" group-title="Kids",Nick Jr. (United States) East HD (1080p)
+https://sra72yz.s.gy/NICK_JR_HD.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790499805_28" tvg-name="Nicktoons (United States) (1080p)" tvg-logo="https://images.pluto.tv/channels/654ca7f92c1d3300086b608c/colorLogoPNG_1751457678592.png" group-title="Kids",Nicktoons (United States) (1080p)
+https://sra72yz.s.gy/NICKTOONS_HD.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790499805_29" tvg-name="NTN24 (720p)" tvg-logo="https://i.imgur.com/UoKmSAP.png" group-title="Entertainment",NTN24 (720p)
+http://181.78.12.119:16123/play/ch80/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790499807_30" tvg-name="Premier Football" tvg-logo="https://i.imgur.com/lKjXwtG.png" group-title="Sports",Premier Football
+https://racitonsen.s.gy/PREMIER_FOOTBALL
+#EXTINF:-1 tvg-id="iptv_global_1790499807_31" tvg-name="Premier Sports 2 (Philippines) (1086p)" tvg-logo="https://i.imgur.com/UQeXWd2.png" group-title="Sports",Premier Sports 2 (Philippines) (1086p)
+https://racitonsen.s.gy/PS2PH
+#EXTINF:-1 tvg-id="iptv_global_1790499807_32" tvg-name="Premier Sports HD" tvg-logo="https://i.imgur.com/BURPHzI.png" group-title="Sports",Premier Sports HD
+https://racitonsen.s.gy/PS1PH
+#EXTINF:-1 tvg-id="iptv_global_1790499811_33" tvg-name="S Play Event (1080p)" tvg-logo="https://i.postimg.cc/5y6t70Mz/In-Shot-20260908-113231556.png" group-title="Entertainment",S Play Event (1080p)
+https://vodcdn.bamboo-cloud.com/livehls/6a9f929f0630443af52c7162/master.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1790499812_34" tvg-name="SBS [Geo-blocked]" tvg-logo="https://i.imgur.com/4LHX71N.png" group-title="South Korea - Entertainment",SBS [Geo-blocked]
+https://xyktmobile00.s.gy/PPV921_SBS
+#EXTINF:-1 tvg-id="iptv_global_1790499812_35" tvg-name="SBS Golf" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/SBS_Golf_logo_2018.svg/960px-SBS_Golf_logo_2018.svg.png" group-title="South Korea - Entertainment",SBS Golf
+https://xyktmobile00.s.gy/PPV922_GOLF_TV
+#EXTINF:-1 tvg-id="iptv_global_1790499814_36" tvg-name="Sundance TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SundanceTV_2014.svg/960px-SundanceTV_2014.svg.png" group-title="United Kingdom - Entertainment",Sundance TV
+https://cdn.stmify.com/zapitv/stream/SUNDANCE_TV/sundance_hd.mpd
+#EXTINF:-1 tvg-id="iptv_global_1790499822_37" tvg-name="TVE Internacional Asia-Oceania" tvg-logo="https://i.ibb.co/RpKLCMvp/tve.png" group-title="Entertainment",TVE Internacional Asia-Oceania
+https://racitonsen.s.gy/TVE_ASIA
+#EXTINF:-1 tvg-id="iptv_global_1790499822_38" tvg-name="Universal Cinema (1080p)" tvg-logo="https://i.imgur.com/XxfET68.png" group-title="Movies",Universal Cinema (1080p)
+http://45.167.1.138:8000/play/a06m
+#EXTINF:-1 tvg-id="iptv_global_1790499824_39" tvg-name="Win+ Futbol (1080p)" tvg-logo="https://i.imgur.com/0UN87vB.png" group-title="Pakistan - Entertainment",Win+ Futbol (1080p)
+http://181.78.12.119:16123/play/ch19/index.m3u8
+#EXTINF:-1 tvg-id="rej_52729_1790499875_40" tvg-name="Señal Colombia" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/sealcolombia.png" group-title="Entertainment",Señal Colombia
+http://200.115.120.1:8000/play/ca089/index.m3u8
