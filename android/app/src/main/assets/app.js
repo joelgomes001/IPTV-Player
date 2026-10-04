@@ -288,12 +288,152 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Load Master Database from Firebase Firestore / Server
+  // Helper to normalize channel names for robust conflict matching
+  function normalizeChannelName(name) {
+    if (!name) return '';
+    return name.toLowerCase()
+      .replace(/\bset\b/g, 'sony entertainment')
+      .replace(/\(.*?\)|\[.*?\]/g, '')
+      .replace(/\b(hd|sd|fhd|4k|tv|channel|in|live|stream)\b/g, '')
+      .replace(/[^a-z0-9]/g, '');
+  }
+
+  // Merge channels: If any source conflicts, PRIORITIZE RANA LINKS
+  function mergeWithRanaPriority(baseChannels, ranaCategories) {
+    if (!Array.isArray(ranaCategories) || ranaCategories.length === 0) {
+      return baseChannels;
+    }
+
+    const ranaChannels = [];
+    const ranaById = new Map();
+    const ranaByNormName = new Map();
+
+    ranaCategories.forEach(cat => {
+      const catTitle = cat.title || 'General';
+      (cat.channels || []).forEach(rc => {
+        const streamUrl = (rc.stream_url || '').trim();
+        if (!streamUrl) return;
+
+        const formatted = {
+          id: String(rc.live_tv_id || 'rana-' + Math.random().toString(36).substr(2, 6)),
+          name: rc.tv_name || 'Live Channel',
+          genre: catTitle,
+          country: 'India',
+          stream_url: streamUrl,
+          stream_from: rc.stream_from || (streamUrl.includes('youtube.com') || streamUrl.includes('youtu.be') ? 'youtube' : 'hls'),
+          thumbnail: rc.thumbnail_url || rc.poster_url || '',
+          poster: rc.poster_url || rc.thumbnail_url || '',
+          source: 'Rana Cable TV',
+          isRana: true
+        };
+
+        if (rc.live_tv_id) {
+          ranaById.set(String(rc.live_tv_id), formatted);
+        }
+        const normKey = normalizeChannelName(rc.tv_name);
+        if (normKey) {
+          ranaByNormName.set(normKey, formatted);
+        }
+        ranaChannels.push(formatted);
+      });
+    });
+
+    const mergedList = [];
+    const matchedRanaIds = new Set();
+    const matchedRanaNorms = new Set();
+
+    // Check each base channel: if conflict exists, PRIORITIZE RANA LINK
+    baseChannels.forEach(bc => {
+      const bId = String(bc.id || '');
+      const bNorm = normalizeChannelName(bc.name || '');
+
+      let ranaMatch = null;
+      if (bId && ranaById.has(bId)) {
+        ranaMatch = ranaById.get(bId);
+      } else if (bNorm && ranaByNormName.has(bNorm)) {
+        ranaMatch = ranaByNormName.get(bNorm);
+      }
+
+      if (ranaMatch) {
+        // SOURCE CONFLICT -> PRIORITIZE RANA!
+        if (ranaMatch.id) matchedRanaIds.add(String(ranaMatch.id));
+        const rNorm = normalizeChannelName(ranaMatch.name);
+        if (rNorm) matchedRanaNorms.add(rNorm);
+
+        mergedList.push({
+          ...bc,
+          stream_url: ranaMatch.stream_url, // Prioritized Rana stream URL
+          stream_from: ranaMatch.stream_from || bc.stream_from || 'hls',
+          poster: ranaMatch.poster || bc.poster,
+          thumbnail: ranaMatch.thumbnail || bc.thumbnail,
+          source: 'Rana Cable TV (Prioritized)',
+          isRana: true
+        });
+      } else {
+        mergedList.push(bc);
+      }
+    });
+
+    // Append any new Rana channels not present in base list
+    ranaChannels.forEach(rc => {
+      const rId = String(rc.id);
+      const rNorm = normalizeChannelName(rc.name);
+      if (!matchedRanaIds.has(rId) && !matchedRanaNorms.has(rNorm)) {
+        mergedList.push({
+          ...rc,
+          id: 'rana-' + rId
+        });
+        matchedRanaIds.add(rId);
+        if (rNorm) matchedRanaNorms.add(rNorm);
+      }
+    });
+
+    return mergedList;
+  }
+
+  async function fetchRanaCategories() {
+    const directUrl = `${BASE_API_URL}all_tv_channel_by_category`;
+    const headers = { 'API-KEY': API_KEY };
+
+    // 1. Try direct fetch
+    try {
+      const res = await fetch(directUrl, { headers });
+      if (res.ok) {
+        const data = await res.json();
+        if (Array.isArray(data) && data.length > 0) return data;
+      }
+    } catch (e) {
+      console.warn('Direct Rana API fetch failed (likely CORS), trying proxies...', e);
+    }
+
+    // 2. Try CORS proxy fallbacks
+    const proxyUrls = [
+      `https://corsproxy.io/?url=${encodeURIComponent(directUrl)}`,
+      `https://api.allorigins.win/raw?url=${encodeURIComponent(directUrl)}`
+    ];
+
+    for (const pUrl of proxyUrls) {
+      try {
+        const res = await fetch(pUrl, { headers });
+        if (res.ok) {
+          const data = await res.json();
+          if (Array.isArray(data) && data.length > 0) return data;
+        }
+      } catch (err) {}
+    }
+
+    return null;
+  }
+
+  // Load Master Database from Firebase Firestore / Server and Sync Rana API
   const PRIMARY_DB_URL = `https://raw.githubusercontent.com/joelgomes001/IPTV-Player/main/website/channels.json?_t=${Date.now()}`;
 
   async function loadLiveChannels() {
-    statusBadge.innerHTML = `<span style="color:#fef08a;">● Syncing with Server...</span>`;
+    statusBadge.innerHTML = `<span style="color:#fef08a;">● Syncing with Server & Rana API...</span>`;
 
+    let baseChannels = [];
+
+    // 1. Try Firestore if available
     try {
       if (window.firebaseDb && window.firestoreTools) {
         const db = window.firebaseDb;
@@ -301,35 +441,55 @@ document.addEventListener('DOMContentLoaded', () => {
         const docRef = doc(db, "metadata", "channels");
         const snap = await getDoc(docRef);
         if (snap.exists() && snap.data().channels_json) {
-          allChannels = JSON.parse(snap.data().channels_json);
-          statusBadge.innerHTML = `<span style="color:#ffffff;">● Synced (${allChannels.length.toLocaleString()} Channels)</span>`;
-          populateFilterSelects();
-          renderSidebarCountries();
-          renderSidebarGenres();
-          filterAndRender();
-          showToast(`Sync complete! Loaded ${allChannels.length.toLocaleString()} channels from live database.`);
-          return;
+          baseChannels = JSON.parse(snap.data().channels_json);
         }
       }
     } catch(e) {}
 
-    fetch(PRIMARY_DB_URL, { cache: 'no-cache' })
-      .then(r => r.json())
-      .catch(() => fetch(`channels.json?_t=${Date.now()}`, { cache: 'no-cache' }).then(r => r.json()))
-      .then(baseChannels => {
+    // 1. Try local channels.json first (fastest, freshest, zero cache delay)
+    try {
+      baseChannels = await fetch(`channels.json?_t=${Date.now()}`, { cache: 'no-cache' }).then(r => r.json());
+    } catch (err) {
+      console.log('Local channels.json not available directly, trying remote fallbacks');
+    }
+
+    // 2. Fallback to GitHub PRIMARY_DB_URL
+    if (!baseChannels || baseChannels.length === 0) {
+      try {
+        baseChannels = await fetch(PRIMARY_DB_URL, { cache: 'no-cache' }).then(r => r.json());
+      } catch (e) {
+        console.error('Failed to load GitHub base channels:', e);
+      }
+    }
+
+    if (!baseChannels || baseChannels.length === 0) {
+      console.error('No base channels loaded.');
+      channelsGrid.innerHTML = `<div style="text-align:center; grid-column: 1/-1; padding: 2rem; color: #d32f2f;">Failed to load channel data.</div>`;
+      return;
+    }
+
+    // 3. Fetch live Rana channels and apply conflict priority (Rana links prioritize)
+    try {
+      const ranaCats = await fetchRanaCategories();
+      if (ranaCats && ranaCats.length > 0) {
+        allChannels = mergeWithRanaPriority(baseChannels, ranaCats);
+        statusBadge.innerHTML = `<span style="color:#ffffff;">● Synced (${allChannels.length.toLocaleString()} Channels - Rana Prioritized)</span>`;
+        showToast(`Sync complete! ${allChannels.length.toLocaleString()} channels loaded with Rana links prioritized.`);
+      } else {
         allChannels = baseChannels;
         statusBadge.innerHTML = `<span style="color:#ffffff;">● Synced (${allChannels.length.toLocaleString()} Channels)</span>`;
-        populateFilterSelects();
-        renderSidebarCountries();
-        renderSidebarGenres();
-        filterAndRender();
+        showToast(`Loaded ${allChannels.length.toLocaleString()} channels from master database.`);
+      }
+    } catch (err) {
+      console.warn('Error during Rana merge, using master channels:', err);
+      allChannels = baseChannels;
+      statusBadge.innerHTML = `<span style="color:#ffffff;">● Synced (${allChannels.length.toLocaleString()} Channels)</span>`;
+    }
 
-        showToast(`Sync complete! Loaded ${allChannels.length.toLocaleString()} channels from server.`);
-      })
-      .catch(e => {
-        console.error('Failed to load channels:', e);
-        channelsGrid.innerHTML = `<div style="text-align:center; grid-column: 1/-1; padding: 2rem; color: #d32f2f;">Failed to load channel data.</div>`;
-      });
+    populateFilterSelects();
+    renderSidebarCountries();
+    renderSidebarGenres();
+    filterAndRender();
   }
 
   // Initial Load
@@ -892,6 +1052,7 @@ document.addEventListener('DOMContentLoaded', () => {
       hlsInstance = null;
     }
     videoPlayer.pause();
+    videoPlayer.onended = null;
     videoPlayer.src = '';
     playerWrapper.classList.remove('active');
     currentPlayingChannel = null;
@@ -941,12 +1102,28 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     playerWrapper.classList.add('active');
-    currentChannelTitle.textContent = ch.name;
+    currentChannelTitle.innerHTML = `${ch.name} <span class="live-pill"><span class="live-dot"></span>LIVE</span>`;
     
     playerWrapper.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
     // Enable initial playback
     videoPlayer.muted = false;
+
+    // Auto-reconnect if live stream ever fires 'ended'
+    videoPlayer.onended = () => {
+      console.log('Live stream ended event fired. Auto-reconnecting...');
+      if (currentPlayingChannel && currentPlayingChannel.stream_url === ch.stream_url) {
+        setTimeout(() => {
+          if (hlsInstance) {
+            hlsInstance.loadSource(ch.stream_url);
+            videoPlayer.play().catch(() => {});
+          } else {
+            videoPlayer.src = ch.stream_url;
+            videoPlayer.play().catch(() => {});
+          }
+        }, 1000);
+      }
+    };
 
     if (Hls.isSupported()) {
       if (hlsInstance) {
@@ -955,7 +1132,34 @@ document.addEventListener('DOMContentLoaded', () => {
       hlsInstance = new Hls({
         enableWorker: true,
         lowLatencyMode: true,
+        backBufferLength: 60,
+        liveSyncDurationCount: 3,
+        liveMaxLatencyDurationCount: 10,
+        manifestLoadingMaxRetry: 6,
+        manifestLoadingRetryDelay: 1000,
+        levelLoadingMaxRetry: 6,
+        levelLoadingRetryDelay: 1000,
       });
+
+      // Automatic recovery for network and media errors
+      hlsInstance.on(Hls.Events.ERROR, (event, data) => {
+        if (data.fatal) {
+          switch (data.type) {
+            case Hls.ErrorTypes.NETWORK_ERROR:
+              console.warn('Network error encountered, attempting recovery...', data);
+              hlsInstance.startLoad();
+              break;
+            case Hls.ErrorTypes.MEDIA_ERROR:
+              console.warn('Media error encountered, attempting recovery...', data);
+              hlsInstance.recoverMediaError();
+              break;
+            default:
+              console.error('Fatal unrecoverable HLS error:', data);
+              break;
+          }
+        }
+      });
+
       hlsInstance.loadSource(ch.stream_url);
       hlsInstance.attachMedia(videoPlayer);
       hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => {

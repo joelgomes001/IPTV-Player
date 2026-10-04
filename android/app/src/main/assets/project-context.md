@@ -109,3 +109,4 @@ flowchart TD
 3. **Dual File Sync**: Always maintain parity between root files and files inside `website/`.
 4. **Clipboard Fallbacks**: Use `copyToClipboard()` helper to guarantee copy functionality across HTTP, HTTPS, and mobile WebViews.
 5. **Netlify Drop Compatibility**: Ensure `website/` remains self-contained with relative paths (`app.js`, `styles.css`, `channels.json`, `playlist.m3u`, `_redirects`, `_headers`).
+6. **Rana Source Priority**: When source conflicts occur (channels with matching names or IDs between base channels and Rana Cable TV API), Rana links MUST always be prioritized and override conflicting stream URLs (especially for working Star & Sony network channels).
