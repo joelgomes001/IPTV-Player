@@ -60,6 +60,11 @@ public class MainActivity extends AppCompatActivity {
             webSettings.setMediaPlaybackRequiresUserGesture(false);
         }
 
+        // Enable Mixed Content so HTTP streams are not blocked when loaded over HTTPS
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            webSettings.setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
+        }
+
         // Enable D-Pad & Touch Focus
         mWebView.setFocusable(true);
         mWebView.setFocusableInTouchMode(true);
@@ -96,8 +101,8 @@ public class MainActivity extends AppCompatActivity {
         if (isNetworkAvailable()) {
             mWebView.loadUrl(SERVER_URL);
         } else {
-            Toast.makeText(this, "Connecting to live backup server...", Toast.LENGTH_SHORT).show();
-            mWebView.loadUrl(FALLBACK_URL);
+            Toast.makeText(this, "Offline: Loading local channel database...", Toast.LENGTH_SHORT).show();
+            mWebView.loadUrl("file:///android_asset/index.html");
         }
     }
 

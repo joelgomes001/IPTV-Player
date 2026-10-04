@@ -1109,16 +1109,27 @@ document.addEventListener('DOMContentLoaded', () => {
     // Enable initial playback
     videoPlayer.muted = false;
 
+    // Mixed-Content Resolution:
+    // If playing in a web browser on an HTTPS origin (not in Android app where mixed content is allowed),
+    // proxy plain http:// streams through the Cloudflare media proxy to prevent browser mixed-content blocks
+    let targetStreamUrl = ch.stream_url;
+    const isHttpsOrigin = window.location.protocol === 'https:';
+    const isAndroidApp = window.isAndroidApp || (window.navigator && window.navigator.userAgent && window.navigator.userAgent.includes('JTBS_Android_App'));
+
+    if (isHttpsOrigin && !isAndroidApp && targetStreamUrl.startsWith('http://')) {
+      targetStreamUrl = `https://media.dpdns.org/?url=${targetStreamUrl}`;
+    }
+
     // Auto-reconnect if live stream ever fires 'ended'
     videoPlayer.onended = () => {
       console.log('Live stream ended event fired. Auto-reconnecting...');
       if (currentPlayingChannel && currentPlayingChannel.stream_url === ch.stream_url) {
         setTimeout(() => {
           if (hlsInstance) {
-            hlsInstance.loadSource(ch.stream_url);
+            hlsInstance.loadSource(targetStreamUrl);
             videoPlayer.play().catch(() => {});
           } else {
-            videoPlayer.src = ch.stream_url;
+            videoPlayer.src = targetStreamUrl;
             videoPlayer.play().catch(() => {});
           }
         }, 1000);
@@ -1147,6 +1158,9 @@ document.addEventListener('DOMContentLoaded', () => {
           switch (data.type) {
             case Hls.ErrorTypes.NETWORK_ERROR:
               console.warn('Network error encountered, attempting recovery...', data);
+              if (isHttpsOrigin && !isAndroidApp && ch.stream_url.startsWith('http://')) {
+                showToast(`Channel uses HTTP. For direct playback, open on http://playtv.dpdns.org/#watch`, true);
+              }
               hlsInstance.startLoad();
               break;
             case Hls.ErrorTypes.MEDIA_ERROR:
@@ -1160,7 +1174,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
 
-      hlsInstance.loadSource(ch.stream_url);
+      hlsInstance.loadSource(targetStreamUrl);
       hlsInstance.attachMedia(videoPlayer);
       hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => {
         const playPromise = videoPlayer.play();
@@ -1177,7 +1191,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
     } else if (videoPlayer.canPlayType('application/vnd.apple.mpegurl')) {
-      videoPlayer.src = ch.stream_url;
+      videoPlayer.src = targetStreamUrl;
       videoPlayer.play()
         .then(() => { videoPlayer.muted = false; })
         .catch(() => {
