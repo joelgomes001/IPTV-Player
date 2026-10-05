@@ -67,7 +67,7 @@
       </div>
 
       <div id="statusBadge" class="status-badge">
-        <span style="color:#fef08a;">● Connecting...</span>
+        <span style="color:#fef08a;">● Syncing with Server...</span>
       </div>
 
       <button id="btnRefresh" class="xp-button sync-btn" title="Fetch latest channels from servers">
@@ -220,7 +220,13 @@
           </div>
         </div>
 
-        <div class="channels-grid" id="channelsGrid"></div>
+        <div class="channels-grid" id="channelsGrid">
+          <div class="loading-state-container">
+            <div class="loading-spinner"></div>
+            <div class="loading-title">Loading channels from server...</div>
+            <div class="loading-subtitle">Please wait while channel catalog is prepared</div>
+          </div>
+        </div>
       </section>
 
     </main>

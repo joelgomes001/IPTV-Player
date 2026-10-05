@@ -1,7 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const BASE_API_URL = "https://ranacabletv.alwaysdata.net/oxoo/rest-api/v100/";
-  const API_KEY = "1adj2wv368c6pnaavh7od79n";
-
   let allChannels = [];
   let currentQuickFilter = 'All';      // 'All', 'Favorites', 'Recent'
   let currentCountryFilter = 'All';    // 'All', or specific country name (e.g. 'India', 'United States')
@@ -391,113 +388,81 @@ document.addEventListener('DOMContentLoaded', () => {
     return mergedList;
   }
 
-  async function fetchRanaCategories() {
-    const directUrl = `${BASE_API_URL}all_tv_channel_by_category`;
-    const headers = { 'API-KEY': API_KEY };
+  // Load Master Database from Server
+  const PRIMARY_DB_URL = `https://raw.githubusercontent.com/joelgomes001/IPTV-Player/main/website/channels.json`;
 
-    // 1. Try direct fetch
-    try {
-      const res = await fetch(directUrl, { headers });
-      if (res.ok) {
-        const data = await res.json();
-        if (Array.isArray(data) && data.length > 0) return data;
-      }
-    } catch (e) {
-      console.warn('Direct Rana API fetch failed (likely CORS), trying proxies...', e);
-    }
-
-    // 2. Try CORS proxy fallbacks
-    const proxyUrls = [
-      `https://corsproxy.io/?url=${encodeURIComponent(directUrl)}`,
-      `https://api.allorigins.win/raw?url=${encodeURIComponent(directUrl)}`
-    ];
-
-    for (const pUrl of proxyUrls) {
-      try {
-        const res = await fetch(pUrl, { headers });
-        if (res.ok) {
-          const data = await res.json();
-          if (Array.isArray(data) && data.length > 0) return data;
-        }
-      } catch (err) {}
-    }
-
-    return null;
-  }
-
-  // Load Master Database from Firebase Firestore / Server and Sync Rana API
-  const PRIMARY_DB_URL = `https://raw.githubusercontent.com/joelgomes001/IPTV-Player/main/website/channels.json?_t=${Date.now()}`;
-
-  async function loadLiveChannels() {
-    statusBadge.innerHTML = `<span style="color:#fef08a;">● Syncing with Server & Rana API...</span>`;
+  async function loadLiveChannels(isManualRefresh = false) {
+    statusBadge.innerHTML = `<span style="color:#fef08a;">● Syncing with Server...</span>`;
 
     let baseChannels = [];
 
-    // 1. Try Firestore if available
+    // 1. Try local channels.json (instant cached load on startup, fresh fetch on manual Sync Server)
     try {
-      if (window.firebaseDb && window.firestoreTools) {
-        const db = window.firebaseDb;
-        const { doc, getDoc } = window.firestoreTools;
-        const docRef = doc(db, "metadata", "channels");
-        const snap = await getDoc(docRef);
-        if (snap.exists() && snap.data().channels_json) {
-          baseChannels = JSON.parse(snap.data().channels_json);
-        }
+      const localUrl = isManualRefresh ? `channels.json?_t=${Date.now()}` : 'channels.json';
+      const fetchOpts = isManualRefresh ? { cache: 'no-cache' } : {};
+      const res = await fetch(localUrl, fetchOpts);
+      if (res.ok) {
+        baseChannels = await res.json();
       }
-    } catch(e) {}
-
-    // 1. Try local channels.json first (fastest, freshest, zero cache delay)
-    try {
-      baseChannels = await fetch(`channels.json?_t=${Date.now()}`, { cache: 'no-cache' }).then(r => r.json());
     } catch (err) {
-      console.log('Local channels.json not available directly, trying remote fallbacks');
+      console.log('Local channels.json not available directly, trying remote fallback');
     }
 
-    // 2. Fallback to GitHub PRIMARY_DB_URL
+    // 2. Try Firestore metadata if local channels.json was not loaded
     if (!baseChannels || baseChannels.length === 0) {
       try {
-        baseChannels = await fetch(PRIMARY_DB_URL, { cache: 'no-cache' }).then(r => r.json());
+        if (window.firebaseDb && window.firestoreTools) {
+          const db = window.firebaseDb;
+          const { doc, getDoc } = window.firestoreTools;
+          const docRef = doc(db, "metadata", "channels");
+          const snap = await getDoc(docRef);
+          if (snap.exists() && snap.data().channels_json) {
+            baseChannels = JSON.parse(snap.data().channels_json);
+          }
+        }
+      } catch(e) {}
+    }
+
+    // 3. Fallback to GitHub PRIMARY_DB_URL if local and firestore both failed
+    if (!baseChannels || baseChannels.length === 0) {
+      try {
+        const remoteUrl = isManualRefresh ? `${PRIMARY_DB_URL}?_t=${Date.now()}` : PRIMARY_DB_URL;
+        const res = await fetch(remoteUrl);
+        if (res.ok) {
+          baseChannels = await res.json();
+        }
       } catch (e) {
         console.error('Failed to load GitHub base channels:', e);
       }
     }
 
     if (!baseChannels || baseChannels.length === 0) {
-      console.error('No base channels loaded.');
-      channelsGrid.innerHTML = `<div style="text-align:center; grid-column: 1/-1; padding: 2rem; color: #d32f2f;">Failed to load channel data.</div>`;
+      console.error('No channels loaded.');
+      channelsGrid.innerHTML = `<div style="text-align:center; grid-column: 1/-1; padding: 3rem 1rem; color: #d32f2f; font-weight: 600;">Failed to load channel data. Please click Sync Server to retry.</div>`;
+      statusBadge.innerHTML = `<span style="color:#f87171;">● Sync Failed</span>`;
       return;
     }
 
-    // 3. Fetch live Rana channels and apply conflict priority (Rana links prioritize)
-    try {
-      const ranaCats = await fetchRanaCategories();
-      if (ranaCats && ranaCats.length > 0) {
-        allChannels = mergeWithRanaPriority(baseChannels, ranaCats);
-        statusBadge.innerHTML = `<span style="color:#ffffff;">● Synced (${allChannels.length.toLocaleString()} Channels - Rana Prioritized)</span>`;
-        showToast(`Sync complete! ${allChannels.length.toLocaleString()} channels loaded with Rana links prioritized.`);
-      } else {
-        allChannels = baseChannels;
-        statusBadge.innerHTML = `<span style="color:#ffffff;">● Synced (${allChannels.length.toLocaleString()} Channels)</span>`;
-        showToast(`Loaded ${allChannels.length.toLocaleString()} channels from master database.`);
-      }
-    } catch (err) {
-      console.warn('Error during Rana merge, using master channels:', err);
-      allChannels = baseChannels;
-      statusBadge.innerHTML = `<span style="color:#ffffff;">● Synced (${allChannels.length.toLocaleString()} Channels)</span>`;
-    }
+    // 4. Render channels immediately!
+    allChannels = baseChannels;
+    statusBadge.innerHTML = `<span style="color:#ffffff;">● Synced (${allChannels.length.toLocaleString()} Channels)</span>`;
 
     populateFilterSelects();
     renderSidebarCountries();
     renderSidebarGenres();
     filterAndRender();
+
+    if (isManualRefresh) {
+      showToast(`Server sync complete! ${allChannels.length.toLocaleString()} channels loaded.`);
+    }
   }
 
   // Initial Load
-  loadLiveChannels();
+  loadLiveChannels(false);
 
-  // Refresh Button Click
+  // Refresh Button Click ("Sync Server")
   if (btnRefresh) {
-    btnRefresh.addEventListener('click', loadLiveChannels);
+    btnRefresh.addEventListener('click', () => loadLiveChannels(true));
   }
 
   // Clear all sidebar active states across Quick, Country, and Genre sections
