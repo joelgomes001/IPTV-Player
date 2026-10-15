@@ -72151,7 +72151,7 @@
     "id": "iptv-org-13252",
     "name": "Zvezda Plus HD (1080p)",
     "genre": "Entertainment",
-    "stream_url": "https://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8",
+    "stream_url": "http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/NNmjD9Z.png",
     "poster": "",
@@ -114307,7 +114307,7 @@
     "name": "History 2 (1080p)",
     "genre": "Documentary",
     "country": "Pakistan",
-    "stream_url": "http://str2.iptvhd.ru:8080/H2_HD/index.m3u8",
+    "stream_url": "http://57.128.231.171:8080/247/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/500px-History2_logo_%282022%29.svg.png",
     "poster": ""
@@ -137535,7 +137535,7 @@
     "name": "TN (1080p)",
     "genre": "Entertainment",
     "country": "International",
-    "stream_url": "http://15.204.246.24:8080/TNHD/index.m3u8",
+    "stream_url": "http://158.172.155.130:8000/play/a0dp/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/vFwPhPS.png",
     "poster": ""
@@ -144165,7 +144165,7 @@
     "name": "Arena Sport Premium M2",
     "genre": "Sports",
     "country": "International",
-    "stream_url": "https://racitonsen.s.gy/AM2P",
+    "stream_url": "http://telekomsrbije.com:2095/play/lhpjmkfVyhON1JAiZCx7vgvje3t-Jiqa5d94ZBmKAqR25sVNOuyj97sUY8aJBFf4",
     "stream_from": "hls",
     "thumbnail": "https://tvarenasport.mk/wp-content/themes/tvarenasport-mk/assets/channels/arena-m2.png",
     "poster": ""
@@ -144175,7 +144175,7 @@
     "name": "Arena Sport Premium M3",
     "genre": "Sports",
     "country": "International",
-    "stream_url": "https://racitonsen.s.gy/AM3P",
+    "stream_url": "http://telekomsrbije.com:2095/play/lhpjmkfVyhON1JAiZCx7vgvje3t-Jiqa5d94ZBmKAqSVr5S9_a_TNo_sg7gE1yvH",
     "stream_from": "hls",
     "thumbnail": "https://tvarenasport.mk/wp-content/themes/tvarenasport-mk/assets/channels/arena-m3.png",
     "poster": ""
@@ -147023,7 +147023,7 @@
     "name": "DeporTV (1080p)",
     "genre": "Entertainment",
     "country": "Bangladesh",
-    "stream_url": "http://181.209.105.115:2525/play/deportv/index.m3u8",
+    "stream_url": "http://158.172.155.130:8000/play/a09y/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/THk9ARS.png",
     "poster": ""
@@ -147257,7 +147257,7 @@
     "name": "Pakapaka (1080p)",
     "genre": "Entertainment",
     "country": "International",
-    "stream_url": "http://190.128.214.97:64333/play/a02r/index.m3u8",
+    "stream_url": "http://138.59.227.20:8000/play/a05t/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/GJbRWwH.png",
     "poster": ""
@@ -154896,6 +154896,636 @@
     "stream_url": "http://5.180.164.197:8080/ZDFNEO/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/1JIIGgL.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1792051513_0",
+    "name": "Animal Planet (India) HD (720p)",
+    "genre": "Documentary",
+    "country": "India",
+    "stream_url": "https://drk6xq0vhn.gpcdn.net/live/animal_planet_hd_abr/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ANIMAL_PLANET/images/LOGO_HD/image.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1792051516_1",
+    "name": "Cartoon Network (India) (720p)",
+    "genre": "Kids",
+    "country": "India",
+    "stream_url": "https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CARTOON_NETWORK/images/LOGO_HD/image.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1792051516_2",
+    "name": "Cartoon Network HD+ (720p)",
+    "genre": "Kids",
+    "country": "India",
+    "stream_url": "https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CARTOON_NETWORK_HDSYMPLUS/images/LOGO_HD/image.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1792051516_3",
+    "name": "CNN News 18 (1080p)",
+    "genre": "News",
+    "country": "India",
+    "stream_url": "https://n18syndication.akamaized.net/bpk-tv/CNN_News18_NW18_MOB/output01/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://dtil.tmsimg.com/assets/s142747_ld_h15_aa.png?lock=720x540",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1792051518_4",
+    "name": "Discovery Kids (720p)",
+    "genre": "Documentary",
+    "country": "India",
+    "stream_url": "https://drk6xq0vhn.gpcdn.net/live/discovery_kids_abr/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/0iNQvoL.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1792051555_5",
+    "name": "Zee Tamil HD (1080p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Tamil_HD/hls/Zee_Tamil_HD.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://dtil.tmsimg.com/assets/GNLZZGG00233WCL.png?lock=720x540",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051573_6",
+    "name": "Adult Swim West [Not 24/7;Geo-blocked]",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://turnerlive.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_1_5128000.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Adult_Swim_2003_logo.svg/960px-Adult_Swim_2003_logo.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051574_7",
+    "name": "Allegro HD (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://158.172.155.130:8000/play/a0dn/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/bRH34Rn.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051574_8",
+    "name": "AMC Europe Poland (576i)",
+    "genre": "Movies",
+    "country": "International",
+    "stream_url": "http://57.128.231.171:8080/318/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051578_9",
+    "name": "Arena Sport 1 Premium (Serbia) (360p)",
+    "genre": "Sports",
+    "country": "International",
+    "stream_url": "http://telekomsrbije.com:2095/play/lhpjmkfVyhON1JAiZCx7vmRdlEHaaMaQAQw3LRAakpnghBMtR57sXXgLEXZF8gVD",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/csv6YsL.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051578_10",
+    "name": "Arena Sport 1 Premium (Slovenia)",
+    "genre": "Sports",
+    "country": "International",
+    "stream_url": "http://telekomsrbije.com:2095/play/lhpjmkfVyhON1JAiZCx7vhWLdkJ_3C0RZgs4W19uhl8S3kU0l__4SxERjFMDgcT6",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/csv6YsL.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051587_11",
+    "name": "BabyTV (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://57.128.231.171:8080/310/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/4BDJ5FT.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051589_12",
+    "name": "BBC First (1080p)",
+    "genre": "News",
+    "country": "United Kingdom",
+    "stream_url": "http://57.128.231.171:8080/306/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/UBoBYUI.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051603_13",
+    "name": "Cartoonito CEE Poland (1080p)",
+    "genre": "Kids",
+    "country": "International",
+    "stream_url": "http://57.128.231.171:8080/303/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/9MrzLb1.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051603_14",
+    "name": "Cartoonito Latin America (1080p)",
+    "genre": "Kids",
+    "country": "United States",
+    "stream_url": "http://45.173.12.70:8000/play/a0hh",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/960px-Cartoonito_-_Logo_2021.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051613_15",
+    "name": "Cinemax Asia HD (1080p)",
+    "genre": "Movies",
+    "country": "International",
+    "stream_url": "http://125.227.210.55:1001/VideoInput/play.ts",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/c8crJfA.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051613_16",
+    "name": "CNBC Europe (1080p)",
+    "genre": "News",
+    "country": "United States",
+    "stream_url": "http://57.128.231.171:8080/234/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051613_17",
+    "name": "CNN HD (720p) [Geo-blocked]",
+    "genre": "News",
+    "country": "United States",
+    "stream_url": "http://212.5.144.156:8080/cnn/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://jiotvimages.cdn.jio.com/dare_images/images/CNN.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051621_18",
+    "name": "Discovery Science Europe Poland (1080p)",
+    "genre": "Documentary",
+    "country": "International",
+    "stream_url": "http://57.128.231.171:8080/279/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/960px-Discovery_Science_2017_Logo.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051621_19",
+    "name": "Disney Channel (Poland) (1080p)",
+    "genre": "Kids",
+    "country": "International",
+    "stream_url": "http://57.128.231.171:8080/278/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051622_20",
+    "name": "Disney Channel Latin America South",
+    "genre": "Kids",
+    "country": "United States",
+    "stream_url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/disney-channel-key/chunks.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051635_21",
+    "name": "EnerGeek (1080p) [Geo-blocked]",
+    "genre": "Entertainment",
+    "country": "Pakistan",
+    "stream_url": "https://cl-2.backend.energeek.cl/bkp/egretroweb/index.m3u8?token=IPTVgh26",
+    "stream_from": "hls",
+    "thumbnail": "https://cdn.energeek.cl/logos/EG-Retro-2025_pfp.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051635_22",
+    "name": "EnerGeek FAN (720p) [Geo-blocked]",
+    "genre": "Entertainment",
+    "country": "Pakistan",
+    "stream_url": "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=IPTVgh26",
+    "stream_from": "hls",
+    "thumbnail": "https://cdn.energeek.cl/logos/EG-Fan-2025_pfp.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051635_23",
+    "name": "EnerGeek Radio (720p) [Geo-blocked]",
+    "genre": "Music",
+    "country": "Pakistan",
+    "stream_url": "https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=IPTVgh26",
+    "stream_from": "hls",
+    "thumbnail": "https://cdn.energeek.cl/logos/EG-Radio-2025_pfp.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051642_24",
+    "name": "Food Network (Hungary)",
+    "genre": "Entertainment",
+    "country": "United States",
+    "stream_url": "http://88.212.15.17/live/fn_hungary/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051644_25",
+    "name": "Gia Lai TV (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://tldigital-17th06day-tl9648290.duckdns.org/tv.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/oUSJX0X.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051644_26",
+    "name": "Gigavision (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://158.172.155.130:8000/play/a0e7/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/fE3BkcT.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051651_27",
+    "name": "HBO Asia Taiwan (1080p)",
+    "genre": "Movies",
+    "country": "United States",
+    "stream_url": "http://125.227.210.55:1003/VideoInput/play.ts",
+    "stream_from": "hls",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/HBO_Asia.png/960px-HBO_Asia.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051651_28",
+    "name": "History (Poland) (1080p)",
+    "genre": "Documentary",
+    "country": "International",
+    "stream_url": "http://57.128.231.171:8080/240/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051655_29",
+    "name": "Investigation Discovery (Poland) (1080p)",
+    "genre": "Documentary",
+    "country": "International",
+    "stream_url": "http://57.128.231.171:8080/239/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051660_30",
+    "name": "KIX (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://freem3u.xyz/api/live/play.m3u8?vid=9901",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/zWcUAdb.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051673_31",
+    "name": "Maxivision Canal 8 (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://181.119.97.124:8080/play/a00w/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/rlFAtnO.jpeg",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051685_32",
+    "name": "Motowizja (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://57.128.231.171:8080/230/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://ocdn.eu/ptv2-images-transforms/1/bqxkrtsb2dvLW1pZ3JhdGVkL21vdG93aXpqYS5wbmeSlQJkAMLDlQIAKMLD",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051685_33",
+    "name": "MS NOW (432p)",
+    "genre": "Entertainment",
+    "country": "United States",
+    "stream_url": "https://tvsen6.aynaott.com/msnbc/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/MS_NOW_logo.svg/960px-MS_NOW_logo.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051717_34",
+    "name": "Paramount Network (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://57.128.210.196:8080/212/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/960px-Paramount_Network.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051718_35",
+    "name": "PAT (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://158.172.155.130:8000/play/a0e6/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/4A7R2Jt.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051719_36",
+    "name": "Polo TV (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://57.128.210.196:8080/210/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/GEJZjRB.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051719_37",
+    "name": "Polsat (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://57.128.210.196:8080/203/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/xff6zGN.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051719_38",
+    "name": "Polsat Cafe (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://57.128.210.196:8080/207/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Polsat_Caf%C3%A9_2021_gradient.svg/500px-Polsat_Caf%C3%A9_2021_gradient.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051719_39",
+    "name": "Polsat Doku (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://57.128.210.196:8080/206/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Polsat_Doku_2021_gradient.svg/500px-Polsat_Doku_2021_gradient.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051719_40",
+    "name": "Polsat Film (1080p)",
+    "genre": "Movies",
+    "country": "International",
+    "stream_url": "http://57.128.210.196:8080/205/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/wGH6shZ.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051719_41",
+    "name": "Polsat Games (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://57.128.210.196:8080/204/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/OSCrBvh.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051719_42",
+    "name": "Polsat News (1080p)",
+    "genre": "News",
+    "country": "International",
+    "stream_url": "http://57.128.210.196:8080/199/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/sx1yPuc.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051719_43",
+    "name": "Polsat Play (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://57.128.210.196:8080/198/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Polsat_Play_2021_gradient.svg/500px-Polsat_Play_2021_gradient.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051723_44",
+    "name": "Quadro (2160p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://57.128.231.171:8080/316/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/P4c53HA.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051723_45",
+    "name": "Quiero Musica en mi Idioma (1080p)",
+    "genre": "Music",
+    "country": "International",
+    "stream_url": "http://158.172.155.130:8000/play/a00a/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/RO9Dz3X.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051727_46",
+    "name": "Retro Cartoon (720p)",
+    "genre": "Kids",
+    "country": "International",
+    "stream_url": "https://stmv1.video.brstream.com.br/retrotv/retrotv/chunklist_w1069200121.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/hIlEfhl.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051727_47",
+    "name": "Retro Plus 2 (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://181.119.97.124:8080/play/a00n/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/5G5kian.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051727_48",
+    "name": "Retro Plus 3 (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://181.119.97.124:8080/play/retroplus_3/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/i0rZsgG.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051727_49",
+    "name": "Retro Plus (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://181.119.97.124:8080/play/a00t/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/fkCasXI.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051730_50",
+    "name": "Rupavahini (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://rpn.bozztv.com/slrclive/slrc/slrclive/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/vgHTfR0.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051746_51",
+    "name": "Space South (720p)",
+    "genre": "Entertainment",
+    "country": "Pakistan",
+    "stream_url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/space.stream/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/960px-SpaceLogo.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051751_52",
+    "name": "Suyai TV (1080p)",
+    "genre": "Entertainment",
+    "country": "United Kingdom",
+    "stream_url": "https://trun.suyaitv.cl/memfs/1255a743-cd41-40a8-86c4-d264ee16ebf3.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://suyaitv.cl/wp-content/uploads/2024/10/ico_Suyai_TV_512.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051768_53",
+    "name": "TLC (Hungary)",
+    "genre": "Entertainment",
+    "country": "United States",
+    "stream_url": "http://88.212.15.17/live/tlc_hungary/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051770_54",
+    "name": "Tropical Moon Urban TV [Not 24/7]",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://sistemastr.tropicalmoonmedia.com:443/live/D8E123ACA054EF85B153C354A481A406/4.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/WcM7BP5.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051770_55",
+    "name": "TV4 (Poland) (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://57.128.210.196:8080/161/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/d/d4/TV4Polska.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051774_56",
+    "name": "TV Trwam (576i)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://57.128.231.171:8080/338/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/yq10wS5.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051781_57",
+    "name": "VM Latino (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://45.163.139.42:8000/play/a03d/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/Dvo1b82.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051798_58",
+    "name": "Warner TV",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://88.212.15.17/live/warner_tv/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://static.wikia.nocookie.net/logopedia/images/c/c7/WarnerTV_2021.svg/revision/latest/scale-to-width-down/1000?cb=20230818123400",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051798_59",
+    "name": "Water Planet (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://57.128.231.171:8080/122/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/ZKczKhD.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051798_60",
+    "name": "Willamette Falls Media Center",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://reflect-greater-clackamas-county-tv.cablecast.tv/live-7/live/stream-4/live.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/KwlFyem.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1792051805_61",
+    "name": "XperTV (1080p)",
+    "genre": "Entertainment",
+    "country": "Bangladesh",
+    "stream_url": "http://45.163.139.42:8000/play/a02x/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/0Aftiln.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_31131_1792051847_62",
+    "name": "TvOasis Venezuela",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://live20.bozztv.com/akamaissh101/ssh101/oasistv123/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/tvoasisvenezuela.png",
     "poster": ""
   }
 ]
