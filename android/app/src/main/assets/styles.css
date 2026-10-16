@@ -946,3 +946,55 @@ video {
   100% { transform: rotate(360deg); }
 }
 
+/* In-Player Error Overlay */
+.player-error-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 15, 29, 0.94);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1.5rem;
+  z-index: 10;
+  color: #ffffff;
+  animation: fadeIn 0.25s ease-out;
+}
+
+.player-error-icon {
+  margin-bottom: 0.75rem;
+}
+
+.player-error-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #f87171;
+  margin-bottom: 0.4rem;
+}
+
+.player-error-desc {
+  font-size: 0.9rem;
+  color: #cbd5e1;
+  max-width: 440px;
+  margin-bottom: 1.25rem;
+  line-height: 1.45;
+}
+
+.player-error-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.player-error-actions .retry-btn {
+  background: linear-gradient(to bottom, #0055ea 0%, #0037a4 100%);
+  color: #ffffff;
+  border: 1px solid #00227b;
+}
+
+.player-error-actions .retry-btn:hover {
+  background: linear-gradient(to bottom, #1a6cf0 0%, #0045c2 100%);
+}
+
+

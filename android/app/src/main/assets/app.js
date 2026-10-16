@@ -103,6 +103,17 @@ document.addEventListener('DOMContentLoaded', () => {
       document.body.appendChild(container);
     }
 
+    // Deduplication: prevent identical messages from spamming
+    const existingSpans = Array.from(container.querySelectorAll('.toast span'));
+    if (existingSpans.some(span => span.textContent === message)) {
+      return;
+    }
+
+    // Limit active visible toasts to at most 2
+    while (container.children.length >= 2) {
+      container.removeChild(container.firstChild);
+    }
+
     const toast = document.createElement('div');
     toast.className = `toast ${isError ? 'error' : ''}`;
     const iconSvg = isError
@@ -117,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
       toast.addEventListener('animationend', () => {
         toast.remove();
       });
-    }, 3000);
+    }, 3200);
   }
 
   // Get clean 2-letter initials for channel logo fallbacks
@@ -1010,14 +1021,71 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.setItem('iptv_recents', JSON.stringify(recentList));
   }
 
+  // Remove player error overlay if present
+  function removePlayerErrorOverlay() {
+    const existing = document.getElementById('playerErrorOverlay');
+    if (existing) existing.remove();
+  }
+
+  // Display clean in-player error overlay when a stream is offline
+  function showPlayerErrorOverlay(ch) {
+    removePlayerErrorOverlay();
+    if (!videoContainer) return;
+
+    const overlay = document.createElement('div');
+    overlay.id = 'playerErrorOverlay';
+    overlay.className = 'player-error-overlay';
+    overlay.innerHTML = `
+      <div class="player-error-icon">
+        <svg width="44" height="44" fill="none" stroke="#ef4444" stroke-width="2" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="8" x2="12" y2="12"></line>
+          <line x1="12" y1="16" x2="12.01" y2="16"></line>
+        </svg>
+      </div>
+      <div class="player-error-title">Stream Offline</div>
+      <div class="player-error-desc">The broadcast for <strong>${ch.name}</strong> is temporarily unavailable or unreachable at the origin.</div>
+      <div class="player-error-actions">
+        <button id="btnRetryStream" class="xp-button retry-btn">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+          </svg>
+          Retry
+        </button>
+        <button id="btnDismissStream" class="xp-button">Close Player</button>
+      </div>
+    `;
+
+    videoContainer.appendChild(overlay);
+
+    const btnRetry = document.getElementById('btnRetryStream');
+    if (btnRetry) {
+      btnRetry.addEventListener('click', (e) => {
+        e.stopPropagation();
+        removePlayerErrorOverlay();
+        playChannel(ch);
+      });
+    }
+
+    const btnDismiss = document.getElementById('btnDismissStream');
+    if (btnDismiss) {
+      btnDismiss.addEventListener('click', (e) => {
+        e.stopPropagation();
+        closePlayer();
+      });
+    }
+  }
+
   // Close Player Handler (Supports Browser Back Button Popstate)
   function closePlayer(popHistory = true) {
+    removePlayerErrorOverlay();
     if (hlsInstance) {
       hlsInstance.destroy();
       hlsInstance = null;
     }
     videoPlayer.pause();
     videoPlayer.onended = null;
+    videoPlayer.onerror = null;
     videoPlayer.src = '';
     playerWrapper.classList.remove('active');
     currentPlayingChannel = null;
@@ -1042,6 +1110,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function playChannel(ch) {
     if (!ch.stream_url) return;
 
+    removePlayerErrorOverlay();
     currentPlayingChannel = ch;
     addToRecent(ch);
 
@@ -1101,6 +1170,14 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     };
 
+    videoPlayer.onerror = () => {
+      console.warn('Native video element error on channel:', ch.name);
+      showPlayerErrorOverlay(ch);
+    };
+
+    let networkRetryCount = 0;
+    const MAX_NETWORK_RETRIES = 2;
+
     if (Hls.isSupported()) {
       if (hlsInstance) {
         hlsInstance.destroy();
@@ -1111,9 +1188,9 @@ document.addEventListener('DOMContentLoaded', () => {
         backBufferLength: 60,
         liveSyncDurationCount: 3,
         liveMaxLatencyDurationCount: 10,
-        manifestLoadingMaxRetry: 6,
+        manifestLoadingMaxRetry: 3,
         manifestLoadingRetryDelay: 1000,
-        levelLoadingMaxRetry: 6,
+        levelLoadingMaxRetry: 3,
         levelLoadingRetryDelay: 1000,
       });
 
@@ -1122,9 +1199,19 @@ document.addEventListener('DOMContentLoaded', () => {
         if (data.fatal) {
           switch (data.type) {
             case Hls.ErrorTypes.NETWORK_ERROR:
-              console.warn('Network error encountered, attempting recovery...', data);
-              showToast(`Stream is temporarily offline or unreachable at the source.`, true);
-              hlsInstance.startLoad();
+              if (networkRetryCount < MAX_NETWORK_RETRIES) {
+                networkRetryCount++;
+                console.warn(`HLS Network error (attempt ${networkRetryCount}/${MAX_NETWORK_RETRIES}), retrying...`, data);
+                setTimeout(() => {
+                  if (hlsInstance && currentPlayingChannel && currentPlayingChannel.id === ch.id) {
+                    hlsInstance.startLoad();
+                  }
+                }, 1500);
+              } else {
+                console.error('Fatal HLS Network error, stream offline:', ch.name, data);
+                if (hlsInstance) hlsInstance.destroy();
+                showPlayerErrorOverlay(ch);
+              }
               break;
             case Hls.ErrorTypes.MEDIA_ERROR:
               console.warn('Media error encountered, attempting recovery...', data);
@@ -1132,6 +1219,8 @@ document.addEventListener('DOMContentLoaded', () => {
               break;
             default:
               console.error('Fatal unrecoverable HLS error:', data);
+              if (hlsInstance) hlsInstance.destroy();
+              showPlayerErrorOverlay(ch);
               break;
           }
         }
@@ -1140,6 +1229,7 @@ document.addEventListener('DOMContentLoaded', () => {
       hlsInstance.loadSource(targetStreamUrl);
       hlsInstance.attachMedia(videoPlayer);
       hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => {
+        removePlayerErrorOverlay();
         const playPromise = videoPlayer.play();
         if (playPromise !== undefined) {
           playPromise
