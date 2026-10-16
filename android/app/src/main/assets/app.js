@@ -1082,7 +1082,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const isAndroidApp = window.isAndroidApp || (window.navigator && window.navigator.userAgent && window.navigator.userAgent.includes('JTBS_Android_App'));
 
     if (isHttpsOrigin && !isAndroidApp && targetStreamUrl.startsWith('http://')) {
-      targetStreamUrl = `https://media.dpdns.org/?url=${targetStreamUrl}`;
+      targetStreamUrl = `https://media.dpdns.org/?url=${encodeURIComponent(targetStreamUrl)}`;
     }
 
     // Auto-reconnect if live stream ever fires 'ended'
@@ -1123,9 +1123,7 @@ document.addEventListener('DOMContentLoaded', () => {
           switch (data.type) {
             case Hls.ErrorTypes.NETWORK_ERROR:
               console.warn('Network error encountered, attempting recovery...', data);
-              if (isHttpsOrigin && !isAndroidApp && ch.stream_url.startsWith('http://')) {
-                showToast(`Channel uses HTTP. For direct playback, open on http://playtv.dpdns.org/#watch`, true);
-              }
+              showToast(`Stream is temporarily offline or unreachable at the source.`, true);
               hlsInstance.startLoad();
               break;
             case Hls.ErrorTypes.MEDIA_ERROR:

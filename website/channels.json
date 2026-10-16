@@ -3299,11 +3299,12 @@
     "id": "iptv-org-435",
     "name": "Colors HD",
     "genre": "Entertainment",
-    "stream_url": "http://59.103.38.46:8000/play/a00b/index.m3u8",
+    "stream_url": "https://d75dqofg5kmfk.cloudfront.net/bpk-tv/ColorsHD/default/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/M8uCJ0D.png",
     "poster": "",
-    "country": "India"
+    "country": "India",
+    "source": "Verified 24/7 Cloudfront HLS"
   },
   {
     "id": "usr-168",
@@ -81172,10 +81173,11 @@
     "name": "Colors Bangla",
     "genre": "Entertainment",
     "country": "India",
-    "stream_url": "http://main.epgmaker.com/live/y49sz6KMQs/6115263489/532.ts",
+    "stream_url": "https://d75dqofg5kmfk.cloudfront.net/bpk-tv/ColorsHD/default/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://imglink.cc/cdn/oDQ4LN8zlN.png",
-    "poster": ""
+    "poster": "",
+    "source": "Verified 24/7 Cloudfront HLS"
   },
   {
     "id": "iptv-new-15741",
@@ -87022,13 +87024,14 @@
   },
   {
     "id": "shajon_1786260853_12",
-    "name": "Colors Bangla HD (Ads only)",
+    "name": "Colors Bangla HD",
     "genre": "Bangla",
     "country": "Bangladesh",
-    "stream_url": "https://iptvcable.netlify.app/Altogether-007/Kolkata/ColorsBanglaHD.m3u8",
+    "stream_url": "https://d75dqofg5kmfk.cloudfront.net/bpk-tv/ColorsHD/default/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://static.wikia.nocookie.net/logopedia/images/3/3e/Colors_Bangla_HD.jpg",
-    "poster": ""
+    "poster": "",
+    "source": "Verified 24/7 Cloudfront HLS"
   },
   {
     "id": "shajon_1786260853_0",
@@ -96187,10 +96190,11 @@
     "name": "Colors Bangla HD (1080p)",
     "genre": "Entertainment",
     "country": "India",
-    "stream_url": "http://103.165.93.31:8095/colorsBangla/index.m3u8",
+    "stream_url": "https://d75dqofg5kmfk.cloudfront.net/bpk-tv/ColorsHD/default/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_BANGLA/images/LOGO_HD/image.png",
-    "poster": ""
+    "poster": "",
+    "source": "Verified 24/7 Cloudfront HLS"
   },
   {
     "id": "iptv_in_1790151783_50",
