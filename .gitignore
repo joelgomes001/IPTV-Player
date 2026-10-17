@@ -26,6 +26,7 @@ temp/
 /firebase.json
 /firestore.rules
 /google-services.json
+/android/app/google-services.json
 
 # Scripts & workflows (moved to private repo)
 /scripts/
