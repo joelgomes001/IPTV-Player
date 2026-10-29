@@ -4610,7 +4610,7 @@
     "id": "iptv-org-658",
     "name": "News India 24x7 (576p)",
     "genre": "News",
-    "stream_url": "http://tvsen5.aynascope.net/NewsIndia24x7/index.m3u8",
+    "stream_url": "https://samitaorigin.tangotv.in/NEWSINDIA24X7/SAMITAORIGIN/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://dtil.tmsimg.com/assets/GNLZZGG002N1TXH.png?lock=720x540",
     "poster": "",
@@ -109935,7 +109935,7 @@
     "name": "Dikij (576p)",
     "genre": "Entertainment",
     "country": "International",
-    "stream_url": "http://hls127.freeott.top:8080/Dikiy/video.m3u8",
+    "stream_url": "https://stream3.cinerama.uz/1230/tracks-v1a1/mono.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/VDXDiPC.png",
     "poster": ""
@@ -112349,7 +112349,7 @@
     "name": "First Music Channel Russia (1080p)",
     "genre": "Music",
     "country": "Russia",
-    "stream_url": "http://hls127.freeott.top:8080/1muz_HD/video.m3u8",
+    "stream_url": "http://rtmp.one.by:2300",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/rEo7nR1.png",
     "poster": ""
@@ -114401,7 +114401,7 @@
     "name": "Hit HD (1080p)",
     "genre": "Entertainment",
     "country": "International",
-    "stream_url": "http://hls127.freeott.top:8080/XitHD/video.m3u8",
+    "stream_url": "http://stream.mcquack.net/363/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/jl3MNPe.png",
     "poster": ""
@@ -120879,7 +120879,7 @@
     "name": "Mult i muzyka (576p)",
     "genre": "Entertainment",
     "country": "International",
-    "stream_url": "http://hls127.freeott.top:8080/Mult_Muzika/video.m3u8",
+    "stream_url": "http://stream.mcquack.net/82/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/SYt6BZP.png",
     "poster": ""
@@ -122591,7 +122591,7 @@
     "name": "Nostalgia (Russia) (576p)",
     "genre": "Entertainment",
     "country": "Russia",
-    "stream_url": "http://hls127.freeott.top:8080/Nostalgiya/video.m3u8",
+    "stream_url": "http://176.118.197.101/Nostalgiya/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/YBdBc0J.png",
     "poster": ""
@@ -122841,7 +122841,7 @@
     "name": "NST (576p)",
     "genre": "Entertainment",
     "country": "International",
-    "stream_url": "http://hls127.freeott.top:8080/HCTV/video.m3u8",
+    "stream_url": "http://stream.mcquack.net/207/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/uv2yxa5.png",
     "poster": ""
@@ -122941,7 +122941,7 @@
     "name": "NTV Law (576p)",
     "genre": "Entertainment",
     "country": "Bangladesh",
-    "stream_url": "http://hls127.freeott.top:8080/NTV_PRAVO_TV/video.m3u8",
+    "stream_url": "https://cdn.ntv.ru/th_pravo/playlist.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/3ChnWGg.png",
     "poster": ""
@@ -122961,7 +122961,7 @@
     "name": "NTV Style (576p)",
     "genre": "Entertainment",
     "country": "Bangladesh",
-    "stream_url": "http://hls127.freeott.top:8080/NTV_STIL_TV/video.m3u8",
+    "stream_url": "https://cdn.ntv.ru/th_style/playlist.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/rX6K6qT.png",
     "poster": ""
@@ -144519,7 +144519,7 @@
     "name": "TVE Internacional Asia-Oceania",
     "genre": "Entertainment",
     "country": "International",
-    "stream_url": "https://racitonsen.s.gy/TVE_ASIA",
+    "stream_url": "http://103.172.29.30:9991/stream/channel/a23a4ab90fe7569ced31e455b752ab51",
     "stream_from": "hls",
     "thumbnail": "https://i.ibb.co/RpKLCMvp/tve.png",
     "poster": ""
@@ -146013,7 +146013,7 @@
     "name": "DNN (576p)",
     "genre": "Entertainment",
     "country": "India",
-    "stream_url": "http://51.75.127.199:3141/dnn/index.m3u8",
+    "stream_url": "https://samitaorigin.tangotv.in/DNN/SAMITAORIGIN/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/H5Kd0k6.png",
     "poster": ""
@@ -146107,7 +146107,7 @@
     "name": "INH 24x7 (576p)",
     "genre": "Entertainment",
     "country": "India",
-    "stream_url": "http://51.75.127.199:3141/inh24x7/index.m3u8",
+    "stream_url": "https://fta.ektv.in/live/99/99_0.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INH_24X7/images/LOGO_HD/image.png",
     "poster": ""
@@ -146713,7 +146713,7 @@
     "name": "TV 100 (India) (576p)",
     "genre": "Entertainment",
     "country": "India",
-    "stream_url": "http://51.75.127.199:3141/tv100/index.m3u8",
+    "stream_url": "https://fta.ektv.in/live/310/master.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://jiotvimages.cdn.jio.com/dare_images/images/TV_100.png",
     "poster": ""
@@ -153737,7 +153737,7 @@
     "name": "TraLaLa DSN",
     "genre": "Entertainment",
     "country": "Bangladesh",
-    "stream_url": "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-inedit-tv/live_hq?offsetSeconds=0",
+    "stream_url": "https://hls01ns.antenaplay.ro/hls/tralala-desene-animate-hd/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://tralaladsn.ro/assets/identity/logo.svg",
     "poster": ""
@@ -154037,7 +154037,7 @@
     "name": "Bollywood Classic Romania (576p)",
     "genre": "Entertainment",
     "country": "Bangladesh",
-    "stream_url": "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-bollywood-classic/live_hq?offsetSeconds=0",
+    "stream_url": "https://hls02ns.antenaplay.ro/hls/bollywood-sd/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/ugPo6ca.png",
     "poster": ""
@@ -155247,7 +155247,7 @@
     "name": "Paramount Network (1080p)",
     "genre": "Entertainment",
     "country": "International",
-    "stream_url": "http://57.128.210.196:8080/212/index.m3u8",
+    "stream_url": "http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/960px-Paramount_Network.svg.png",
     "poster": ""
@@ -156017,7 +156017,7 @@
     "name": "HBO 3 (Poland) (1080p)",
     "genre": "Movies",
     "country": "United States",
-    "stream_url": "http://57.128.231.171:8080/245/index.m3u8",
+    "stream_url": "http://185.227.34.179:8080/hbo-3-hd/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/3QIHh2V.png",
     "poster": ""
@@ -159310,6 +159310,1306 @@
     "stream_url": "https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/16677.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://static.wikia.nocookie.net/logopedia/images/a/a3/VoyoSport1.svg",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266591_0",
+    "name": "ABP Sanjha (576p)",
+    "genre": "News",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/641/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://jiotvimages.cdn.jio.com/dare_images/images/ABP_Sanjha.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266591_1",
+    "name": "Angel TV (1080p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://cdn.pishow.tv/ott/live/453/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/qKLEGU7.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266591_2",
+    "name": "Anmol Cinema 2 (576p)",
+    "genre": "Movies",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/257/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_ANMOL_CINEMA_2/images/LOGO_HD/LOGO_HD_image.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266591_3",
+    "name": "Anmol Cinema (576p)",
+    "genre": "Movies",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/271/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://dtil.tmsimg.com/assets/GNLZZGG00260YG8.png?lock=720x540",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266593_4",
+    "name": "Asianet Suvarna News (576p)",
+    "genre": "News",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/692/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://dtil.tmsimg.com/assets/s142682_ld_h15_aa.png?lock=720x540",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266593_5",
+    "name": "Astroscience (576p)",
+    "genre": "Documentary",
+    "country": "India",
+    "stream_url": "https://yuppnimrestreammum.akamaized.net/181224/smil:astrotech.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+    "stream_from": "hls",
+    "thumbnail": "https://d229kpbsb5jevy.cloudfront.net/yupptvnew/content/common/channel/logos/bvwquh.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266593_6",
+    "name": "Balle Balle (1080p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://mcncdndigital.com/worldpunjabitv/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://jiotvimages.cdn.jio.com/dare_images/images/Balle_Balle_TV.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266594_7",
+    "name": "BIG TV (1080p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://stream.ottlive.co.in/bigtv/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://jiotvimages.cdn.jio.com/dare_images/images/Big_TV.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266595_8",
+    "name": "DD Arun Prabha (576p)",
+    "genre": "DD Channels",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/203/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_ARUNPRABHA/images/LOGO_HD/image.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266595_9",
+    "name": "DD Assam (576p)",
+    "genre": "DD Channels",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/672/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://dtil.tmsimg.com/assets/s142777_ld_h15_aa.png?lock=720x540",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266595_10",
+    "name": "DD Bangla (576p)",
+    "genre": "DD Channels",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/197/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://dtil.tmsimg.com/assets/s142778_ld_h15_aa.png?lock=720x540",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266595_11",
+    "name": "DD Girnar (576p)",
+    "genre": "DD Channels",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/368/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://dtil.tmsimg.com/assets/s142782_ld_h15_aa.png?lock=720x540",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266595_12",
+    "name": "DD Goa (576p)",
+    "genre": "DD Channels",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/367/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD-Goa-Logo_2000_X_1125_Transpharent.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266595_13",
+    "name": "DD Haryana (576p)",
+    "genre": "DD Channels",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/580/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD-Haryana-Logo_2000_X_1125_Transpharent.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266595_14",
+    "name": "DD Himachal Pradesh (576p)",
+    "genre": "DD Channels",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/575/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://dtil.tmsimg.com/assets/s142785_ld_h9_aa.png?lock=720x540",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266595_15",
+    "name": "DD Jharkhand (576p)",
+    "genre": "DD Channels",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/573/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://dtil.tmsimg.com/assets/s142787_ld_h15_aa.png?lock=720x540",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266595_16",
+    "name": "DD Kashir (576p)",
+    "genre": "DD Channels",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/248/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_KASHIR/images/LOGO_HD/image.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266595_17",
+    "name": "DD Malayalam (576p)",
+    "genre": "DD Channels",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/680/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.postimg.cc/BZjmjJJs/DD-Malayalam.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266595_18",
+    "name": "DD Manipur (576p)",
+    "genre": "DD Channels",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/671/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_IMPHAL/images/LOGO_HD/image.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266595_19",
+    "name": "DD Mizoram (576p)",
+    "genre": "DD Channels",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/381/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/I5zT1DG.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266595_20",
+    "name": "DD Nagaland (576p)",
+    "genre": "DD Channels",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/670/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/HUL4aF6.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266595_21",
+    "name": "DD News HD (1080p)",
+    "genre": "DD Channels",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/117/117_0.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD%20News%20HD.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266595_22",
+    "name": "DD Punjabi (576p)",
+    "genre": "DD Channels",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/177/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://dtil.tmsimg.com/assets/s142800_ld_h15_aa.png?lock=720x540",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266595_23",
+    "name": "DD Sahyadri (576p)",
+    "genre": "DD Channels",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/187/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_SAHYADRI/images/LOGO_HD/image.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266595_24",
+    "name": "DD Tamil (576p)",
+    "genre": "DD Channels",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/679/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_TAMIL/images/LOGO_HD/image.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266595_25",
+    "name": "DD Tripura (576p)",
+    "genre": "DD Channels",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/661/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_TRIPURA/images/LOGO_HD/image.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266598_26",
+    "name": "Dukhniwaran (576p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://mumt03.tangotv.in/Dsly5z3HDUKHNIWARAN/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://papaji.freetvindia.com/media/channels/dukhniwaran.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266598_27",
+    "name": "DY 365 (576p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://cdn.pishow.tv/ott/live/1624/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://dtil.tmsimg.com/assets/s143015_ld_h15_aa.png?lock=720x540",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266602_28",
+    "name": "FashionTV (India) (576p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/144/144_0.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Fashion%20TV.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266602_29",
+    "name": "GTC Punjabi UK (1080p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://neotv.ottlive.co.in/gtcpunjabiuk/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://media.thegtcnetwork.com/uploads/gtc-pujabin-s.jpg",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266602_30",
+    "name": "GTC Punjabi US (1080p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://neotv.ottlive.co.in/gtcpunjabiusa/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://media.thegtcnetwork.com/uploads/gtc-pujabin-s.jpg",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266602_31",
+    "name": "Gulistan News (576p)",
+    "genre": "News",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/427/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://dtil.tmsimg.com/assets/s143097_ld_h15_aa.png?lock=720x540",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266602_32",
+    "name": "Hosanna TV (720p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://yuppnimresmum.akamaized.net/28072023/smil:hosanna.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/VYorU1L.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266612_33",
+    "name": "Ind 24 (720p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://livestream.jswk.online/ind24/live/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/exRpVmL.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266612_34",
+    "name": "India News (576p)",
+    "genre": "News",
+    "country": "India",
+    "stream_url": "https://mumt03.tangotv.in/Dsly5z3HINDIANEWS/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://dtil.tmsimg.com/assets/s143190_ld_h15_aa.png?lock=720x540",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266612_35",
+    "name": "India News Gujarati (576p)",
+    "genre": "News",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/653/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://jiotvimages.cdn.jio.com/dare_images/images/India_News_Gujarat.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266612_36",
+    "name": "India News Haryana (576p)",
+    "genre": "News",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/590/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://dtil.tmsimg.com/assets/s143192_ld_h15_aa.png?lock=720x540",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266612_37",
+    "name": "India News Madhya Pradesh/Chhattisgarh (576p)",
+    "genre": "News",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/600/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://jiotvimages.cdn.jio.com/dare_images/images/India_News_MP.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266612_38",
+    "name": "India News Punjab/Himachal (576p)",
+    "genre": "News",
+    "country": "India",
+    "stream_url": "https://mumt03.tangotv.in/Dsly5z3HINDIANEWSPBHPJ&K/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/Mu1MPvt.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266612_39",
+    "name": "India News Rajasthan (576p)",
+    "genre": "News",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/601/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://jiotvimages.cdn.jio.com/dare_images/images/India_News_Rajasthan.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266612_40",
+    "name": "India News Uttar Pradesh (576p)",
+    "genre": "News",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/304/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://jiotvimages.cdn.jio.com/dare_images/images/India_News_UP.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266623_41",
+    "name": "Maha Punjabi (576p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/640/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/AWUcSb8.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266623_42",
+    "name": "Mahotsav TV (576p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://livetv.mahotsavtv.com/mahotsavtv/playout/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://jiotvimages.cdn.jio.com/dare_images/images/Mahotsav_TV.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266625_43",
+    "name": "MH One (576p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/353/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://jiotvimages.cdn.jio.com/dare_images/images/mh1_Music.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266625_44",
+    "name": "Nambikkai TV (576p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://d1msejlow1t3l4.cloudfront.net/fta/nambikkaitv/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAMBIKKAI_TV/images/LOGO_HD/image.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266625_45",
+    "name": "Naxatra News (576p)",
+    "genre": "News",
+    "country": "India",
+    "stream_url": "https://fta.ektv.in/live/668/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/IGduUk4.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266625_46",
+    "name": "Naxatra News Hindi (576p)",
+    "genre": "News",
+    "country": "India",
+    "stream_url": "https://d2gvyg6lvauoko.cloudfront.net/230226/naxatranewshindi/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+    "stream_from": "hls",
+    "thumbnail": "https://jiotvimages.cdn.jio.com/dare_images/images/Naxatra_News_Hindi.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266625_47",
+    "name": "NDTV (576p)",
+    "genre": "News",
+    "country": "India",
+    "stream_url": "https://cdn.pishow.tv/ott/live/315/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Ndtv-logo-new.svg/1280px-Ndtv-logo-new.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266635_48",
+    "name": "Public First (576p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://samitaorigin.tangotv.in/PUBLICFIRST/SAMITAORIGIN/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://jiotvimages.cdn.jio.com/dare_images/images/Public_First.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266636_49",
+    "name": "Q TV (576p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://samitaorigin.tangotv.in/THEQ/SAMITAORIGIN/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://www.theq.tv/wp-content/uploads/2023/10/The-Q-new-Logo.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266637_50",
+    "name": "Saam TV (576p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://streams.tangotv.in/SAAMTV/ORIGIN/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SAAM_TV/images/LOGO_HD/image.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266639_51",
+    "name": "Shaheedan Live (576p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://mumt06.tangotv.in/qYyB8fXVSHAHEEDDANLIVE/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://papaji.freetvindia.com/media/Shaheedan_Live.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266639_52",
+    "name": "Shaheedan Shahib (576p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://mumt03.tangotv.in/Dsly5z3HSHAHEEDBABADEEPSINGH/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://papaji.freetvindia.com/media/channels/Shaheed_Baba_Deep_Singh.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266640_53",
+    "name": "Shiksha TV (720p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "http://103.89.46.106:8080/hls/shikshatvhd/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://play-lh.googleusercontent.com/1ibQhkMCsnXaI9LOiZH-Iyw8rM8CMVJEZAlbFphWuZApSPIp-eZsjltDlN6rqJzIonQ",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266640_54",
+    "name": "Shree Sanatan TV (720p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "http://sanatan.valamtv.in/hls/shree/bhattji.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://papaji.freetvindia.com/media/channels/shri_Sanatan_TV.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_in_1793266653_55",
+    "name": "TTN24 (720p)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "https://stream.joytvindia.com/stream/hls/ttn24/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://jiotvimages.cdn.jio.com/dare_images/images/TTN24.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266680_56",
+    "name": "Antena 3 Constanta (576p)",
+    "genre": "Entertainment",
+    "country": "Spain",
+    "stream_url": "https://streaming.eforie.city/memfs/7223115a-4f22-4e2c-86f5-354552acab7f.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://antena3constanta.ro/wp-content/uploads/2025/08/ant3-logonn.jpg",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266690_57",
+    "name": "Az Mundo (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://15.204.142.109:22880/DIRECTV-ARGENTINA-AZMUNDO/INTERNACIONAL/video.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/a7Ejid0.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266698_58",
+    "name": "Belsat TV",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://78.62.9.23:55555/Belsat",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/qJyjSR6.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266700_59",
+    "name": "Bihor TV (576p)",
+    "genre": "Entertainment",
+    "country": "Bangladesh",
+    "stream_url": "https://bihor-tv.ro/hls/bihortv.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://static.wikia.nocookie.net/logopedia/images/d/d8/Bihortvlogo.png/revision/latest/scale-to-width-down/1000?cb=20241223065621",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266711_60",
+    "name": "Caccia e Pesca (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://102.129.186.182:81/cacciapesca/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/uZr0cXB.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266717_61",
+    "name": "Canal 12 (Nicaragua) (576p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://45.228.234.9:8000/play/a06s/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/UhEW8cj.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266720_62",
+    "name": "Cars.TV (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://a-cdn.klowdtv.com/live2/carstv_720p/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/JLSHiTp.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266720_63",
+    "name": "Cartoon Network (United States) (720p) [Geo-blocked]",
+    "genre": "Kids",
+    "country": "International",
+    "stream_url": "http://212.5.144.156:8080/cartoon/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266731_64",
+    "name": "CNA International (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://freem3u.xyz/api/live/play.m3u8?vid=112",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/xWglicB.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266732_65",
+    "name": "Comedy TV (United States) (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://a-cdn.klowdtv.com/live2/comedytv_720p/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/KLfXnba.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266733_66",
+    "name": "DAZN 1 Portugal",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://50.7.120.34:8080/DAZN1/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/2Z2EmZF.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266733_67",
+    "name": "DAZN 3 Portugal (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://23.237.104.106:8080/DAZN_3/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/2rXsq2m.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266733_68",
+    "name": "DAZN 4 (540p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://23.237.104.106:8080/DAZN_4/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/m7ga8bU.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266733_69",
+    "name": "DAZN 5 (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://23.237.104.106:8080/DAZN_5/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/HD2XaeS.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266734_70",
+    "name": "DG:Radio (1080p)",
+    "genre": "Music",
+    "country": "International",
+    "stream_url": "https://mdn.dg.church/683c0cb036885-1/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://cdn.dg.church/media/objects/tile-dgradio.jpg",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266741_71",
+    "name": "Discovery Channel Latin America Brazil (720p)",
+    "genre": "Documentary",
+    "country": "United States",
+    "stream_url": "http://45.162.64.114/DISCOVERY_CHANNEL/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266741_72",
+    "name": "Discovery Science Latin America ColombiaPeru (720p)",
+    "genre": "Documentary",
+    "country": "United States",
+    "stream_url": "http://45.134.141.161:2200/ARG/Discovery_Science_HD/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Discovery_science_new_logo_2017.png/960px-Discovery_science_new_logo_2017.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266755_73",
+    "name": "Eurosport 1 Spain (576p)",
+    "genre": "Sports",
+    "country": "Spain",
+    "stream_url": "http://45.134.141.161:2200/ARG/Eurosport_1_HD/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/olQJgm7.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266755_74",
+    "name": "Eurosport 2 Spain (1080p)",
+    "genre": "Sports",
+    "country": "Spain",
+    "stream_url": "http://45.134.141.161:2200/ARG/Eurosport_2_HD/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/f56dHgR.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266764_75",
+    "name": "FUTV (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://45.228.234.9:8000/play/a06o/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/f8BkLql.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266769_76",
+    "name": "GOD TV Asia (576p)",
+    "genre": "Religious",
+    "country": "International",
+    "stream_url": "https://d1msejlow1t3l4.cloudfront.net/211125/godtv/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/hW4g2oe.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266770_77",
+    "name": "HBO 2 (Poland) (1080p)",
+    "genre": "Movies",
+    "country": "United States",
+    "stream_url": "http://185.227.34.179:8080/hbo-2-hd/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/2e3muOJ.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266775_78",
+    "name": "HBO+ Latin America (1080p)",
+    "genre": "Movies",
+    "country": "United States",
+    "stream_url": "http://45.134.141.161:2200/ARG/HBO_HD/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Logohboplus2019.svg/960px-Logohboplus2019.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266775_79",
+    "name": "HGTV (New Zealand) (1080p)",
+    "genre": "Entertainment",
+    "country": "United States",
+    "stream_url": "https://mediapackage-sky-hgtv-source.fullscreen.nz/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/960px-HGTV_US_Logo_2015.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266781_80",
+    "name": "HTV5 (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://freem3u.xyz/api/live/play.m3u8?vid=151",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/c/c3/HTV5_Bchannel.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266781_81",
+    "name": "HTV Argentina (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://45.134.141.161:2200/ARG/HTV/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/NlKFNHS.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266792_82",
+    "name": "Hya TV (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://freem3u.xyz/api/live/play.m3u8?vid=187",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/XjBIi0e.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266796_83",
+    "name": "INSP (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://a-cdn.klowdtv.com/live2/insp_720p/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/YgOC51j.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266809_84",
+    "name": "Justice Central TV (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://a-cdn.klowdtv.com/live2/justicecentral_720p/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/peuHszg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266810_85",
+    "name": "Kapital TV (576i)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://hls02ns.antenaplay.ro/hls/kapital-tv-sd/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/Q1PYwkZ.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266812_86",
+    "name": "Kinoseriya (576p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://fs.uplink.kz/kinoseria/mono.m3u8?token=onlinetv",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/iao7zLZ.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266833_87",
+    "name": "MahdawiounTV (1080p) [Geo-blocked]",
+    "genre": "Entertainment",
+    "country": "Bangladesh",
+    "stream_url": "https://live.mahdawioun.tv/stream/mahdawioun/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://mahdawioun.tv/wp-content/uploads/2024/03/New-Logo-Color.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266833_88",
+    "name": "Match! Premier (576p)",
+    "genre": "Sports",
+    "country": "International",
+    "stream_url": "http://185.23.80.23:8080/MATCH_PREMIER/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/GQPyHYK.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266833_89",
+    "name": "Max Sport 1 (720p)",
+    "genre": "Sports",
+    "country": "International",
+    "stream_url": "http://213.91.179.28:8000/play/a0as",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/0ohnpql.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266833_90",
+    "name": "Max Sport 2 (720p)",
+    "genre": "Sports",
+    "country": "International",
+    "stream_url": "http://213.91.179.28:8000/play/a0at",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/33m1wPN.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266833_91",
+    "name": "Max Sport 3 (720p)",
+    "genre": "Sports",
+    "country": "International",
+    "stream_url": "http://213.91.179.28:8000/play/a0ar",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/eGiGgZ2.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266833_92",
+    "name": "Max Sport 4",
+    "genre": "Sports",
+    "country": "International",
+    "stream_url": "http://213.91.179.28:8000/play/a05n",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/7IxXX6f.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266836_93",
+    "name": "MEGOGO Sport (1080p)",
+    "genre": "Sports",
+    "country": "International",
+    "stream_url": "http://5.188.159.128:8070/megogo_sport/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/5JmT4mW.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266838_94",
+    "name": "MNT WOIO (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://live-streaming-mcdn.api.graylive.quickplay.com/woio-xos1-input-1/woio-xos1-input-1.isml/woio-xos1-input-1-audio_eng=96000-video=388000.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/MyNetworkTV_2D_Logo.svg/960px-MyNetworkTV_2D_Logo.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266854_95",
+    "name": "MyDestination.TV (720p)",
+    "genre": "Entertainment",
+    "country": "Bangladesh",
+    "stream_url": "https://a-cdn.klowdtv.com/live2/mydestinationtv_720p/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/VJndl0m.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266854_96",
+    "name": "National Geographic (Bulgaria)",
+    "genre": "Documentary",
+    "country": "International",
+    "stream_url": "http://213.91.179.28:8000/play/a0ct",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266872_97",
+    "name": "National Geographic Wild (Bulgaria)",
+    "genre": "Documentary",
+    "country": "International",
+    "stream_url": "http://213.91.179.28:8000/play/a0cu",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266872_98",
+    "name": "National Geographic Wild (Russia) (576p)",
+    "genre": "Documentary",
+    "country": "Russia",
+    "stream_url": "https://fs.uplink.kz/nat_geo_wild/mono.m3u8?token=onlinetv",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266873_99",
+    "name": "NBC WKYC (1080p)",
+    "genre": "Entertainment",
+    "country": "United States",
+    "stream_url": "https://video.tegnaone.com/wkyc/live/v1/manifest/f9c1bf9ffd6ac86b6173a7c169ff6e3f4efbd693/WKYC-Production/d39cf8a9-40a6-4cba-85f7-6c9d633843b3/2.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/nxY84W5.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266873_100",
+    "name": "NCN (576p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://hls01ns.antenaplay.ro/hls/ncn-sd/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://static.wikia.nocookie.net/logopedia/images/c/c3/NCN.svg/revision/latest/scale-to-width-down/1000?cb=20191223182658",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266876_101",
+    "name": "Nickelodeon (Bulgaria)",
+    "genre": "Kids",
+    "country": "International",
+    "stream_url": "http://213.91.179.28:8000/play/a056",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/E84jnP8.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266905_102",
+    "name": "NTV Svoya igra (1080p)",
+    "genre": "Entertainment",
+    "country": "Bangladesh",
+    "stream_url": "https://cdn-dvr.ntv.ru/th_svoya_igra/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://dictant.rgo.ru/sites/default/files/styles/fullscreen/public/logo3.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266906_103",
+    "name": "ON E Channel (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://freem3u.xyz/api/live/play.m3u8?vid=182",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/refs/heads/master/VTVCab5%20-%20ON%20E%20Channel.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266906_104",
+    "name": "ON Phim Viet (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://vmttv.dpdns.org/tv360/?id=175",
+    "stream_from": "hls",
+    "thumbnail": "https://i.ibb.co/Swvp1vwM/IMG-2525.jpg",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266915_105",
+    "name": "PBS America (576p)",
+    "genre": "Entertainment",
+    "country": "United States",
+    "stream_url": "http://185.19.191.2:8090/PBS/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/PBS_America_2022.svg/960px-PBS_America_2022.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266916_106",
+    "name": "Pesca e Caccia (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://102.129.186.182:81/pescacaccia/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/nW5dJBl.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266916_107",
+    "name": "Pets.TV (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://a-cdn.klowdtv.com/live2/petstv_720p/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/qPqQmYo.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266916_108",
+    "name": "PROTV News",
+    "genre": "News",
+    "country": "Bangladesh",
+    "stream_url": "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-voyo-news/live_fullhd?offsetSeconds=0",
+    "stream_from": "hls",
+    "thumbnail": "https://static.wikia.nocookie.net/logopedia/images/8/85/Pro_TV_News_%282017%29.png/revision/latest?cb=20171005155753",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266922_109",
+    "name": "Recipe TV (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://a-cdn.klowdtv.com/live2/recipetv_720p/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/HcL4a8z.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266925_110",
+    "name": "RTA Education (1080p)",
+    "genre": "Education",
+    "country": "International",
+    "stream_url": "https://rta-tv.akamaized.net/live/SD/RTA-4/RTA/RTA-4.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://rta.af/artmedia/2022/12/rta-logo-final-300x185.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266943_111",
+    "name": "S Sport 2",
+    "genre": "Sports",
+    "country": "International",
+    "stream_url": "https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/2jIItAy.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266943_112",
+    "name": "SABC 3 (576i) [Geo-blocked]",
+    "genre": "Entertainment",
+    "country": "United States",
+    "stream_url": "https://sabctreta.cdn.mangomolo.com/sabc3/smil:sabc3.stream.smil/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/eEhLk1D.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266950_113",
+    "name": "Sky Sports 1 (1080p)",
+    "genre": "Sports",
+    "country": "United Kingdom",
+    "stream_url": "http://45.228.234.9:8000/play/a06b/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/9onSfMi.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266953_114",
+    "name": "Star Channel (Bulgaria)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "http://213.91.179.28:8000/play/a0c9",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266953_115",
+    "name": "Star Crime (Bulgaria)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "http://213.91.179.28:8000/play/a0cs",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Star_Crime_2023.svg/960px-Star_Crime_2023.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266953_116",
+    "name": "Star Life (Bulgaria)",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "http://213.91.179.28:8000/play/a0cr",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Star_Life_2021.svg/960px-Star_Life_2021.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266977_117",
+    "name": "Television Caribe (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://televisioncaribe.com/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://televisioncaribe.com/logo.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266979_118",
+    "name": "TheGrio TV (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://a-cdn.klowdtv.com/live2/thegrio_720p/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/8nqbi9b.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266984_119",
+    "name": "TNT Latin America Argentina (1080p)",
+    "genre": "Movies",
+    "country": "United States",
+    "stream_url": "http://45.134.141.161:2200/ARG/TNT/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/960px-TNT_Logo_2016.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266986_120",
+    "name": "Tooncast Argentina (720p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://45.134.141.161:2200/ARG/Tooncast/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/3yXRbQy.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266986_121",
+    "name": "Top Latino TV",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://38.87.224.20:2220/play/a02b/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/VRl8nPZ.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266988_122",
+    "name": "Travel Mix",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://hls02ns.antenaplay.ro/hls/travel-mix-hd/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/4dMeEQO.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266988_123",
+    "name": "TV5Monde France Belgium Switzerland Monaco (1080p) [Geo-blocked]",
+    "genre": "Entertainment",
+    "country": "France",
+    "stream_url": "https://ott.tv5monde.com/Content/HLS/Live/channel(fbs)/variant.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/WmRbudc.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266988_124",
+    "name": "TV8 (Italy) (720p)",
+    "genre": "Entertainment",
+    "country": "Italy",
+    "stream_url": "http://102.129.186.182:81/tv8/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/TV8_logo.svg/500px-TV8_logo.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793266994_125",
+    "name": "TVE Internacional America",
+    "genre": "Entertainment",
+    "country": "United States",
+    "stream_url": "http://116.121.59.72:9981/stream/channel/75f703b52ec2465e4ed2934b98f0f77a",
+    "stream_from": "hls",
+    "thumbnail": "https://i.ibb.co/RpKLCMvp/tve.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793267002_126",
+    "name": "Vivacom Arena",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://213.91.179.28:8000/play/a053",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/M7QKnH3.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_56556_1793267052_127",
+    "name": "Sanskar",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://mumt05.tangotv.in/87NeALx2SANSKAR/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/sanskar.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_56555_1793267052_128",
+    "name": "Satsang",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://mumt05.tangotv.in/87NeALx2SATSANG/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/satsang.png",
+    "poster": ""
+  },
+  {
+    "id": "rej_38399_1793267053_129",
+    "name": "Viasat Serial",
+    "genre": "Entertainment",
+    "country": "Pakistan",
+    "stream_url": "http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/17056/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/iptv-org/iptv/master/logos/viasatserial.png",
     "poster": ""
   }
 ]
