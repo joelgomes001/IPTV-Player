@@ -12378,7 +12378,7 @@
     "id": "iptv-org-2046",
     "name": "AXN Latin America South",
     "genre": "Movies",
-    "stream_url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/axn.stream/chunks.m3u8",
+    "stream_url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/10.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",
     "poster": "",
@@ -57568,7 +57568,7 @@
     "id": "iptv-org-10759",
     "name": "Sur TV (720p)",
     "genre": "Entertainment",
-    "stream_url": "https://ss2.tvrdomi.com:1936/eradiofonicas/eradiofonicas/playlist.m3u8",
+    "stream_url": "https://surtv-2.mddsoluciones.cl/play/ZZZ-WEB-001:ULpj2JxXM9/live/surtvweb/playlist.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/oAyvK0N.jpeg",
     "poster": "",
@@ -150337,7 +150337,7 @@
     "name": "Rapsodia TV",
     "genre": "Entertainment",
     "country": "India",
-    "stream_url": "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-rapsodia-tv/live_hq?offsetSeconds=0",
+    "stream_url": "http://hls02ns.antenaplay.ro/hls/rapsoida-tv-sd/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/mwMG7BB.png",
     "poster": ""
@@ -154127,7 +154127,7 @@
     "name": "Cinecanal South",
     "genre": "Entertainment",
     "country": "Pakistan",
-    "stream_url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/Cinecanal-key/chunks.m3u8",
+    "stream_url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/17.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/960px-CinecanalLA.png",
     "poster": ""
@@ -154417,7 +154417,7 @@
     "name": "HBO Asia HD (1080p)",
     "genre": "Movies",
     "country": "United States",
-    "stream_url": "https://2x2.me/yTKXaE",
+    "stream_url": "http://202.150.165.66:8088/play/100-HBO/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/HBO_Asia.png/960px-HBO_Asia.png",
     "poster": ""
@@ -154427,7 +154427,7 @@
     "name": "HBO Hits Asia HD (1080p)",
     "genre": "Music",
     "country": "United States",
-    "stream_url": "https://2x2.me/BbwzPx",
+    "stream_url": "http://202.150.165.66:8088/play/102-HBOHits/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/CTjmocc.png",
     "poster": ""
@@ -156277,7 +156277,7 @@
     "name": "Star Channel Latin America South",
     "genre": "Entertainment",
     "country": "India",
-    "stream_url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/StarChannel.stream/chunks.m3u8",
+    "stream_url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/51.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png",
     "poster": ""
@@ -160940,6 +160940,396 @@
     "stream_url": "rtmp://splay-qukan.cztv.com/live/1792059771757250?auth_key=1886667772-951bbd2034684d73940470ed3eebc32a-0-adc4291abba5c186e3ead67a1683e790",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/RVGrS4U.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528055_0",
+    "name": "5Dias TV",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/13.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/AX25tmv.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528066_1",
+    "name": "ABC-TV Paraguay",
+    "genre": "Entertainment",
+    "country": "United States",
+    "stream_url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/7.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/OqfBMGy.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528070_2",
+    "name": "Animal Planet (United Kingdom)",
+    "genre": "Documentary",
+    "country": "International",
+    "stream_url": "http://37.49.224.5/stream/10/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528071_3",
+    "name": "Antena 3 Suceava (576i)",
+    "genre": "Entertainment",
+    "country": "Spain",
+    "stream_url": "https://livestream.a3sv.ro/master.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://static.wikia.nocookie.net/logopedia/images/6/65/Antena_3_Suceava_slogan.svg/revision/latest/scale-to-width-down/1000?cb=20240522203102",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528101_4",
+    "name": "BTB HD (720p)",
+    "genre": "Entertainment",
+    "country": "Pakistan",
+    "stream_url": "https://emisja.btb.j00r.us/iptv/session/1/live.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/U8mcRal.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528130_5",
+    "name": "Disco Mix (576i) [Geo-blocked]",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://vs2129.vcdn.biz/781da550c3e711e56f17de33318050f9_megogo/live/hls/b/700_2490_4000/u_sid/0/o/183395021/rsid/39f910cb-e9d4-46a0-b2fb-a12bfc104baf/u_uid/2260062697/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/81.196.174.41*asn/u_srvc/109126/u_did/web_c02d0d195494991ada83b5ae2a2f87d6041c11b1b8f79fc86ae5b7b557894fa0/type.live/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://www.discomix.ro/wp-content/uploads/2023/03/Disco-Mix-1.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528131_6",
+    "name": "Discovery Channel (United Kingdom)",
+    "genre": "Documentary",
+    "country": "International",
+    "stream_url": "http://37.49.224.5/stream/11/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2401.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528131_7",
+    "name": "Discovery Channel Latin America South",
+    "genre": "Documentary",
+    "country": "United States",
+    "stream_url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/20.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528131_8",
+    "name": "Discovery History",
+    "genre": "Documentary",
+    "country": "International",
+    "stream_url": "http://37.49.224.5/stream/12/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2407.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528131_9",
+    "name": "Discovery Home & Health Latin America South",
+    "genre": "Documentary",
+    "country": "United States",
+    "stream_url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/39.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Discovery_H%26H_Logo_2022.webp/960px-Discovery_H%26H_Logo_2022.webp.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528131_10",
+    "name": "Discovery Science Europe UK",
+    "genre": "Documentary",
+    "country": "United Kingdom",
+    "stream_url": "http://37.49.224.5/stream/9/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/960px-Discovery_Science_2017_Logo.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528131_11",
+    "name": "Discovery Turbo (United Kingdom)",
+    "genre": "Documentary",
+    "country": "International",
+    "stream_url": "http://37.49.224.5/stream/13/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2409.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528134_12",
+    "name": "El Trece Internacional Latin America",
+    "genre": "Entertainment",
+    "country": "United States",
+    "stream_url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/23.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/Vo6prbh.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528143_13",
+    "name": "Fox Sports HD",
+    "genre": "Sports",
+    "country": "United States",
+    "stream_url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/1552.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/960px-FOX_Sports_logo.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528151_14",
+    "name": "HBO Family Asia HD (1080p)",
+    "genre": "Movies",
+    "country": "United States",
+    "stream_url": "http://202.150.165.66:8088/play/103-HBOFamily/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/HBO_Family_Asia_logo.svg/960px-HBO_Family_Asia_logo.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528152_15",
+    "name": "HBO Signature Asia HD (1080p)",
+    "genre": "Movies",
+    "country": "United States",
+    "stream_url": "http://202.150.165.66:8088/play/101-HBOSignature/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/HBO_Signature_Asia.png/960px-HBO_Signature_Asia.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528153_16",
+    "name": "History Latin America South",
+    "genre": "Documentary",
+    "country": "United States",
+    "stream_url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/37.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528189_17",
+    "name": "Mi Musica Hits (720p)",
+    "genre": "Music",
+    "country": "International",
+    "stream_url": "http://38.188.186.47:4000/play/a04n/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/z9MlLFL.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528190_18",
+    "name": "Mooz Dance HD (1080i) [Geo-blocked]",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://meta.vcdn.biz/bb45aeed3156b62f01b6ca222920d46b_megogo/live/hls/b/700_2500/u_sid/0/o/183161921/rsid/20877e0c-fb47-4c47-a29d-19fadadbccb7/u_uid/2260062697/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/81.196.174.41*asn/u_srvc/109126/u_did/web_c02d0d195494991ada83b5ae2a2f87d6041c11b1b8f79fc86ae5b7b557894fa0/type.live/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/aX70RD2.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528220_19",
+    "name": "Nick/Comedy Central +1",
+    "genre": "Kids",
+    "country": "International",
+    "stream_url": "http://90.183.52.46:4000/play/a046/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/08ZUI9k.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528221_20",
+    "name": "Nickelodeon (Netherlands)",
+    "genre": "Kids",
+    "country": "International",
+    "stream_url": "http://185.77.12.179:9981/stream/channelid/788918401?profile=pass",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/E84jnP8.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528225_21",
+    "name": "ON BiBi (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://freem3u.xyz/api/live/play.m3u8?vid=178",
+    "stream_from": "hls",
+    "thumbnail": "https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/refs/heads/master/VTVCab8%20-%20ON%20BiBi.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528226_22",
+    "name": "ORF Sport+",
+    "genre": "Sports",
+    "country": "International",
+    "stream_url": "https://test02.mdn.ors.at/orf/orfs/qxa/manifest.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/ORF_Sport%2B.svg/960px-ORF_Sport%2B.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528236_23",
+    "name": "Really",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://37.49.224.5/stream/36/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/lY5sFgo.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528259_24",
+    "name": "Sky Sport 1",
+    "genre": "Sports",
+    "country": "United Kingdom",
+    "stream_url": "http://37.49.224.5/stream/44/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/ThJHEuN.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528259_25",
+    "name": "Sky Sport 2",
+    "genre": "Sports",
+    "country": "United Kingdom",
+    "stream_url": "http://37.49.224.5/stream/45/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/cu8yB69.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528259_26",
+    "name": "Sky Sport 3",
+    "genre": "Sports",
+    "country": "United Kingdom",
+    "stream_url": "http://37.49.224.5/stream/46/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/XYp3Ua3.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528259_27",
+    "name": "Sky Sport 4",
+    "genre": "Sports",
+    "country": "United Kingdom",
+    "stream_url": "http://37.49.224.5/stream/51/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/KUXs7SQ.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528259_28",
+    "name": "Sky Sport 7",
+    "genre": "Sports",
+    "country": "United Kingdom",
+    "stream_url": "http://37.49.224.5/stream/50/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/iuTNWh4.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528259_29",
+    "name": "Sky Sport 8",
+    "genre": "Sports",
+    "country": "United Kingdom",
+    "stream_url": "http://37.49.224.5/stream/70/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/8YjqlRv.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528259_30",
+    "name": "Sky Sport 9",
+    "genre": "Sports",
+    "country": "United Kingdom",
+    "stream_url": "http://37.49.224.5/stream/52/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/9fLRHSg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528259_31",
+    "name": "Sky Sport Select",
+    "genre": "Sports",
+    "country": "United Kingdom",
+    "stream_url": "http://37.49.224.5/stream/53/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/6x2anTA.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528271_32",
+    "name": "Studio Universal Latin America South",
+    "genre": "Entertainment",
+    "country": "United States",
+    "stream_url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/53.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/960px-StudioUniversal2016.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528274_33",
+    "name": "Sur TV (720p) [Not 24/7]",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://ss2.tvrdomi.com:1936/eradiofonicas/eradiofonicas/playlist.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/oAyvK0N.jpeg",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528292_34",
+    "name": "TNT Sports (Argentina)",
+    "genre": "Sports",
+    "country": "International",
+    "stream_url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/86.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/TNT_Sports_2021_logo.svg/960px-TNT_Sports_2021_logo.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528292_35",
+    "name": "TNT Sports (Argentina) SD (576p)",
+    "genre": "Sports",
+    "country": "International",
+    "stream_url": "http://181.78.79.131:8000/play/a0mo",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/TNT_Sports_2021_logo.svg/960px-TNT_Sports_2021_logo.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528292_36",
+    "name": "TNT Sports (Chile) (480p)",
+    "genre": "Sports",
+    "country": "International",
+    "stream_url": "http://209.45.101.130:8040/play/a03s/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/TNT_Sports_2021_logo.svg/960px-TNT_Sports_2021_logo.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528292_37",
+    "name": "TNT Sports Premium ArgentinaHD (1080p)",
+    "genre": "Sports",
+    "country": "International",
+    "stream_url": "http://181.78.79.131:8000/play/a0q9",
+    "stream_from": "hls",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/TNT_Sports_Premium_%28Argentina%29.png/960px-TNT_Sports_Premium_%28Argentina%29.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793528323_38",
+    "name": "Warner Channel South",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/68.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png",
     "poster": ""
   }
 ]
