@@ -74058,7 +74058,7 @@
     "id": "m3u8net-5048189919899554767",
     "name": "Aakaash Aath (576p)",
     "genre": "Entertainment",
-    "stream_url": "https://mumt03.tangotv.in/Dsly5z3HAAKASHAATH/index.m3u8",
+    "stream_url": "http://tvsen5.aynascope.net/Wm9Lv2RjZGT6/index.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://dtil.tmsimg.com/assets/s142510_ld_h15_ab.png?lock=720x540",
     "poster": "",
@@ -161680,6 +161680,106 @@
     "stream_url": "https://live.vtibet.cn/live/ZYWS20261016.stream.m3u8",
     "stream_from": "hls",
     "thumbnail": "https://i.imgur.com/NtvfnVV.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793874665_0",
+    "name": "Antena 1 (Romania) HD (1440p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://live77cdn2.antenaplay.ro/live2_aws4_sdi01/live2_aws4_sdi01_5000k.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/EPmwuuv.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793874681_1",
+    "name": "beIN Sports USA (576p)",
+    "genre": "Sports",
+    "country": "United States",
+    "stream_url": "https://tvsen6.aynaott.com/beinsports/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793874712_2",
+    "name": "CineStar Action Bulgaria",
+    "genre": "Entertainment",
+    "country": "India",
+    "stream_url": "http://213.91.179.28:8000/play/a06b",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/bTf7A9J.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793874772_3",
+    "name": "MCM Top (France)",
+    "genre": "Entertainment",
+    "country": "France",
+    "stream_url": "http://185.228.163.146:8000/play/a00g/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/EVtWQLd.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793874809_4",
+    "name": "Polsat",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://srv7.flussonic111.com/PL_POLSAT_HD/tracks-v1a1/mono.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/xff6zGN.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793874810_5",
+    "name": "Prima TV (Romania)",
+    "genre": "Entertainment",
+    "country": "Turkey",
+    "stream_url": "http://89.44.231.73:7000/primatv",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/p2umWAT.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793874878_6",
+    "name": "Television Tarapoto (1080p)",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://45.5.57.58:8000/play/a038/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/Dzen7sh.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793874884_7",
+    "name": "Travelxp 4K Czechia",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "http://88.212.7.14/live/travel_xp_4k/index.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793874902_8",
+    "name": "TVP1 HD",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://srv7.flussonic111.com/PL_TVP1_HD/tracks-v1a1/mono.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/ewpSjBs.png",
+    "poster": ""
+  },
+  {
+    "id": "iptv_global_1793874904_9",
+    "name": "TVP2 HD",
+    "genre": "Entertainment",
+    "country": "International",
+    "stream_url": "https://srv7.flussonic111.com/PL_TVP2_HD/tracks-v1a1/mono.m3u8",
+    "stream_from": "hls",
+    "thumbnail": "https://i.imgur.com/XxCc32B.png",
     "poster": ""
   }
 ]

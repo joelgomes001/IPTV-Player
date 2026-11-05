@@ -14700,7 +14700,7 @@ https://stream2.jlntv.cn/ja/sd/live.m3u8
 #EXTINF:-1 tvg-id="new-source-5" tvg-name="B4U Music" tvg-logo="https://ranacabletv.alwaysdata.net/oxoo/uploads/tv_image/sm/b4u-music.jpg" group-title="India - Movies",B4U Music
 https://cdn-2.pishow.tv/live/415/master.m3u8
 #EXTINF:-1 tvg-id="m3u8net-5048189919899554767" tvg-name="Aakaash Aath (576p)" tvg-logo="https://dtil.tmsimg.com/assets/s142510_ld_h15_ab.png?lock=720x540" group-title="India - Entertainment",Aakaash Aath (576p)
-https://mumt03.tangotv.in/Dsly5z3HAAKASHAATH/index.m3u8
+http://tvsen5.aynascope.net/Wm9Lv2RjZGT6/index.m3u8
 #EXTINF:-1 tvg-id="iptv-org-13806" tvg-name="I've found some Chinese livestream links today!" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/ivefoundsomechineselivestreamlinkstoday.png" group-title="China - Entertainment",I've found some Chinese livestream links today!
 http://visit.jjbctv.com:1935/live/xwzhmb/playlist.m3u8
 #EXTINF:-1 tvg-id="iptv-org-13790" tvg-name="长春综合 [Geo-blocked]" tvg-logo="" group-title="Bangladesh - Entertainment",长春综合 [Geo-blocked]
@@ -32051,3 +32051,23 @@ http://193.33.39.108:9000/play/a05r
 http://php.jdshipin.com/TVOD/iptv.php?id=viutv
 #EXTINF:-1 tvg-id="iptv_global_1793702370_34" tvg-name="Xizang TV Tibetan" tvg-logo="https://i.imgur.com/NtvfnVV.png" group-title="Entertainment",Xizang TV Tibetan
 https://live.vtibet.cn/live/ZYWS20261016.stream.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1793874665_0" tvg-name="Antena 1 (Romania) HD (1440p)" tvg-logo="https://i.imgur.com/EPmwuuv.png" group-title="Entertainment",Antena 1 (Romania) HD (1440p)
+https://live77cdn2.antenaplay.ro/live2_aws4_sdi01/live2_aws4_sdi01_5000k.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1793874681_1" tvg-name="beIN Sports USA (576p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="United States - Sports",beIN Sports USA (576p)
+https://tvsen6.aynaott.com/beinsports/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1793874712_2" tvg-name="CineStar Action Bulgaria" tvg-logo="https://i.imgur.com/bTf7A9J.png" group-title="India - Entertainment",CineStar Action Bulgaria
+http://213.91.179.28:8000/play/a06b
+#EXTINF:-1 tvg-id="iptv_global_1793874772_3" tvg-name="MCM Top (France)" tvg-logo="https://i.imgur.com/EVtWQLd.png" group-title="France - Entertainment",MCM Top (France)
+http://185.228.163.146:8000/play/a00g/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1793874809_4" tvg-name="Polsat" tvg-logo="https://i.imgur.com/xff6zGN.png" group-title="Entertainment",Polsat
+https://srv7.flussonic111.com/PL_POLSAT_HD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1793874810_5" tvg-name="Prima TV (Romania)" tvg-logo="https://i.imgur.com/p2umWAT.png" group-title="Turkey - Entertainment",Prima TV (Romania)
+http://89.44.231.73:7000/primatv
+#EXTINF:-1 tvg-id="iptv_global_1793874878_6" tvg-name="Television Tarapoto (1080p)" tvg-logo="https://i.imgur.com/Dzen7sh.png" group-title="Entertainment",Television Tarapoto (1080p)
+http://45.5.57.58:8000/play/a038/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1793874884_7" tvg-name="Travelxp 4K Czechia" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png" group-title="Entertainment",Travelxp 4K Czechia
+http://88.212.7.14/live/travel_xp_4k/index.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1793874902_8" tvg-name="TVP1 HD" tvg-logo="https://i.imgur.com/ewpSjBs.png" group-title="Entertainment",TVP1 HD
+https://srv7.flussonic111.com/PL_TVP1_HD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="iptv_global_1793874904_9" tvg-name="TVP2 HD" tvg-logo="https://i.imgur.com/XxCc32B.png" group-title="Entertainment",TVP2 HD
+https://srv7.flussonic111.com/PL_TVP2_HD/tracks-v1a1/mono.m3u8
